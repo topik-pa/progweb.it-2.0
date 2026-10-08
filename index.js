@@ -1,20 +1,20 @@
 /**
- * Main entry point for the PHOEBE application server.
+ * Main entry point for the progweb.it application server.
  * Configures environment variables, initializes the logger, and starts the Express server.
- * 
+ *
  * @module index
  * @requires dotenv/config - Loads environment variables from .env file
  * @requires ./app/configs/logger - Application logger instance
  * @requires ./server - Express application instance
- * 
+ *
  * @constant {number} PORT - Server port from environment variable or default 8080
- * 
+ *
  * @listens app#error - Handles server startup errors by logging and exiting process
- * 
+ *
  * @example
  * // Start the server
  * node index.js
- * 
+ *
  * @description
  * The server will:
  * - Start on the specified PORT (from environment or 8080)

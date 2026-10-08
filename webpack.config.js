@@ -1,6 +1,6 @@
 /**
- * Webpack configuration for the PHOEBE application.
- * 
+ * Webpack configuration for the progweb.it application.
+ *
  * @type {import('webpack').Configuration}
  * @description Configures webpack to:
  * - Bundle JavaScript and CSS entry points
@@ -8,7 +8,7 @@
  * - Process and optimize images (PNG, JPG) with asset modules
  * - Minify CSS output using CssMinimizerPlugin
  * - Output bundled files to the app/dist directory
- * 
+ *
  * @property {string[]} entry - Entry points for the application (JavaScript and CSS)
  * @property {Object} output - Output configuration for bundled files
  * @property {string} output.filename - Name of the output JavaScript bundle

@@ -1,9 +1,9 @@
 //- Layout Template Documentation
 //- ==============================
-//- 
-//- This is the main layout template for the PHOEBE application.
+//-
+//- This is the main layout template for the progweb.it application.
 //- It defines the base HTML structure and includes common components.
-//- 
+//-
 //- Variables:
 //- ----------
 //- @param {boolean} prod - Production environment flag (from NODE_ENV)
@@ -20,12 +20,12 @@
 //- @param {string} id - Body element ID
 //- @param {string} className - Main element CSS class
 //- @param {string} nonce - Content Security Policy nonce for inline scripts
-//- 
+//-
 //- Blocks:
 //- -------
 //- @block meta - Override or extend default meta tags
 //- @block main - Main content area for page-specific content
-//- 
+//-
 //- Features:
 //- ---------
 //- - Conditional asset loading based on environment (dev/prod)
@@ -35,7 +35,7 @@
 //- - Structured data (JSON-LD) for SEO with Organization and WebSite schemas
 //- - Responsive viewport configuration
 //- - Modular component includes (header, footer, cookie layer, goto top)
-//- 
+//-
 //- Dependencies:
 //- -------------
 //- - ./components/shared/header/header.pug
@@ -45,20 +45,20 @@
 
 -
   let prod = process.env.NODE_ENV === 'production'
-  let proj_name = 'phoebe.com'
-  let proj_url = 'https://phoebe.com'
+  let proj_name = 'progweb.it'
+  let proj_url = 'https://progweb.it'
   let proj_copy = 2026
   let proj_owner = 'Marco Pavan'
-  let proj_email = 'info@phoebe.com'
-  let proj_logo = 'https://phoebe.com/assets/images/logo.webp'
+  let proj_email = 'info@progweb.it'
+  let proj_logo = 'https://progweb.it/assets/images/logo.webp'
   let og_image = ''
   let sc_project = process.env.SC_PROJECT || null
   let sc_security = process.env.SC_SECURITY || null
 
 doctype html
-html(lang=locale || 'en')
+html(lang="it")
   head
-    block meta 
+    block meta
       meta(charset="utf-8")
       meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
       meta(name="author" content=proj_owner + ' - ' + proj_email)
@@ -92,11 +92,11 @@ html(lang=locale || 'en')
         "@graph": [
           {
             "@type": "Organization",
-            "@id": "https://phoebe.com/#organization",
-            "name": "phoebe.com",
-            "url": "https://phoebe.com",
-            "logo": "https://phoebe.com/assets/images/logo.webp",
-            "description": "phoebe",
+            "@id": "https://progweb.it/#organization",
+            "name": "progweb.it",
+            "url": "https://progweb.it",
+            "logo": "https://progweb.it/assets/images/logo.webp",
+            "description": "progweb.it",
             "sameAs": [
               "https://www.linkedin.com/in/markopavan/"
             ],
@@ -107,13 +107,13 @@ html(lang=locale || 'en')
           },
           {
             "@type": "WebSite",
-            "@id": "https://phoebe.com/#website",
-            "name": "phoebe.com",
-            "url": "https://phoebe.com",
+            "@id": "https://progweb.it/#website",
+            "name": "progweb.it",
+            "url": "https://progweb.it",
             "publisher": {
-              "@id": "https://phoebe.com/#organization"
+              "@id": "https://progweb.it/#organization"
             }
           }
         ]
       }
-    
+

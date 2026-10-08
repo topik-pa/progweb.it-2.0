@@ -1,16 +1,16 @@
 //- Home Page Template
-//- 
+//-
 //- This template extends the base layout and defines the home page structure.
-//- 
+//-
 //- Blocks:
 //-   - meta: Appends Open Graph tags, SEO meta tags, canonical URL, and hreflang links
 //-   - main: Contains the main heading for the home page
-//- 
+//-
 //- Variables expected:
 //-   - og_image: URL to the Open Graph image
 //-   - canonicalUrl: Canonical URL for the page
 //-   - hreflangs: Array of objects containing language alternatives (lang, url)
-//- 
+//-
 //- i18n keys used:
 //-   - proj_tagline: Project tagline/slogan
 //-   - proj_name: Project name
@@ -31,8 +31,6 @@ block append meta
   meta(name="keywords" content=__('index.meta.keywords'))
 
   link(rel="canonical", href=canonicalUrl)
-  each link in hreflangs
-    link(rel="alternate", hreflang=link.lang, href=link.url)
 
 block main
   h1= __('home.title')

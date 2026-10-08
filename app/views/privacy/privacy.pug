@@ -6,13 +6,11 @@ block append meta
   meta(property="og:image" content=og_image)
   meta(property="og:url" content=canonicalUrl)
 
-  title= 'Privacy | ' + __('proj_name') 
+  title= 'Privacy | ' + __('proj_name')
   meta(name="description" content=__('privacy.meta.description'))
   meta(name="keywords" content=__('privacy.meta.keywords'))
 
   link(rel="canonical", href=canonicalUrl)
-  each link in hreflangs
-    link(rel="alternate", hreflang=link.lang, href=link.url)
 
 block main
   include ../components/shared/breadcrumbs/breadcrumbs.pug

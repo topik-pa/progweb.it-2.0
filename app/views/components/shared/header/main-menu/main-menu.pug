@@ -1,22 +1,17 @@
-- 
+-
   let links = [
     {
       id: 'hp',
       name: __('views.home'),
-      url: '/'
-    },
-    {
-      id: 'users',
-      name: __('views.users'),
-      url: '/users'
+      url: ''
     },
     {
       id: 'contacts',
       name: __('views.contacts'),
-      url: '/contacts'
+      url: 'contacts'
     }
-  ] 
-span(class="hamburger icon-menu") 
+  ]
+span(class="hamburger icon-menu")
 nav(id="main-menu")
   div
     span(class="close icon-close")
@@ -25,5 +20,4 @@ nav(id="main-menu")
         li(class = (id === link.id) ? "active" : "")
           if link.class
             span(class=link.class)
-          a(href='/'+locale + link.url, title=link.name) #{link.name}
-  
+          a(href='/' + link.url, title=link.name) #{link.name}

@@ -38,10 +38,10 @@
 //-
 //- Dependencies:
 //- -------------
-//- - ./components/shared/header/header.pug
-//- - ./components/shared/cookie_layer/cookie_layer.pug
-//- - ./components/shared/footer/footer.pug
-//- - ./components/shared/goto_top/goto_top.pug
+//- - ./components/header/header.pug
+//- - ./components/cookie_layer/cookie_layer.pug
+//- - ./components/footer/footer.pug
+//- - ./components/goto_top/goto_top.pug
 
 -
   let prod = process.env.NODE_ENV === 'production'
@@ -74,12 +74,12 @@ html(lang="it")
       meta(property="og:type" content="website")
       meta(property="og:site_name" content=proj_name)
   body(id=id)
-    include ./components/shared/header/header.pug
+    include ./components/header/header.pug
     main(class=className)
       block main
-    include ./components/shared/cookie_layer/cookie_layer.pug
-    include ./components/shared/footer/footer.pug
-    include ./components/shared/goto_top/goto_top.pug
+    include ./components/cookie_layer/cookie_layer.pug
+    include ./components/footer/footer.pug
+    include ./components/goto_top/goto_top.pug
     if prod
       script(nonce=nonce).
           var sc_project = #{sc_project};

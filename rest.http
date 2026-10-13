@@ -14,14 +14,14 @@ GET http://localhost:3000/favicon.ico
 ### Index
 GET http://localhost:3000/
 
-### Users
-GET http://localhost:3000/it/users
-
 ### Contacts
-GET http://localhost:3000/it/contacts
+GET http://localhost:3000/contacts
 
 ### PrivacyPolicy
-GET http://localhost:3000/it/privacy
+GET http://localhost:3000/privacy
+
+### Slugged 404
+GET http://localhost:3000/js/promise-esempi-sintassi
 
 
 

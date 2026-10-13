@@ -2,23 +2,20 @@
  * Renders a view with localization support and SEO metadata
  * @param {Object} req - Express request object
  * @param {Object} res - Express response object
- * @param {string} viewId - The identifier of the view to render
  * @param {Array} [breadcrumbs=[]] - Array of breadcrumb objects for navigation
- * @param {Array} [data=[]] - Additional data to pass to the view
+ * @param {Array} [data={}] - Additional data to pass to the view
  * @returns {void}
  * @description
  * This controller handles view rendering with the following features:
  * - Generation of canonical URLs tag for SEO
  */
 
-
 import { readFile } from 'node:fs/promises'
 import logger from '../configs/logger.js'
+
 const BASEURL = process.env.BASE_URL || 'https://progweb.it'
 
-
-
-// Stock
+// Controller for slugged routes (posts)
 export async function postViewController(req, res) {
   const id = 'post'
   const topic = req.params.topic

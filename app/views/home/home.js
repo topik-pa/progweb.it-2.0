@@ -14,8 +14,6 @@ export default {
     try {
       document.adoptedStyleSheets = [cssModule.default]
       // Setting adoptedStyleSheets may fail in unsupported browsers; log the error for debugging.
-
-      alert('Welcome to the Home Page!')
     } catch (_err) {
       // console.error('Error adopting style sheets:', err)
     }

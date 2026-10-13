@@ -10,9 +10,9 @@
  * 2. Retrieves the current page ID from the document body
  * 3. Dynamically imports and executes page-specific modules if available
  *
- * @requires ../views/components/shared/header/main-menu/main-menu.js
- * @requires ../views/components/shared/goto_top/goto_top.js
- * @requires ../views/components/shared/cookie_layer/cookie_layer.js
+ * @requires ../views/components/header/main-menu/main-menu.js
+ * @requires ../views/components/goto_top/goto_top.js
+ * @requires ../views/components/cookie_layer/cookie_layer.js
  *
  * @example
  * // For a page with body id="home", the home module will be loaded
@@ -23,9 +23,9 @@
  * @property {Function} modules.home - Dynamic import function for the home page module
  */
 
-import mainMenu from '../views/components/shared/header/main-menu/main-menu.js'
-import gotoTop from '../views/components/shared/goto_top/goto_top.js'
-import cookieLayer from '../views/components/shared/cookie_layer/cookie_layer.js'
+import mainMenu from '../views/components/header/main-menu/main-menu.js'
+import gotoTop from '../views/components/goto_top/goto_top.js'
+import cookieLayer from '../views/components/cookie_layer/cookie_layer.js'
 
 const pageId = document.body.id
 

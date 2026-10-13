@@ -6,6 +6,6 @@ if breadcrumbs
       each elem in breadcrumbs
         span &nbsp;&#10142;&nbsp;
         if elem.url
-          a(href='/'+'/'+elem.url, title=__('views.' + elem.name))= __('views.' + elem.name)
+          a(href='/'+'/'+elem.url, title=__('views.' + elem.id))= __('views.' + elem.id)
         else
-          span= __('views.' + elem.name)
+          span= __('views.' + elem.id)

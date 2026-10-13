@@ -14,7 +14,6 @@
  * - GET /sitemap.xml - Serves the sitemap file
  * - GET /robots.txt - Serves the robots.txt file
  * - GET /favicon.ico - Serves the favicon file
- * - GET /:lang/users - Displays users page with data from database
  * - GET /:lang/privacy - Displays privacy page
  * - GET /:lang/contacts - Displays contacts page
  * - GET /:lang - Displays home page
@@ -26,12 +25,12 @@
 
 import express from 'express'
 import path from 'path'
-import { getAllUsers } from '../controllers/db.controller.js'
-import { viewController } from '../controllers/ui.controller.js'
+import { postViewController } from '../controllers/ui.controller.js'
 import { fileURLToPath } from 'url'
 
 const router = express.Router()
-const LANG_REGEX = 'it|en'
+const TOPIC = 'html|css|js|node|eng|sec'
+const BASEURL = process.env.BASE_URL || 'https://progweb.it'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
@@ -47,32 +46,33 @@ router.get('/favicon.ico', (req, res) => {
   res.sendFile('/public/favicon.ico', { root: './app' })
 })
 
-// Users
-router.get(`/:lang(${LANG_REGEX})/users`, async(req, res) => {
-  try {
-    const users = await getAllUsers()
-    viewController(req, res, 'users', [{ name: 'users' }], users)
-  } catch (error) {
-    // eslint-disable-next-line no-console
-    console.error('Error fetching users:', error)
-  }
-})
 
 // Privacy
-router.get(`/:lang(${LANG_REGEX})/privacy`, (req, res) => viewController(req, res, 'privacy', [{ name: 'privacy' }]))
+router.get('/privacy', (req, res) => {
+  const id = 'privacy'
+  const breadcrumbs = [{ id }]
+  const canonical = `${BASEURL}${req.path}`
+  res.render('privacy/privacy', {  id, breadcrumbs, canonical, data: [] })
+})
 
 // Contacts
-router.get(`/:lang(${LANG_REGEX})/contacts`, (req, res) => viewController(req, res, 'contacts', [{ name: 'contacts' }]))
+router.get('/contacts', (req, res) => {
+  const id = 'contacts'
+  const breadcrumbs = [{ id }]
+  const canonical = `${BASEURL}${req.path}`
+  res.render('contacts/contacts', { id, breadcrumbs, canonical, data: [] })
+})
 
 // Home page
-router.get(`/:lang(${LANG_REGEX})`, (req, res) => viewController(req, res, 'home', []))
-
-// root page
 router.get('/', (req, res) => {
-  // Get browser prefered language
-  const lang = req.acceptsLanguages('en', 'it') || 'en'
-  // Redirects
-  res.redirect(301, `/${lang}`)
+  const id = 'home'
+  const breadcrumbs = [{ id }]
+  const canonical = `${BASEURL}${req.path}`
+  res.render('home/home', { id, breadcrumbs, canonical, data: [] })
 })
+
+// Posts
+router.get(`/:topic(${TOPIC})/:slug`, (req, res) => postViewController(req, res))
+
 
 export default router

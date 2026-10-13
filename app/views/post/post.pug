@@ -1,0 +1,54 @@
+extends ../layout.pug
+
+block append meta
+  title #{data.title}
+  meta(name="description" content=description)
+  meta(name="keywords" content="js, jwt, autenticazione, stateless, json, web, token, token, based, authentication, esempi, vantaggi, svantaggi, codice")
+  link(rel="canonical", href=proj_url + url)
+
+  meta(name="og:url" content=proj_url + url)
+  meta(name="og:type" content="article")
+  meta(name="og:title" content=title)
+  meta(name="og:site_name" content=proj_name)
+  meta(name="og:description" content=description)
+  meta(name="og:image" content=proj_url + "/assets/images/post/" + serial + "-" + id + "/" + id + ".webp")
+
+  link(rel="stylesheet", type="text/css", href="/styles/prism.css")
+
+block main
+  main(class="tworows")
+    article
+      include ./article.pug
+      include ../components/shared/coffee/coffee.pug
+      include ../components/shared/share/share.pug
+    include ../components/shared/side.pug
+
+block viewscripts
+  if prod
+    script(defer, src='https://platform.linkedin.com/in.js')
+  script(type='application/ld+json').
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "datePublished": "2025-03-14",
+      "dateModified": "2025-03-14",
+      "url": "#{proj_url + url}",
+      "name": "#{title}",
+      "headline": "#{title}",
+      "description": "#{description}",
+      "image": "#{proj_url + "/assets/images/post/" + serial + "-" + id + "/" + id + ".webp"}",
+      "author": {
+        "@type": "Person",
+        "name": "#{owner}"
+      },
+      "copyrightHolder": {
+        "@type": "Person",
+        "name": "#{owner}"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "#{proj_name}",
+        "url": "#{proj_url}",
+        "logo": "#{logo}"
+      }
+    }

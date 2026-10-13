@@ -21,7 +21,6 @@
  * @constant {string} pageId - The ID of the current page from document.body.id
  * @constant {Object} modules - Map of page IDs to their corresponding dynamic import functions
  * @property {Function} modules.home - Dynamic import function for the home page module
- * @property {Function} modules.users - Dynamic import function for the users page module
  */
 
 import mainMenu from '../views/components/shared/header/main-menu/main-menu.js'
@@ -36,8 +35,7 @@ cookieLayer.init()
 
 // Import views specific scripts
 const modules = {
-  home: () => import('../views/home/home.js'),
-  users: () => import('../views/users/users.js')
+  home: () => import('../views/home/home.js')
 }
 
 // Execute view specific script

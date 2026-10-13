@@ -1,0 +1,9 @@
+div
+  h1 #{slug}
+  div(class="intro-wrap")
+    img(fetchpriority="high" class="cover" width="1200" height="630" src="/assets/images/post/" + topic + "/" + slug + ".webp", alt=title, srcset='/assets/images/post/' + topic + '/' + slug + '.webp' + ' 1200w,' + '/assets/images/post/' + topic + '/' + slug + '-m.webp' + ' 1024w,' + '/assets/images/post/' + topic + '/' + slug + '-s.webp' + ' 768w', sizes="(max-width: 768px) 100vw, (max-width: 1024px) 75vw, 50vw")
+
+    p(class="intro " + data.author) #{data.description} #[img(src="assets/images/marco" + data.author +"-talk.webp", alt=data.author + " dice...", width="100", height="100")]
+
+
+section !{data.body}

@@ -8,42 +8,40 @@
  * @returns {void}
  * @description
  * This controller handles view rendering with the following features:
- * - Language validation and fallback to English
- * - Automatic redirect for unsupported languages
- * - Generation of canonical URLs and hreflang tags for SEO
- * - Sets i18n locale based on the language parameter
+ * - Generation of canonical URLs tag for SEO
  */
 
-import { i18n } from '../../server.js'
 
-export function viewController(req, res, viewId, breadcrumbs=[], data=[]) {
-  const supportedLangs = ['en', 'it']
-  const fallback = 'en'
-  const lang = req.params.lang || fallback
+import { readFile } from 'node:fs/promises'
+import logger from '../configs/logger.js'
+const BASEURL = process.env.BASE_URL || 'https://progweb.it'
 
-  const getViewParams = function(id, lang, path) {
-    const baseUrl = process.env.BASE_URL || 'https://phoebe.com'
-    const canonicalUrl = `${baseUrl}${path}`
-    const hreflangs = supportedLangs.map(langCode => ({
-      lang: langCode,
-      url: `${baseUrl}${path.startsWith(`/${lang}`) ? 
-        path.replace(new RegExp(`^/${lang}`), `/${langCode}`) : 
-        `/${langCode}${path}`}`
-    }))
-    return {
-      id,
-      canonicalUrl,
-      hreflangs,
-      lang,
-      breadcrumbs,
-      data
+
+
+// Stock
+export async function postViewController(req, res) {
+  const id = 'post'
+  const topic = req.params.topic
+  const slug = req.params.slug
+  const canonical = `${BASEURL}${req.path}`
+
+  let data = {}
+  try {
+    const raw = await readFile(new URL(`./../assets/posts/${topic}/${slug}.json`, import.meta.url), 'utf8')
+    data = JSON.parse(raw)
+  } catch (err) {
+    logger.error(new Error(`❌ Error during data retrieval for post: ${slug}\n${err}`))
+    return res.status(404).render('4xx/404')
+  }
+
+  const breadcrumbs = [
+    {
+      name: topic,
+      url: `/${topic}`
+    },
+    {
+      name: data.title
     }
-  }
-  
-  if (!supportedLangs.includes(lang)) {
-    res.redirect(req.url.replace(new RegExp(`^/${lang}`), `/${fallback}`))
-  } else {
-    i18n.setLocale(req, lang)
-    res.render(`${viewId}/${viewId}`, getViewParams(viewId, lang, req.path))
-  }
+  ]
+  res.render('post/post', { id, breadcrumbs, canonical, topic, slug, data })
 }

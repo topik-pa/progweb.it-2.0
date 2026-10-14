@@ -1,0 +1,43 @@
+.badge {
+  background-color: rgba(169, 169, 169, .1);
+  border-top: 1px solid var(--darker-gray);
+  border-bottom: 1px solid var(--darker-gray);
+  border-left: var(--normal-space) solid var(--darker-gray);
+  color: var(--darker-gray);
+  text-transform: uppercase;
+  padding: var(--xx-small-space) var(--normal-space);
+  margin: var(--xx-small-space) 0;
+  display: inline-block
+}
+.badge a {
+  color: var(--darker-gray);
+  font-weight: bold;
+}
+.badge.html {
+  background-color: rgba(239, 89, 49, .1);
+  border-color: var(--html);
+}
+.badge.css {
+  background-color: rgba(0, 100, 158, .1);
+  border-color: var(--css);
+}
+.badge.js {
+  background-color: rgba(245, 130, 51, .1);
+  border-color: var(--js);
+}
+.badge.eng {
+  background-color: rgba(249, 188, 16, .1);
+  border-color: var(--eng);
+}
+.badge.node {
+  background-color: rgba(2, 110, 0, .1);
+  border-color: var(--node);
+}
+.badge.coding {
+  background-color: rgba(153, 153, 153, .1);
+  border-color: var(--coding);
+}
+.badge.sec {
+  background-color: rgba(150, 209, 243, .1);
+  border-color: var(--sec);
+}

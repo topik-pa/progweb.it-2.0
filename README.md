@@ -3,3 +3,5 @@
 
 ## TODO
 . sitemap dinamica
+dark version
+og imahe HP

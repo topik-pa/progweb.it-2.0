@@ -1,0 +1,41 @@
+.submenu {
+  margin-bottom: var(--xx-large-space);
+}
+.submenu h3 {
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--darker-gray);
+  border-top: 1px dashed var(--darker-gray);
+  border-bottom: 1px dashed var(--darker-gray);
+  padding: var(--small-space) 0;
+}
+.submenu li {
+  list-style: none;
+  margin-bottom: var(--large-space);
+}
+.submenu.services li, .submenu.others li {
+  text-align: center;
+  margin-bottom: var(--xx-large-space);
+}
+.submenu.topic li {
+  border-left: var(--normal-space) solid var(--coding);
+  padding-left: var(--x-small-space)
+}
+.submenu.topic li.html {
+  border-color: var(--html);
+}
+.submenu.topic li.css {
+  border-color: var(--css);
+}
+.submenu.topic li.js {
+  border-color: var(--js);
+}
+.submenu.topic li.eng {
+  border-color: var(--eng);
+}
+.submenu.topic li.node {
+  border-color: var(--node);
+}
+.submenu.topic li.sec {
+  border-color: var(--sec);
+}

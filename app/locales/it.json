@@ -1,11 +1,10 @@
 {
 	"hello": "Ciao",
   "proj_name": "progweb.it",
-  "proj_description": "progweb.it descrizione",
-  "proj_tagline": "progweb.it tagline",
+  "proj_description": "Spunti di programmazione Web per utenti italiani",
+  "proj_tagline": "Codice, metodologie e idee dal mondo dello Sviluppo Web",
   "views": {
     "home": "Home",
-    "users": "Utenti",
     "privacy": "Privacy",
     "contacts": "Contatti"
   },
@@ -14,7 +13,7 @@
   },
   "home": {
     "meta": {
-      "keywords": ""
+      "keywords": "html, css, javascript, programmazione, sviluppo, web, italia"
     },
     "title": "Home page"
   },

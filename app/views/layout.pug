@@ -54,6 +54,8 @@
   let og_image = ''
   let sc_project = process.env.SC_PROJECT || null
   let sc_security = process.env.SC_SECURITY || null
+  let googleSiteVerification = 'yeAoCZx82EAHF2DNVMmS9THRmxbj3WAEC6VliW7Nv4M'
+
 
 doctype html
 html(lang="it")
@@ -62,6 +64,7 @@ html(lang="it")
       meta(charset="utf-8")
       meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
       meta(name="author" content=proj_owner + ' - ' + proj_email)
+      meta(name="google-site-verification" content=googleSiteVerification)
       link(rel="shortcut icon", href="/favicon.ico", type="image/x-icon")
       if prod
         link(rel="stylesheet", type="text/css", href="/dist/main.css")

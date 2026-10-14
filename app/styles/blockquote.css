@@ -1,0 +1,15 @@
+blockquote {
+  margin: var(--xx-large-space);
+}
+blockquote p {
+  padding: var(--large-space);
+  background-color: var(--lighter-gray);
+  border-bottom: 1px solid var(--dark-gray);
+  font-style: italic;
+}
+blockquote p::before {
+  content: '\201C';
+}
+blockquote p::after {
+  content: '\201D';
+}

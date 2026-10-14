@@ -13,6 +13,14 @@
 @import "./variables.css";
 @import "./reset.min.css";
 @import "./global.css";
+
+@import "./badge.css";
+@import "./submenu.css";
+@import "./preview.css";
+@import "./blockquote.css";
+@import "./code.css";
+@import "./post.css";
+
 @import "./icons.css";
 @import "./image-icons.css";
 @import "./fonts.css";

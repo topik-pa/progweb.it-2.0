@@ -1,0 +1,191 @@
+article {
+  counter-reset: step;
+  margin: var(--view-padding) 0;
+  width: 70%;
+  border-right: 1px dashed var(--lighter-gray);
+}
+article > section {
+  border: none!important;
+  width: initial!important;
+  margin: var(--view-padding)!important;
+  padding: var(--view-padding)!important;
+}
+article section:nth-child(odd) {
+  background-color: var(--lightest-gray);
+  border-radius: var(--border-radius-small);
+}
+article aside section:nth-child(odd) {
+  background-color: transparent;
+}
+article h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: var(--xx-large-space) auto;
+  max-width: 75%;
+  text-wrap: balance;
+}
+
+article .intro {
+  font-style: italic;
+  font-weight: 500;
+  position: relative;
+  width: fit-content;
+  max-width: 75%;
+  margin: calc(var(--xx-large-space) * 1.5) auto;
+  padding: var(--normal-space);
+  text-align: center;
+  text-wrap: balance;
+  font-size: var(--font-size-bigger);
+  line-height: 130%;
+  position: relative;
+  border-bottom: 1px solid var(--dark-gray);
+}
+article .intro img {
+  position: absolute;
+  right: 0;
+  bottom: -88px;
+  border: 3px solid var(--dark-gray);
+  border-radius: 50%;
+}
+article .intro:before {
+  content: "\201C";
+  font-size: calc( var(--font-size-biggest) * 2 );
+  position: absolute;
+  left: 0;
+  top: calc(var(--normal-space) * -1);
+}
+article .intro:after {
+  content: "\201C";
+  font-size: calc( var(--font-size-biggest) * 2 );
+  transform: rotate(180deg);
+  position: absolute;
+  left: 0;
+  bottom: calc(var(--normal-space) * -1);
+}
+article .intro.marco:after {
+  content: "Marco Pavan";
+  bottom: -3rem;
+  transform: rotate(0deg);
+  font-size: var(--font-size-normal)
+}
+article .intro.marisa:after {
+  content: "Marisa";
+  bottom: -3rem;
+  transform: rotate(0deg);
+  font-size: var(--font-size-normal)
+}
+
+article img.cover {
+  margin: 0 auto;
+  display: block;
+  max-width: 75%;
+  height: auto;
+  width: auto;
+}
+
+article .cp_embed_wrapper {
+  margin: var(--large-space) 0 var(--xx-small-space);
+}
+
+article .penref {
+  font-size: var(--font-size-small);
+  font-style: italic;
+}
+
+article h2:nth-of-type(2), article aside:nth-of-type(1), article .code:nth-of-type(1), article h3:nth-of-type(2) {
+  clear: both;
+}
+
+article h2:before {
+  counter-increment: step;
+  content: counter(step);
+  border: 1px solid var(--darker-gray);
+  border-radius: 50%;
+  width: var(--x-large-space);
+  height: var(--x-large-space);
+  margin-right: 1rem;
+  font-size: var(--font-size-bigger);
+  display: inline-block;
+  text-align: center;
+  line-height: var(--x-large-space);
+}
+article .img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+article .img-wrapper img {
+  max-width: 100%;
+  height: auto;
+  margin: var(--large-space) 0;
+}
+
+article aside {
+  margin: var(--view-padding);
+  padding: var(--view-padding);
+  border-left: var(--x-large-space) solid var(--lighter-gray);
+  position: relative;
+}
+article aside::before {
+  content: 'Approfondimento';
+  position: absolute;
+  top: 0;
+  left: var(--x-large-space);
+  color: var(--light-gray);
+  font-style: italic;
+}
+article aside h2 {
+  margin-bottom: var(--x-large-space);
+}
+article aside h3 {
+  margin-top: 0;
+}
+article aside li {
+  margin-bottom: var(--small-space);
+}
+article aside.links {
+  border-color: var(--blue);
+}
+article aside.links::before {
+  content: none;
+}
+article aside.links h2::before {
+  content: none;
+}
+
+@media screen and (max-width: 1440px) {
+  article .intro img {
+    width: 80px;
+    height: auto;
+    bottom: -66px;
+    border: 2px solid var(--dark-gray);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  article img.cover {
+    float: none;
+    width: 100%;
+    max-width: none;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  article {
+    width: 100%;
+    border: none;
+  }
+  article > section {
+    margin: var(--view-padding) 0!important;
+    width: calc(100% - (var(--view-padding) * 2))!important;
+  }
+  article .img-wrapper {
+    flex-direction: column;
+  }
+  article .intro img {
+    width: 60px;
+    bottom: -60px;
+  }
+}

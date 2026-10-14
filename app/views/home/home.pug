@@ -28,9 +28,14 @@ block append meta
 
   title= __('proj_tagline') + ' | ' + __('proj_name')
   meta(name="description" content=__('proj_description'))
-  meta(name="keywords" content=__('index.meta.keywords'))
+  meta(name="keywords" content=__('home.meta.keywords'))
 
   link(rel="canonical", href=canonicalUrl)
 
 block main
-  h1= __('home.title')
+  section
+    hgroup
+      h1 Benvenuto su #{proj_name} #[br]
+        small #{proj_description}
+
+    a(href="/posts", class="btn viewall", title="Vai alla lista di tutti i post") Vedi tutti i Post

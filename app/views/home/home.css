@@ -1,0 +1,33 @@
+#home main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#home main section {
+  width: 70%;
+  border-right: 1px dashed var(--lighter-gray);
+}
+
+#home main .viewall {
+  margin: var(--xx-large-space) auto;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+#home hgroup small {
+  display: block;
+}
+
+
+@media screen and (max-width: 768px) {
+  #home main section {
+    width: 100%;
+  }
+  #home main aside {
+    border-right: none;
+  }
+  #home main .preview:nth-child(n+9) {
+    display: none;
+  }
+}

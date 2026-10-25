@@ -1,8 +1,8 @@
-extends ../../layout.pug
+extends ./layout.pug
 
 block append meta
   title #{title} | #{proj_name}
-  meta(name="description" content="Coding: esempi pratici")
+  meta(name="description" content="Tutti gli articoli e post")
   meta(name="keywords" content="")
   meta(name="robots" content="")
   link(rel="canonical", href=proj_url + url)
@@ -11,13 +11,15 @@ block append meta
   meta(name="og:type" content="website")
   meta(name="og:title" content=title + ' | ' + proj_name)
   meta(name="og:site_name" content="Programmazione Web Italia")
-  meta(name="og:description" content="Coding: esempi pratici")
+  meta(name="og:description" content="Tutti gli articoli e post")
   meta(name="og:image" content=proj_url + "/assets/images/logo.png")
 
 block main
+  include ./components/breadcrumbs/breadcrumbs.pug
+
   main(class="tworows")
     section
       h1 #{title}
 
-    include ../../components/side.pug
+    include ./components/side.pug
 

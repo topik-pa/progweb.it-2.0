@@ -83,6 +83,18 @@ router.get('/', (req, res) => {
 
 
 // TOPIC
+// all posts
+router.get('/posts', (req, res) => {
+  const id = 'posts'
+  const title = 'Gli ultimi post'
+  const breadcrumbs = [
+    {
+      title
+    }
+  ]
+  const canonical = `${BASEURL}${req.path}`
+  res.render('posts', { id, breadcrumbs, canonical, title })
+})
 // html
 router.get('/html', (req, res) => {
   const id = 'html'

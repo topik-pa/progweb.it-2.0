@@ -4,6 +4,7 @@
 @import "./blockquote.css";
 @import "./code.css";
 @import "./post.css";
+@import "./side.css";
 
 html, body {
   height: 100%;

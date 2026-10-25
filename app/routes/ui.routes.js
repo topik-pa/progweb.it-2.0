@@ -50,34 +50,113 @@ router.get('/favicon.ico', (req, res) => {
 // Privacy
 router.get('/privacy', (req, res) => {
   const id = 'privacy'
+  const title = 'Privacy'
   const breadcrumbs = [
     {
-      id: 'Privacy'
+      title
     }
   ]
   const canonical = `${BASEURL}${req.path}`
-  res.render('privacy/privacy', {  id, breadcrumbs, canonical, data: [] })
+  res.render('privacy/privacy', {  id, breadcrumbs, canonical, title })
 })
 
 // Contacts
 router.get('/contatti', (req, res) => {
   const id = 'contacts'
+  const title = 'Contatti'
   const breadcrumbs = [
     {
-      id: 'Contatti'
+      title
     }
   ]
   const canonical = `${BASEURL}${req.path}`
-  res.render('contacts/contacts', { id, breadcrumbs, canonical, data: [] })
+  res.render('contacts/contacts', { id, breadcrumbs, canonical, title })
 })
 
 // Home page
 router.get('/', (req, res) => {
   const id = 'home'
-  const breadcrumbs = [{ id }]
+  const breadcrumbs = []
   const canonical = `${BASEURL}${req.path}`
-  res.render('home/home', { id, breadcrumbs, canonical, data: [] })
+  res.render('home/home', { id, breadcrumbs, canonical })
 })
+
+
+// TOPIC
+// html
+router.get('/html', (req, res) => {
+  const id = 'html'
+  const title = 'Hyper Text Markup Language'
+  const breadcrumbs = [
+    {
+      title
+    }
+  ]
+  const canonical = `${BASEURL}${req.path}`
+  res.render('topic/html/html', { id, breadcrumbs, canonical, title })
+})
+// css
+router.get('/css', (req, res) => {
+  const id = 'css'
+  const title = 'Cascading Style Sheets'
+  const breadcrumbs = [
+    {
+      title
+    }
+  ]
+  const canonical = `${BASEURL}${req.path}`
+  res.render('topic/css/css', { id, breadcrumbs, canonical, title })
+})
+// js
+router.get('/javascript', (req, res) => {
+  const id = 'js'
+  const title = 'JavaScript'
+  const breadcrumbs = [
+    {
+      title
+    }
+  ]
+  const canonical = `${BASEURL}${req.path}`
+  res.render('topic/js/js', { id, breadcrumbs, canonical, title })
+})
+// engineering
+router.get('/engineering', (req, res) => {
+  const id = 'engineering'
+  const title = 'Software Engineering'
+  const breadcrumbs = [
+    {
+      title
+    }
+  ]
+  const canonical = `${BASEURL}${req.path}`
+  res.render('topic/eng/eng', { id, breadcrumbs, canonical, title })
+})
+// cyber security
+router.get('/security', (req, res) => {
+  const id = 'security'
+  const title = 'Cyber Security'
+  const breadcrumbs = [
+    {
+      title
+    }
+  ]
+  const canonical = `${BASEURL}${req.path}`
+  res.render('topic/sec/sec', { id, breadcrumbs, canonical, title })
+})
+// node
+router.get('/nodejs', (req, res) => {
+  const id = 'node'
+  const title = 'NodeJS'
+  const breadcrumbs = [
+    {
+      title
+    }
+  ]
+  const canonical = `${BASEURL}${req.path}`
+  res.render('topic/node/node', { id, breadcrumbs, canonical, title })
+})
+
+
 
 // Posts
 router.get(`/:topic(${TOPIC})/:slug`, (req, res) => postViewController(req, res))

@@ -1,27 +1,40 @@
 html {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 @media screen and (max-width: 1366px) {
-  html {
-    font-size: 15px;
-  }
-}
-
-@media screen and (max-width: 1280px) {
-  html {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
   html {
     font-size: 13px;
   }
 }
 
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    padding: var(--x-small-space);
+    padding-bottom: 0;
+  }
+}
+
 @media screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+  main section {
+    padding: 0;
+    border: none!important;
+  }
+}
+
+@media screen and (max-width: 414px) {
   html {
     font-size: 12px;
   }
+
+}
+
+@media screen and (max-width: 320px) {
+
 }

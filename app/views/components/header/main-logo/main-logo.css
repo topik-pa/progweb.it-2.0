@@ -1,42 +1,150 @@
-
 #main-logo {
-  font-size: var(--font-size-huge);
-  font-family: "Encode Sans", sans-serif;
-  font-weight: 700;
-  padding-bottom: var(--x-small-space);
-}
-
-#main-logo a div {
-  line-height: 85%;
-  letter-spacing: 3px;
-  text-shadow: var(--text-shadow);
-}
-#main-logo a span {
-  font-weight: 600;
-}
-#main-logo a span:nth-child(3) {
-  font-weight: 100;
-  font-style: italic;
-}
-
-#main-logo a small {
-  display: block;
-  font-size: 40%;
-  font-style: italic;
-  font-weight: normal;
+  font-size: var(--font-size-biggest);
+  width: 100%;
 }
 
 #main-logo img {
-  height: 4.8rem;
+  height: 4.3rem;
   width: auto;
-  margin-right: var(--main-padding);
+  border-radius: 50%;
+  border: 1px solid var(--black);
+  margin: 0 var(--view-padding);
+}
+
+#main-logo a {
+  display: flex;
+  align-items: center;
+  color: var(--secondary);
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: var(--text-shadow)
+}
+
+#main-logo small {
+  display: block;
+  font-weight: 500;
+  font-style: italic;
+  text-transform: none;
+  margin-top: var(--xx-small-space);
+}
+
+#main-logo .col {
+  position: absolute;
+  display: block;
+  right: 0;
+  height: 100%;
+  top: 0;
+  width: 4rem;
+  text-align: center;
+  font-size: var(--font-size-very-small);
+  color: var(--white);
+  line-height: var(--large-space);
+  border-left: 0.1rem solid var(--white);
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+}
+#main-logo .col.html {
+  background-color: rgba(239, 89, 49, .5);
+  background-image: url('/assets/images/icons/html-min.png');
+  right: 20rem;
+}
+#main-logo .col.css {
+  background-color: rgba(0, 100, 158, .5);
+  background-image: url('/assets/images/icons/css-min.png');
+  right: 16rem;
+}
+#main-logo .col.js {
+  background-color: rgba(245, 130, 51, .5);
+  background-image: url('/assets/images/icons/js-min.png');
+  right: 12rem;
+}
+#main-logo .col.eng {
+  background-color: rgba(249, 188, 16, .5);
+  background-image: url('/assets/images/icons/eng-min.png');
+  right: 8rem;
+}
+#main-logo .col.node {
+  background-color: rgba(2, 110, 0, .5);
+  background-image: url('/assets/images/icons/node-min.png');
+  right: 4rem;
+}
+#main-logo .col.sec {
+  background-color: rgba(150, 209, 243, .5);
+  background-image: url('/assets/images/icons/sec-min.png');
+  right: 0;
+}
+
+#main-logo .mob {
+  display: none;
+}
+
+
+@media screen and (max-width: 1024px) {
+  #main-logo {
+    font-size: var(--font-size-huge);
+  }
+  #main-logo .col {
+    width: 3rem;
+  }
+  #main-logo .col.html {
+    right: 15rem;
+  }
+  #main-logo .col.css {
+    right: 12rem;
+  }
+  #main-logo .col.js {
+    right: 9rem;
+  }
+  #main-logo .col.eng {
+    right: 6rem;
+  }
+  #main-logo .col.node {
+    right: 3rem;
+  }
+  #main-logo .col.sec {
+    right: 0;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  #main-logo span {
-    letter-spacing: normal
+  #main-logo {
+    font-size: var(--font-size-biggest);
+  }
+  #main-logo .mob {
+    display: inline;
+  }
+  #main-logo .desk {
+    display: none;
+  }
+  #main-logo .col {
+    width: 4rem;
+    height: 1.3rem;
+    font-size: 0;
+  }
+  #main-logo .col.html {
+    right: 20rem;
+  }
+  #main-logo .col.css {
+    right: 16rem;
+  }
+  #main-logo .col.js {
+    right: 12rem;
+  }
+  #main-logo .col.eng {
+    right: 8rem;
+  }
+  #main-logo .col.node {
+    right: 4rem;
+  }
+  #main-logo .col.sec {
+    right: 0;
   }
   #main-logo img {
-    height: 3.8rem;
+    display: none;
+  }
+  #main-logo {
+    padding: 0 var(--view-padding);
   }
 }

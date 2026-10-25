@@ -1,8 +1,10 @@
+#socials {
+  display: flex;
+  align-items: center;
+}
+
 #socials a {
   margin-left: var(--large-space);
-  font-size: var(--font-size-big);
-  text-shadow: var(--text-shadow);
-}
-#socials a:hover {
-  filter: brightness(90%);
+  color: var(--primary);
+  font-size: var(--font-size-bigger);
 }

@@ -1,14 +1,20 @@
 -
   let links = [
     {
-      id: 'hp',
-      name: __('views.home'),
-      url: ''
+      id: 'home',
+      name: 'Home',
+      url: '/',
+      class: 'icon-home'
+    },
+    {
+      id: 'post',
+      name: 'Post',
+      url: '/posts'
     },
     {
       id: 'contacts',
-      name: __('views.contacts'),
-      url: 'contacts'
+      name: 'Contatti',
+      url: '/contatti'
     }
   ]
 span(class="hamburger icon-menu")
@@ -20,4 +26,4 @@ nav(id="main-menu")
         li(class = (id === link.id) ? "active" : "")
           if link.class
             span(class=link.class)
-          a(href='/' + link.url, title=link.name) #{link.name}
+          a(href=link.url, title=link.name) #{link.name.toUpperCase()}

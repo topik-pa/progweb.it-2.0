@@ -1,8 +1,13 @@
 div(id="main-logo")
-  a(href="/", title= __('views.home'))
-    img(src="/assets/images/logo.webp", alt=proj_name + ' logo', width="125", height="125")
-    div
-      span prog
-      span web
-      span .it
-      small= __('proj_tagline')
+  a(href=proj_url, title="Home page")
+    img(height="100" width="100" src="/assets/images/logo-min.png", alt=proj_name)
+    div(class="desk") #{proj_name}&nbsp;
+      small #{proj_tagline}
+    div(class="mob") #{proj_acronim}&nbsp;
+      small #{proj_name}
+  span(class="col html") HTML
+  span(class="col css") CSS
+  span(class="col js") JS
+  span(class="col eng") Eng.
+  span(class="col node") Node
+  span(class="col sec") Security

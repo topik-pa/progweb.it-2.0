@@ -1,5 +1,10 @@
 header
-  include ./social-icons/social-icons.pug
   div
-    include ./main-logo/main-logo.pug      
+    i(id="toggle-dark", class="icon-adjust")
+    include ./social-icons/social-icons.pug
+  div
+    include ./main-logo/main-logo.pug
+  div
+    a(href=proj_url, title="Home page")
+      img(src="/assets/images/logo-min.png", alt=proj_name)
     include ./main-menu/main-menu.pug

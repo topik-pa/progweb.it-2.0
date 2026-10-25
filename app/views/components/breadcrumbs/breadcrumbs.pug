@@ -1,11 +1,9 @@
 if breadcrumbs
-  div(id="breadcrumbs")
+  div(id="breadcrumbs") Sei in:
     nav
-      a(href='/', title="Home")= __('views.home')
-      span &nbsp;
+      a(href="/", title="Home") Home
       each elem in breadcrumbs
-        span &nbsp;&#10142;&nbsp;
         if elem.url
-          a(href='/'+'/'+elem.url, title=__('views.' + elem.id))= __('views.' + elem.id)
+          a(href=elem.url, title=elem.name) #{elem.id}
         else
-          span= __('views.' + elem.id)
+          span #{elem.id}

@@ -1,2 +1,3 @@
 User-agent: *
 Disallow:
+Sitemap: https://progweb.it/sitemap.xml

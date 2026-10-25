@@ -1,102 +1,136 @@
 :root {
-  /**
-   * CSS Variables Definition File
-   *
-   * This file contains all CSS custom properties (variables) used throughout the application.
-   * It serves as a central location for managing design tokens and maintaining consistency
-   * across the entire project.
-   *
-   * @file variables.css
-   * @description Global CSS variables for colors, spacing, typography, and other design tokens
-   * @project progweb.it
-   * @path /home/marco/Progetti/progweb.it/app/styles/variables.css
-   *
-   * Usage:
-   * - Import this file at the root of your main stylesheet
-   * - Reference variables using var(--variable-name)
-   * - Organize variables by category (colors, spacing, typography, etc.)
-   *
-   * Example:
-   * .element {
-   *   color: var(--primary-color);
-   *   padding: var(--spacing-md);
-   * }
-   */
-
   /* COLORS */
-  --white:         #FAF9F6;
-  --lightest-gray: #EAE9E6;
-  --lighter-gray:  #D4D3D0;
-  --light-gray:    #B9B8B5;
-  --gray:          #9E9D99;
-  --dark-gray:     #7D7C78;
-  --darker-gray:   #5D5C58;
-  --darkest-gray:  #3C3B38;
-  --black:         #191815;
+  --white:         #FBFBFB;
+  --lightest-gray: #f3f3f3;
+  --lighter-gray:  #E0E0E0;
+  --light-gray:    #a9a9a9;
+  --gray:          #888888;
+  --dark-gray:     #707070;
+  --darker-gray:   #585858;
+  --darkest-gray:  #333333;
+  --black:         #181818;
 
-  --blue: #3F6580;
-  --red:  #CD212A;
-  --green:#009e4f;
-  --gold:   #ffd700;
-  --silver: #aaa9ad;
-  --bronze: #cd7f32;
+  --blue: rgb(2, 89, 139);
+  --red:  #c91e2c;
+  --green:#007538;
 
-  --primary: var(--white);
-  --secondary: var(--darkest-gray);
-  --tertiary: var(--blue);
+  --html: rgb(239, 89, 49);
+  --css: rgb(0, 100, 158);
+  --js: rgb(245, 130, 51);
+  --eng: rgb(249, 188, 16);
+  --node: rgb(2, 110, 0);
+  --coding: rgb(153, 153, 153);
+  --sec: rgb(150, 209, 243);
+
+  --primary: var(--darker-gray);
+  --secondary: var(--white);
 
   --error: var(--red);
   --success: var(--green);
   --link: var(--blue);
-  --text: var(--secondary);
-  --background: var(--primary);
+  --text: var(--primary);
+  --background: var(--secondary);
+
 
   /* TRANSPARENCIES */
-  --transparent: .1;
-  --semi-transparent: .85;
+  --transparent: .2;
+  --semi-transparent: .7;
+  --wt: rgba(255, 255, 255, var(--transparent));
+  --wst: rgba(255, 255, 255, var(--semi-transparent));
+  --bt: rgba(0, 0, 0, var(--transparent));
+  --bst: rgba(0, 0, 0, var(--semi-transparent));
+  --rt: rgba(201, 30, 44, .03);
+  --gt: rgba(0, 117, 56, .03);
+  --blue-st: rgba(2, 89, 139, var(--semi-transparent));
+  --green-st: rgba(0, 117, 56, var(--semi-transparent));
 
   /* FONT SIZES */
-  --font-size-x-small: .81rem;
+  --font-size-extra-small: .6rem;
+  --font-size-very-small: .75rem;
   --font-size-small: .9rem;
-  --font-size-base: 1.11rem;
-  --font-size-big: 1.411rem;
-  --font-size-bigger: 1.793rem;
-  --font-size-huge: 2.279rem;
-  --font-size-biggest: 2.7rem;
+  --font-size-normal: 1rem;
+  --font-size-big: 1.2rem;
+  --font-size-bigger: 1.6rem;
+  --font-size-huge: 1.9rem;
+  --font-size-biggest: 2.4rem;
 
   /* SHADOWS */
   --shadow: 0 0 10px 0 var(--black);
-  --text-shadow: 1px 1px 1px var(--black);
+  --text-shadow: 0 1px var(--black);
 
   /* DIMENSIONS */
   --xx-small-space: .2rem;
   --x-small-space: .5rem;
-  --small-space: .8rem;
-  --base-space: 1rem;
-  --large-space: 1.3rem;
-  --x-large-space: 2.1rem;
-  --xx-large-space: 3.4rem;
-  --xxx-large-space: 4.5rem;
+  --small-space: .7rem;
+  --normal-space: 1rem;
+  --large-space: 1.5rem;
+  --x-large-space: 2rem;
+  --xx-large-space: 3rem;
+  --xxx-large-space: 4.2rem;
 
-  --main-padding: var(--small-space);
-  --section-margin: var(--xx-large-space);
+  --view-padding: var(--large-space);
+  --section-margin: var(--x-large-space);
+  --gap: var(--x-small-space);
 
   /* ICONS */
   --small-icon: var(--small-space);
-  --normal-icon: var(--base-space);
+  --normal-icon: var(--normal-space);
   --big-icon: var(--x-large-space);
 
   /* BORDER RADIUS */
-  --border-radius-small: var(--xx-small-space);
-  --border-radius-big: var(--small-space);
+  --border-radius-small: .3rem;
+  --border-radius-big: .9rem;
   --border-radius-round: 50%;
 
   /* Z-INDEXES */
-  --loading:      9;
-  --disclaimer:   9;
-  --main-menu:    99;
-  --modal:        999;
-  --privacy:      9999;
-  --gototop:      99999;
-  --spotLayer:    999999;
+  --loading: 9;
+  --main-menu: 99;
+  --modal: 999;
+  --privacy: 9999;
+  --gototop: 99999;
+}
+
+.dark:root {
+  --white:         #181818;
+  --lightest-gray: #333333;
+  --lighter-gray:  #585858;
+  --light-gray:    #707070;
+  --gray:          #888888;
+  --dark-gray:     #A9A9A9;
+  --darker-gray:   #E0E0E0;
+  --darkest-gray:  #f3f3f3;
+  --black:         #FAFAFA;
+
+  --blue: #7f0707;
+
+  --primary: var(--darker-gray);
+  --secondary: var(--lighter-gray);
+  --link: var(--black);
+
+}
+.dark .invert {
+  filter: invert(1);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --white:         #181818;
+    --lightest-gray: #333333;
+    --lighter-gray:  #585858;
+    --light-gray:    #707070;
+    --gray:          #888888;
+    --dark-gray:     #A9A9A9;
+    --darker-gray:   #E0E0E0;
+    --darkest-gray:  #f3f3f3;
+    --black:         #FAFAFA;
+
+    --blue: #7f0707;
+
+    --primary: var(--darker-gray);
+    --secondary: var(--lighter-gray);
+    --link: var(--black);
+
+  }
+  .invert {
+    filter: invert(1);
+  }
 }

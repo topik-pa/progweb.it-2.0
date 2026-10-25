@@ -1,11 +1,27 @@
 footer {
-  padding: var(--main-padding) 0;
-  background: var(--secondary);
-  color: var(--white);
   display: flex;
-  align-items: center;
   flex-direction: column;
+  font-size: var(--font-size-small);
 }
+footer div {
+  padding: var(--x-small-space) var(--view-padding);
+}
+
+footer div:nth-child(1) {
+  background-color: var(--lighter-gray);
+  text-align: center;
+  padding: 0;
+  padding-top: 8px;
+}
+
+footer div:nth-child(2) {
+  text-align: center;
+}
+
 footer a {
-  color: var(--primary);
+  font-weight: 500;
+}
+
+body.post footer .fb-like{
+  display: none;
 }

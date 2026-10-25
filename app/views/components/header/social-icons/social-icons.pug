@@ -1,23 +1,26 @@
 -
   let socials = [
     {
-      name: 'Telegram',
-      url: 'https://t.me/rallyingstocks',
-      icon: 'icon-telegram'
+      name: 'Facebook',
+      url: 'https://www.facebook.com/profile.php?id=100086483013646',
+      icon: 'icon-facebook'
     },
     {
       name: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/markopavan/',
+      url: 'https://www.linkedin.com/company/pwi-programmazione-web-italia',
       icon: 'icon-linkedin2'
     },
     {
-      name: 'Mail',
-      url: 'mailto:info@rallyingstocks.com',
-      icon: 'icon-envelop'
+      name: 'Telegram',
+      url: 'https://t.me/programmazionewebitalia',
+      icon: 'icon-telegram'
     }
   ]
 
 div(id="socials")
+  span Segui su:
   each social in socials
     a(href=social.url, title=social.name)
       i(class=social.icon)
+  a(href="mailto:info@progweb.it", title="Mail")
+    i(class="icon-envelop")

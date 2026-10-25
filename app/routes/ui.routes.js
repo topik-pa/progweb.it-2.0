@@ -50,15 +50,23 @@ router.get('/favicon.ico', (req, res) => {
 // Privacy
 router.get('/privacy', (req, res) => {
   const id = 'privacy'
-  const breadcrumbs = [{ id }]
+  const breadcrumbs = [
+    {
+      id: 'Privacy'
+    }
+  ]
   const canonical = `${BASEURL}${req.path}`
   res.render('privacy/privacy', {  id, breadcrumbs, canonical, data: [] })
 })
 
 // Contacts
-router.get('/contacts', (req, res) => {
+router.get('/contatti', (req, res) => {
   const id = 'contacts'
-  const breadcrumbs = [{ id }]
+  const breadcrumbs = [
+    {
+      id: 'Contatti'
+    }
+  ]
   const canonical = `${BASEURL}${req.path}`
   res.render('contacts/contacts', { id, breadcrumbs, canonical, data: [] })
 })

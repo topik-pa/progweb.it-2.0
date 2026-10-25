@@ -2,31 +2,54 @@
 @import "./main-logo/main-logo.css";
 @import "./main-menu/main-menu.css";
 
-header {
-  padding: var(--x-small-space) var(--main-padding) var(--main-padding);
-  padding-bottom: 0;
-  background: var(--secondary);
-  font-weight: 500;
-}
-
-header > div:nth-child(1)  {
-  display: flex;
-  justify-content: end;
-  padding-bottom: var(--x-small-space);
-  margin-bottom: var(--x-small-space);
-  border-bottom: 1px solid var(--darker-gray);
-}
-
-header > div:nth-child(2)  {
+header > div {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-header a {
-  color: var(--primary);
-  text-decoration: none;
-  display: flex;
-    align-items: center;
+header > div:nth-child(1) {
+  padding-bottom: var(--x-small-space);
+  padding-top: var(--x-small-space);
+}
+header > div:nth-child(2) {
+  background-color: var(--primary);
+  padding: var(--view-padding) 0;
+  position: relative;
+}
+header >div:nth-child(3) {
+  border-bottom: 2px solid var(--primary);
+  justify-content: flex-start;
+  height: calc(var(--view-padding) * 2.4);
+}
+header > div:nth-child(3) img {
+  display: none;
 }
 
+#toggle-dark {
+  cursor: pointer;
+  color: var(--primary);
+  display: flex;
+  align-items: flex-end;
+}
+#toggle-dark::after {
+  content: "Darkmode";
+  font-family: 'Montserrat', sans-serif;
+  margin-left: var(--xx-small-space);
+  vertical-align: text-bottom;
+  font-size: var(--font-size-very-small);
+  font-style: italic;
+}
+
+
+@media screen and (max-width: 768px) {
+  header > div:nth-child(3) {
+    justify-content: space-between;
+  }
+  header > div:nth-child(3) img {
+    display: block;
+    height: calc( (var(--view-padding) * 2) - .7rem);
+    border-radius: 50%;
+    border: 1px solid var(--primary);
+  }
+}

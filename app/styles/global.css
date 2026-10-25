@@ -1,48 +1,49 @@
-/**
- * Root and body element styles
- * 
- * This ruleset defines the base styles for the html and body elements,
- * establishing the foundation for the entire document's styling.
- * These elements are typically used to set global defaults such as:
- * - Font family and size
- * - Background colors
- * - Margins and padding reset
- * - Box-sizing model
- * - Viewport height settings
- */
+@import "./badge.css";
+@import "./submenu.css";
+@import "./preview.css";
+@import "./blockquote.css";
+@import "./code.css";
+@import "./post.css";
 
-html,
-body {
+html, body {
   height: 100%;
 }
-
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: "Saira", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-shadow: 0 0 1px transparent;
+  text-shadow:0 0 1px transparent;
   text-rendering: optimizeLegibility;
   letter-spacing: .03rem;
-  color: var(--secondary);
-  background-color: var(--primary);
-  font-size: var(--font-size-small);
+  color: var(--primary);
+  background-color: var(--secondary);
   display: flex;
   flex-direction: column;
+  padding: 0 var(--view-padding);
 }
 
 main {
   flex: 1;
+  line-height: 130%;
+}
+
+main section {
+  padding-right: var(--view-padding);
+  margin: var(--view-padding) 0;
 }
 
 a {
   color: var(--link);
-  position: relative;
+  text-decoration: none;
+  font-weight: 500;
 }
-
+a:hover {
+  filter: brightness(80%);
+}
 a.ext::after {
   content: '\21F1';
   transform: rotate(90deg);
@@ -53,41 +54,66 @@ a.ext::after {
   right: 0;
 }
 
-em,
-.em {
+em, .em {
   font-weight: 500;
+}
+
+i {
   font-style: italic;
 }
 
 p {
-  margin: var(--small-space) 0;
-  line-height: 130%;
+  margin: var(--normal-space) 0;
 }
 
 small {
-  font-size: 70%;
+  font-size: 53%;
 }
 
-.clear {
-  clear: both;
+ul, ol {
+  margin: var(--normal-space);
+  padding-left: var(--normal-space);
+  list-style: auto;
+  list-style-position: inside;
+}
+ul li, ol li {
+  margin: var(--small-space) 0;
+}
+
+code {
+  font-family: monospace;
+  font-weight: 550;
 }
 
 .hide {
-  display: none !important;
+  display: none!important;
 }
-
 .show {
-  display: block !important;
+  display: block!important;
 }
 
-.center {
-  text-align: center;
+.green {
+  color: var(--green);
+}
+.red {
+  color: var(--red);
+}
+.blue {
+  color: var(--blue);
 }
 
-main {
-  padding: var(--main-padding);
+.tworows {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.tworows section {
+  width: 70%;
+  border-right: 1px dashed var(--lighter-gray);
 }
 
-section {
-  margin-bottom: var(--xx-large-space);
+@media screen and (max-width: 768px) {
+  .tworows section  {
+    width: 100%;
+  }
 }

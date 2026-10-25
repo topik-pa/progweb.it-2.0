@@ -4,13 +4,13 @@ block append meta
   meta(property="og:title" content=__('views.contacts') + ' | ' + __('proj_name'))
   meta(property="og:description" content=__('contacts.meta.description'))
   meta(property="og:image" content=og_image)
-  meta(property="og:url" content=canonicalUrl)
+  meta(property="og:url" content=canonical)
 
   title= __('views.contacts') + ' | ' + proj_name
   meta(name="description" content=__('contacts.meta.description'))
   meta(name="keywords" content=__('contacts.meta.keywords'))
 
-  link(rel="canonical", href=canonicalUrl)
+  link(rel="canonical", href=canonical)
 
 block main
   include ../components/breadcrumbs/breadcrumbs.pug

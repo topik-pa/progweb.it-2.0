@@ -6,17 +6,25 @@
   "views": {
     "home": "Home",
     "privacy": "Privacy",
-    "contacts": "Contatti"
+    "contacts": "Contatti",
+    "posts": "Contatti",
+    "html": "Contatti",
+    "css": "Contatti",
+    "js": "Contatti",
+    "engineering": "Contatti",
+    "security": "Contatti",
+    "node": "Contatti"
   },
   "breadcrumbs": {
     "text": "Sei in: "
   },
+
   "home": {
     "meta": {
       "keywords": "html, css, javascript, programmazione, sviluppo, web, italia"
-    },
-    "title": "Home page"
+    }
   },
+
   "contacts": {
     "meta": {
       "keywords": "contatti",
@@ -25,12 +33,78 @@
     },
     "title": "Contattaci"
   },
+
+  "posts": {
+    "meta": {
+      "keywords": "post",
+      "title": "Gli ultimi post",
+      "description": "Lista di tutti i post pubblicati"
+    },
+    "title": "Tutti gli ultimi post"
+  },
+
+  "css": {
+    "meta": {
+      "keywords": "css",
+      "title": "Cascading Style Sheets",
+      "description": "Pagina relativa ai fogli di stile CSS"
+    },
+    "title": "Cascading Style Sheets"
+  },
+
+  "eng": {
+    "meta": {
+      "keywords": "engineering, ingegneria, del, software",
+      "title": "Software engineering",
+      "description": "Pagina relativa alla Software Engineering"
+    },
+    "title": "Ingegneria del Software"
+  },
+
+  "html": {
+    "meta": {
+      "keywords": "html",
+      "title": "Hyper Text Markup Language",
+      "description": "Pagina relavita al linguaggio di markup HTML"
+    },
+    "title": "Hyper Text Markup Language"
+  },
+
+  "js": {
+    "meta": {
+      "keywords": "javascript, js",
+      "title": "JavaScript",
+      "description": "Pagina relativa al linguaggio di scripting JS"
+    },
+    "title": "JavaScript"
+  },
+
+  "node": {
+    "meta": {
+      "keywords": "node, js, nodejs",
+      "title": "NodeJS",
+      "description": "Pagina relativa a NodeJS"
+    },
+    "title": "NodeJS"
+  },
+
+  "sec": {
+    "meta": {
+      "keywords": "security, software, sicurezza, informatica",
+      "title": "Software Security",
+      "description": "Pagina relativa alla Sicurezza Informatica"
+    },
+    "title": "Software Security"
+  },
+
   "404": {
     "text": "Questa pagina non è più disponibile oppure non è mai esistita. <br><br>Inizia la navigazione partendo dalla Home page.<br><br>"
   },
+
   "500": {
     "text": "Questa pagina ha generato un errore nel server e non è al momento disponibile.<br><br>Inizia la navigazione partendo dalla Home page.<br><br>"
   },
+
   "cookielayer": {
     "title": "Questa applicazione Web utilizza i cookie",
     "text": "Questo sito o gli strumenti di terze parti in esso integrati fanno uso di cookie necessari per il funzionamento e per il raggiungimento delle finalità descritte nella cookie policy. Per saperne di più o per revocare il consenso relativamente a uno o tutti i cookie, fai riferimento alla cookie policy. Dichiari di accettare l’utilizzo di cookie chiudendo o nascondendo questo banner, cliccando un link o un pulsante o continuando a navigare in altro modo. Per ulteriori informazioni è possibile visitare la pagina privacy policy",

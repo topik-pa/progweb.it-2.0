@@ -53,11 +53,11 @@
   let proj_copy = 2026
   let proj_owner = 'Marco Pavan'
   let proj_email = 'info@progweb.it'
-  let proj_logo = 'https://progweb.it/assets/images/logo.webp'
-  let og_image = ''
+  let proj_logo = 'https://progweb.it/assets/images/logo-min.png'
+  let og_image = 'https://progweb.it/assets/images/logo-min.png'
   let sc_project = process.env.SC_PROJECT || null
   let sc_security = process.env.SC_SECURITY || null
-  let googleSiteVerification = 'yeAoCZx82EAHF2DNVMmS9THRmxbj3WAEC6VliW7Nv4M'
+  let googleSiteVerification = process.env.G_SITE_VERIFICATION || null
 
 
 doctype html
@@ -69,6 +69,8 @@ html(lang="it")
       meta(name="author" content=proj_owner + ' - ' + proj_email)
       meta(name="google-site-verification" content=googleSiteVerification)
       link(rel="shortcut icon", href="/favicon.ico", type="image/x-icon")
+      script(nonce=nonce).
+        if (localStorage.getItem('dark')) document.documentElement.classList.add('dark')
       if prod
         link(rel="stylesheet", type="text/css", href="/dist/main.css")
         script(src='/dist/bundle.js', defer)

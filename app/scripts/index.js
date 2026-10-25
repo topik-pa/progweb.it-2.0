@@ -26,12 +26,14 @@
 import mainMenu from '../views/components/header/main-menu/main-menu.js'
 import gotoTop from '../views/components/goto_top/goto_top.js'
 import cookieLayer from '../views/components/cookie_layer/cookie_layer.js'
+import header from '../views/components/header/header.js'
 
 const pageId = document.body.id
 
 mainMenu.toggleMobileMenu()
 gotoTop.init()
 cookieLayer.init()
+header.init()
 
 // Import views specific scripts
 const modules = {

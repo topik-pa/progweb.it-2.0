@@ -1,25 +1,23 @@
 extends ../../layout.pug
 
 block append meta
-  title #{title} | #{proj_name}
-  meta(name="description" content="Articoli di argomento: Cybersecurity")
-  meta(name="keywords" content="")
-  meta(name="robots" content="")
-  link(rel="canonical", href=proj_url + url)
+  meta(property="og:title" content=__('views.sec') + ' | ' + __('proj_name'))
+  meta(property="og:description" content=__('sec.meta.description'))
+  meta(property="og:image" content=og_image)
+  meta(property="og:url" content=canonical)
 
-  meta(name="og:url" content=proj_url)
-  meta(name="og:type" content="website")
-  meta(name="og:title" content=title + ' | ' + proj_name)
-  meta(name="og:site_name" content="Programmazione Web Italia")
-  meta(name="og:description" content="Articoli di argomento: Node.js")
-  meta(name="og:image" content=proj_url + "/assets/images/logo.png")
+  title= __('views.sec') + ' | ' + proj_name
+  meta(name="description" content=__('sec.meta.description'))
+  meta(name="keywords" content=__('sec.meta.keywords'))
+
+  link(rel="canonical", href=canonical)
 
 block main
   include ../../components/breadcrumbs/breadcrumbs.pug
 
   main(class="tworows")
     section
-      h1 #{title}
+      h1= __('sec.title')
 
     include ../../components/side.pug
 

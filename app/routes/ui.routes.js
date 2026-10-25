@@ -57,7 +57,7 @@ router.get('/privacy', (req, res) => {
     }
   ]
   const canonical = `${BASEURL}${req.path}`
-  res.render('privacy/privacy', {  id, breadcrumbs, canonical, title })
+  res.render('privacy/privacy', {  id, breadcrumbs, canonical })
 })
 
 // Contacts
@@ -70,7 +70,7 @@ router.get('/contatti', (req, res) => {
     }
   ]
   const canonical = `${BASEURL}${req.path}`
-  res.render('contacts/contacts', { id, breadcrumbs, canonical, title })
+  res.render('contacts/contacts', { id, breadcrumbs, canonical })
 })
 
 // Home page
@@ -93,7 +93,7 @@ router.get('/posts', (req, res) => {
     }
   ]
   const canonical = `${BASEURL}${req.path}`
-  res.render('posts', { id, breadcrumbs, canonical, title })
+  res.render('posts', { id, breadcrumbs, canonical })
 })
 // html
 router.get('/html', (req, res) => {
@@ -105,7 +105,7 @@ router.get('/html', (req, res) => {
     }
   ]
   const canonical = `${BASEURL}${req.path}`
-  res.render('topic/html/html', { id, breadcrumbs, canonical, title })
+  res.render('topic/html/html', { id, breadcrumbs, canonical })
 })
 // css
 router.get('/css', (req, res) => {
@@ -117,7 +117,7 @@ router.get('/css', (req, res) => {
     }
   ]
   const canonical = `${BASEURL}${req.path}`
-  res.render('topic/css/css', { id, breadcrumbs, canonical, title })
+  res.render('topic/css/css', { id, breadcrumbs, canonical })
 })
 // js
 router.get('/javascript', (req, res) => {
@@ -129,7 +129,7 @@ router.get('/javascript', (req, res) => {
     }
   ]
   const canonical = `${BASEURL}${req.path}`
-  res.render('topic/js/js', { id, breadcrumbs, canonical, title })
+  res.render('topic/js/js', { id, breadcrumbs, canonical })
 })
 // engineering
 router.get('/engineering', (req, res) => {
@@ -141,7 +141,7 @@ router.get('/engineering', (req, res) => {
     }
   ]
   const canonical = `${BASEURL}${req.path}`
-  res.render('topic/eng/eng', { id, breadcrumbs, canonical, title })
+  res.render('topic/eng/eng', { id, breadcrumbs, canonical })
 })
 // cyber security
 router.get('/security', (req, res) => {
@@ -153,7 +153,7 @@ router.get('/security', (req, res) => {
     }
   ]
   const canonical = `${BASEURL}${req.path}`
-  res.render('topic/sec/sec', { id, breadcrumbs, canonical, title })
+  res.render('topic/sec/sec', { id, breadcrumbs, canonical })
 })
 // node
 router.get('/nodejs', (req, res) => {
@@ -165,7 +165,7 @@ router.get('/nodejs', (req, res) => {
     }
   ]
   const canonical = `${BASEURL}${req.path}`
-  res.render('topic/node/node', { id, breadcrumbs, canonical, title })
+  res.render('topic/node/node', { id, breadcrumbs, canonical })
 })
 
 

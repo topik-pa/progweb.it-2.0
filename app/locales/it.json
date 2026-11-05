@@ -40,61 +40,61 @@
       "title": "Gli ultimi post",
       "description": "Lista di tutti i post pubblicati"
     },
-    "title": "Tutti gli ultimi post"
+    "title": "Tutti i post"
   },
 
   "css": {
     "meta": {
       "keywords": "css",
-      "title": "Cascading Style Sheets",
+      "title": "Elenco dei post relativi ai Cascading Style Sheets",
       "description": "Pagina relativa ai fogli di stile CSS"
     },
-    "title": "Cascading Style Sheets"
+    "title": "Cascading Style Sheets: tutti i post"
   },
 
   "engineering": {
     "meta": {
       "keywords": "engineering, ingegneria, software",
-      "title": "Software engineering",
+      "title": "Elenco dei post relativi al Software engineering",
       "description": "Pagina relativa alla Software Engineering"
     },
-    "title": "Ingegneria del Software"
+    "title": "Ingegneria del Software: tutti i post"
   },
 
   "html": {
     "meta": {
       "keywords": "html, xhtml, html5",
-      "title": "Hyper Text Markup Language",
+      "title": "Elenco dei post relativi a Hyper Text Markup Language",
       "description": "Pagina relavita al linguaggio di markup HTML"
     },
-    "title": "Hyper Text Markup Language"
+    "title": "Hyper Text Markup Language: tutti i post"
   },
 
   "javascript": {
     "meta": {
       "keywords": "javascript, js",
-      "title": "JavaScript",
+      "title": "Elenco dei post relativi a JavaScript",
       "description": "Pagina relativa al linguaggio di scripting JavaScript"
     },
-    "title": "JavaScript"
+    "title": "JavaScript: tutti i post"
   },
 
   "nodejs": {
     "meta": {
       "keywords": "node, js, nodejs",
-      "title": "NodeJS",
+      "title": "Elenco dei post relativi a NodeJS",
       "description": "Pagina relativa a NodeJS"
     },
-    "title": "NodeJS"
+    "title": "NodeJS: tutti i post"
   },
 
   "security": {
     "meta": {
       "keywords": "cyber, security, software, sicurezza, informatica",
-      "title": "Cyber Security",
+      "title": "Elenco dei post relativi alla Cyber Security",
       "description": "Pagina relativa alla Sicurezza Informatica in ambiente Web"
     },
-    "title": "Cyber Security"
+    "title": "Cyber Security: tutti i post"
   },
 
   "404": {
@@ -117,7 +117,7 @@
       "description": "Pagina Privacy: norme e diritti riguardanti la fruizione del servizio"
     },
     "title": "Privacy Policy",
-    "section0": "<h2>Privacy Policy</h2><p>progweb.it rispetta la privacy dell'utente e si impegna a proteggere i suoi dati personali sulla base del Regolamento (UE) 2016/679 del Parlamento Europeo e del Consiglio del 27 aprile 2016 “relativo alla protezione delle persone fisiche con riguardo al trattamento dei dati personali, nonché alla libera circolazione di tali dati e che abroga la direttiva 95/46/CE (Regolamento generale sulla protezione dei dati), in vigore dal 24 maggio 2016, e applicabile a partire dal 25 maggio 2018.</p><p>La presente informativa privacy è valida per tutti i visitatori del sito internet progweb.it.</p>",
+    "section0": "<p>progweb.it rispetta la privacy dell'utente e si impegna a proteggere i suoi dati personali sulla base del Regolamento (UE) 2016/679 del Parlamento Europeo e del Consiglio del 27 aprile 2016 “relativo alla protezione delle persone fisiche con riguardo al trattamento dei dati personali, nonché alla libera circolazione di tali dati e che abroga la direttiva 95/46/CE (Regolamento generale sulla protezione dei dati), in vigore dal 24 maggio 2016, e applicabile a partire dal 25 maggio 2018.</p><p>La presente informativa privacy è valida per tutti i visitatori del sito internet progweb.it.</p>",
     "section1": "<h2>Premessa</h2><p>La presente informativa descrive le modalità di trattamento dei dati personali da parte di progweb.it durante l'interazione con progweb.it per i nostri servizi o semplicemente per la consultazione del nostro sito internet. Essa ha inoltre lo scopo di informare gli utenti sui loro diritti legali in materia di privacy e sulla relativa protezione offerta dal sistema giuridico. Invitiamo l'utente a leggere attentamente la presente informativa sulla privacy, al fine di essere informato sull'utilizzo dei propri dati personali da parte nostra. Per qualsiasi domanda o per esercitare un diritto in materia di privacy, invitiamo a seguire le istruzioni contenute nella presente informativa sulla privacy. Contattare progweb.it per qualsiasi domanda sulla privacy all'indirizzo e-mail del responsabile: info@progweb.it.</p>",
     "section2": "<h2>Dati personali che possiamo raccogliere</h2><p>I dati personali, o informazioni personali, sono informazioni relative a qualsiasi soggetto da cui è possibile ricavarne l'identità. Sono quindi esclusi i dati dai quali è stata rimossa l'identità dell'utente (dati anonimi). Raccogliamo una serie di informazioni sui nostri clienti. Questi dati personali sono attribuibili alle seguenti categorie. <br><br>Dati identificativi: nome, cognome e, nel caso in cui l'utente comunichi con noi tramite i social media, questa categoria include anche il nome utente utilizzato in tali social media. <br>Dati di contatto: indirizzo postale, numeri di telefono, indirizzi e-mail, indirizzo di fatturazione. <br>Codici o chiavi di identificazione dell'utente. <br>Dati relativi alle caratteristiche personali: data di nascita, sesso, nazionalità. <br>Dati operativi: includono informazioni relative ai pagamenti da e verso il cliente, nonché ulteriori informazioni relative ai prodotti e servizi acquistati da noi. <br><br>Non raccogliamo dati sensibili che ti riguardano (tra cui dati che rivelano l'origine razziale o etnica, le convinzioni religiose o filosofiche, la vita sessuale, l'orientamento sessuale, le opinioni politiche, le informazioni sullo stato di salute e i dati genetici e biometrici). Inoltre, non raccogliamo dati giudiziari relativi all'utente.</p>",
     "section3": "<h2>Come avviene la raccolta dei dati personali</h2><p>Di seguito è riportato un elenco dei diversi metodi di raccolta dei dati degli utenti che adottiamo.<br><br>Interazione diretta. <br>L'utente decide di comunicare i propri dati identificativi, di contatto e finanziari compilando un modulo o comunicando tali dati per posta, telefono, e-mail, chat o social media.<br>I dati personali forniti dall'utente sono inclusi quando:<br><br>Richiede un'offerta per i nostri beni/servizi; <br>Inoltra richieste o sollecita la ricezione di informazioni;Richiede un appuntamento;Inoltra un C.V. dal nostro sito web;<br>Ci contatta tramite i social media; <br>Si iscrive alla nostra Newsletter.</p>",

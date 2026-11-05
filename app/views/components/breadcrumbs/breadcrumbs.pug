@@ -4,6 +4,6 @@ if breadcrumbs
       a(href="/", title="Home") Home
       each elem in breadcrumbs
         if elem.url
-          a(href=elem.url, title=elem.name) #{elem.title}
+          a(href=elem.url, title=elem.name) #{elem.name.toUpperCase()}
         else
-          span #{elem.title}
+          span #{elem.name}

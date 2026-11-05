@@ -12,28 +12,15 @@
   color: var(--blue);
   display: block;
   text-align: center;
-  padding: .5rem;
+  padding: var(--x-small-space);
 }
 #share h2::before {
   content: none;
 }
 #share section {
-  width: auto!important;
-  border: none!important;;
-}
-
-#share {
-  width: auto!important;
-  border-right: none!important;
-  padding-bottom: 0;
-}
-
-#share picture {
   display: flex;
-  justify-content: flex-end;
-}
-#marisa-share {
-  width: 100%;
-  height: auto;
-  max-width: 16rem;
+  justify-content: space-between;
+  i {
+    font-size: var(--font-size-huge);
+  }
 }

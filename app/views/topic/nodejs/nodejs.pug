@@ -1,12 +1,12 @@
 extends ../../layout.pug
 
 block append meta
-  meta(property="og:title" content=__('views.nodejs') + ' | ' + __('proj_name'))
+  meta(property="og:title" content=__('nodejs.meta.title') + ' | ' + __('proj_name'))
   meta(property="og:description" content=__('nodejs.meta.description'))
   meta(property="og:image" content=og_image)
   meta(property="og:url" content=canonical)
 
-  title= __('views.nodejs') + ' | ' + proj_name
+  title= __('nodejs.meta.title') + ' | ' + proj_name
   meta(name="description" content=__('nodejs.meta.description'))
   meta(name="keywords" content=__('nodejs.meta.keywords'))
 
@@ -15,6 +15,7 @@ block append meta
 block main
   section
     h1= __('nodejs.title')
+    include ../../components/post_preview/post_preview.pug
 
-  include ../../components/side.pug
+  include ../../components/side/side.pug
 

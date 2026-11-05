@@ -15,7 +15,7 @@
 #side .submenu img {
   width: 100%;
   height: auto;
-  border: 1px solid var(--light-gray);
+  padding-top: var(--small-space);
   box-sizing: border-box;
 }
 #side .submenu > div {

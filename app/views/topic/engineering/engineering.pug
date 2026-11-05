@@ -1,12 +1,12 @@
 extends ../../layout.pug
 
 block append meta
-  meta(property="og:title" content=__('views.engineering') + ' | ' + __('proj_name'))
+  meta(property="og:title" content=__('engineering.meta.title') + ' | ' + __('proj_name'))
   meta(property="og:description" content=__('engineering.meta.description'))
   meta(property="og:image" content=og_image)
   meta(property="og:url" content=canonical)
 
-  title= __('views.engineering') + ' | ' + proj_name
+  title= __('engineering.meta.title') + ' | ' + proj_name
   meta(name="description" content=__('engineering.meta.description'))
   meta(name="keywords" content=__('engineering.meta.keywords'))
 
@@ -15,6 +15,7 @@ block append meta
 block main
   section
     h1= __('engineering.title')
+    include ../../components/post_preview/post_preview.pug
 
-  include ../../components/side.pug
+  include ../../components/side/side.pug
 

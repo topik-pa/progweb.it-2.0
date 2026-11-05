@@ -1,37 +1,36 @@
 extends ../layout.pug
 
 block append meta
-  title #{data.title}
-  meta(name="description" content=data.description)
-  meta(name="keywords" content=data.keywords)
+  title #{post.title}
+  meta(name="description" content=post.description)
+  meta(name="keywords" content=post.keywords)
   link(rel="canonical", href=canonical)
 
   meta(name="og:url" content=canonical)
   meta(name="og:type" content="article")
-  meta(name="og:title" content=data.title)
+  meta(name="og:title" content=post.title)
   meta(name="og:site_name" content=proj_name)
-  meta(name="og:description" content=data.description)
-  meta(name="og:image" content=proj_url + "/assets/images/posts/" + data.topic + "/" + data.slug + ".webp")
+  meta(name="og:description" content=post.description)
+  meta(name="og:image" content=proj_url + "/assets/images/posts/" + post.topic + "/" + post.slug + ".webp")
 
 block main
   article
     include ./article.pug
-    include ../components/coffee/coffee.pug
     include ../components/share/share.pug
-  include ../components/side.pug
+  include ../components/side/side.pug
 
 block viewscripts
   script(type='application/ld+json').
     {
       "@context": "https://schema.org",
       "@type": "Article",
-      "datePublished": "2025-03-14",
-      "dateModified": "2025-03-14",
+      "datePublished": post.date,
+      "dateModified": post.date,
       "url": "#{canonical}",
-      "name": "#{data.title}",
-      "headline": "#{data.title}",
-      "description": "#{data.description}",
-      "image": "#{proj_url + "/assets/images/posts/" + data.topic + "/" + data.slug + ".webp"}",
+      "name": "#{post.title}",
+      "headline": "#{post.title}",
+      "description": "#{post.description}",
+      "image": "#{proj_url + "/assets/images/posts/" + post.topic + "/" + post.slug + ".webp"}",
       "author": {
         "@type": "Person",
         "name": "#{owner}"

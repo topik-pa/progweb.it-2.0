@@ -22,7 +22,7 @@ body {
 main {
   flex: 1;
   line-height: 130%;
-  margin: var(--view-padding) 0;
+  /*margin: var(--view-padding) 0;*/
   display: flex;
   justify-content: space-between;
   align-items: flex-start;

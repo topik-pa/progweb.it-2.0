@@ -16,11 +16,9 @@
 
 @import "./badge.css";
 @import "./submenu.css";
-@import "./preview.css";
 @import "./blockquote.css";
 @import "./code.css";
 @import "./post.css";
-@import "./side.css";
 
 @import "./icons.css";
 @import "./image-icons.css";
@@ -37,4 +35,6 @@
 @import "../views/components/breadcrumbs/breadcrumbs.css";
 @import "../views/components/coffee/coffee.css";
 @import "../views/components/share/share.css";
+@import "../views/components/side/side.css";
+@import "../views/components/post_preview/post_preview.css";
 @import "../views/components/cookie_layer/cookie_layer.css";

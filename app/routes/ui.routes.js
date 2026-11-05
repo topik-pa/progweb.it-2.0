@@ -51,7 +51,7 @@ const getLastPosts = () => {
 const getPostsByTopic = (topic) => {
   const clone = structuredClone(postsIdx)
   const data = clone.filter((p) => {
-    return p.topic = topic
+    return p.topic === topic
   })
   return data
 }
@@ -153,7 +153,7 @@ router.get('/privacy', (req, res) => {
   const id = 'privacy'
   const breadcrumbs = [
     {
-      title: 'Privacy'
+      name: 'Privacy'
     }
   ]
   const canonical = `${BASEURL}${req.path}`
@@ -165,7 +165,7 @@ router.get('/contatti', (req, res) => {
   const id = 'contacts'
   const breadcrumbs = [
     {
-      title: 'Contatti'
+      name: 'Contatti'
     }
   ]
   const canonical = `${BASEURL}${req.path}`
@@ -191,7 +191,7 @@ router.get('/posts', (req, res) => {
   const id = 'posts'
   const breadcrumbs = [
     {
-      title: 'Gli ultimi post'
+      name: 'Gli ultimi post'
     }
   ]
   const canonical = `${BASEURL}${req.path}`
@@ -204,7 +204,7 @@ router.get('/html', (req, res) => {
   const id = 'html'
   const breadcrumbs = [
     {
-      title: 'Hyper Text Markup Language'
+      name: 'Hyper Text Markup Language'
     }
   ]
   const canonical = `${BASEURL}${req.path}`
@@ -217,7 +217,7 @@ router.get('/css', (req, res) => {
   const id = 'css'
   const breadcrumbs = [
     {
-      title: 'Cascading Style Sheets'
+      name: 'Cascading Style Sheets'
     }
   ]
   const canonical = `${BASEURL}${req.path}`
@@ -230,7 +230,7 @@ router.get('/javascript', (req, res) => {
   const id = 'javascript'
   const breadcrumbs = [
     {
-      title: 'JavaScript'
+      name: 'JavaScript'
     }
   ]
   const canonical = `${BASEURL}${req.path}`
@@ -243,7 +243,7 @@ router.get('/engineering', (req, res) => {
   const id = 'engineering'
   const breadcrumbs = [
     {
-      title: 'Software Engineering'
+      name: 'Software Engineering'
     }
   ]
   const canonical = `${BASEURL}${req.path}`
@@ -256,7 +256,7 @@ router.get('/security', (req, res) => {
   const id = 'security'
   const breadcrumbs = [
     {
-      title: 'Cyber Security'
+      name: 'Cyber Security'
     }
   ]
   const canonical = `${BASEURL}${req.path}`
@@ -269,7 +269,7 @@ router.get('/nodejs', (req, res) => {
   const id = 'nodejs'
   const breadcrumbs = [
     {
-      title: 'NodeJS'
+      name: 'NodeJS'
     }
   ]
   const canonical = `${BASEURL}${req.path}`

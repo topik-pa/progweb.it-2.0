@@ -22,10 +22,10 @@ export async function postViewController(req, res) {
   const slug = req.params.slug
   const canonical = `${BASEURL}${req.path}`
 
-  let data = {}
+  let post = {}
   try {
     const raw = await readFile(new URL(`./../assets/posts/${topic}/${slug}.json`, import.meta.url), 'utf8')
-    data = JSON.parse(raw)
+    post = JSON.parse(raw)
   } catch (err) {
     logger.error(new Error(`❌ Error during data retrieval for post: ${slug}\n${err}`))
     return res.status(404).render('4xx/404')
@@ -37,8 +37,8 @@ export async function postViewController(req, res) {
       url: `/${topic}`
     },
     {
-      name: data.title
+      name: post.title
     }
   ]
-  res.render('post/post', { id, breadcrumbs, canonical, data })
+  res.render('post/post', { id, breadcrumbs, canonical, post })
 }

@@ -1,9 +1,9 @@
 div
-  h1 #{slug}
+  h1 #{data.title}
   div(class="intro-wrap")
-    img(fetchpriority="high" class="cover" width="1200" height="630" src="/assets/images/post/" + topic + "/" + slug + ".webp", alt=title, srcset='/assets/images/post/' + topic + '/' + slug + '.webp' + ' 1200w,' + '/assets/images/post/' + topic + '/' + slug + '-m.webp' + ' 1024w,' + '/assets/images/post/' + topic + '/' + slug + '-s.webp' + ' 768w', sizes="(max-width: 768px) 100vw, (max-width: 1024px) 75vw, 50vw")
+    img(fetchpriority="high" class="cover" width="1200" height="630" src="/assets/images/posts/" + data.topic + "/" + data.slug + ".webp", alt=data.title, srcset='/assets/images/posts/' + data.topic + '/' + data.slug + '.webp' + ' 1200w,' + '/assets/images/posts/' + data.topic + '/' + data.slug + '-m.webp' + ' 1024w,' + '/assets/images/posts/' + data.topic + '/' + data.slug + '-s.webp' + ' 768w', sizes="(max-width: 768px) 100vw, (max-width: 1024px) 75vw, 50vw")
 
-    p(class="intro " + data.author) #{data.description} #[img(src="assets/images/marco" + data.author +"-talk.webp", alt=data.author + " dice...", width="100", height="100")]
+    p(class="intro " + data.author) #{data.description} #[img(src="/assets/images/" + data.author +"-talk.webp", alt=data.author + " dice...", width="100", height="100")]
 
 
-section !{data.body}
+div !{data.body}

@@ -89,7 +89,7 @@ async function addTextToImage() {
 
     // 5. Sovrappone l'SVG all'immagine originale e salva il file di output
     const parsedPath = path.parse(imagePath)
-    //const outputPath = path.join(parsedPath.dir, `${parsedPath.name}-marked${parsedPath.ext}`)
+    const outputDir = path.join(import.meta.dirname, '..', 'app', 'assets', 'images', 'posts', topic)
 
     const masterImageBuffer = await sharp(imagePath)
       .resize(1200, 630, { fit: 'cover', position: 'center' })
@@ -97,17 +97,17 @@ async function addTextToImage() {
       .webp({ quality: 100 })
       .toBuffer()
 
-    const path1200 = path.join(parsedPath.dir, `${slug}.webp`)
+    const path1200 = path.join(outputDir, `${slug}.webp`)
     await sharp(masterImageBuffer).toFile(path1200)
     console.log(`Generato formato master: ${path1200}`)
 
-    const path1024 = path.join(parsedPath.dir, `${slug}-m.webp`)
+    const path1024 = path.join(outputDir, `${slug}-m.webp`)
     await sharp(masterImageBuffer)
       .resize(1024, 538)
       .toFile(path1024)
     console.log(`Generato formato ridotto: ${path1024}`)
 
-    const path768 = path.join(parsedPath.dir, `${slug}-s.webp`)
+    const path768 = path.join(outputDir, `${slug}-s.webp`)
     await sharp(masterImageBuffer)
       .resize(768, 404)
       .toFile(path768)

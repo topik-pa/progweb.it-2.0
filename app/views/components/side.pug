@@ -24,4 +24,11 @@ aside(id="side")
         a(href="mailto:info@progweb.it", title="Mail") #[i(class="icon-envelop")] info@progweb.it
 
   div(class="submenu others")
-    h3 Gli ultimi articoli
+    if lastPosts
+      h3 Gli ultimi articoli
+      ul
+      each post in lastPosts
+        li
+          a(href="/" + post.topic + "/" + post.slug, title=post.short_desc) #{post.title}
+            img(loading="lazy", width="768", height="403", src="/assets/images/posts/" + post.topic + "/" + post.slug + "-m.webp", alt=post.short_desc)
+

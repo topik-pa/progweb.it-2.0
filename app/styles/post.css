@@ -4,13 +4,13 @@ article {
   width: 70%;
   border-right: 1px dashed var(--lighter-gray);
 }
-article > section {
+article section {
   border: none!important;
   width: initial!important;
   margin: var(--view-padding)!important;
   padding: var(--view-padding)!important;
 }
-article section:nth-child(odd) {
+article section:nth-child(even) {
   background-color: var(--lightest-gray);
   border-radius: var(--border-radius-small);
 }

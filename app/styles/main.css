@@ -20,6 +20,7 @@
 @import "./blockquote.css";
 @import "./code.css";
 @import "./post.css";
+@import "./side.css";
 
 @import "./icons.css";
 @import "./image-icons.css";
@@ -34,4 +35,6 @@
 @import "../views/components/header/header.css";
 @import "../views/components/goto_top/goto_top.css";
 @import "../views/components/breadcrumbs/breadcrumbs.css";
+@import "../views/components/coffee/coffee.css";
+@import "../views/components/share/share.css";
 @import "../views/components/cookie_layer/cookie_layer.css";

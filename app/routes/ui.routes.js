@@ -30,7 +30,7 @@ import { postViewController } from '../controllers/ui.controller.js'
 import { fileURLToPath } from 'url'
 
 const router = express.Router()
-const TOPIC = 'html|css|js|node|eng|sec'
+const TOPIC = 'html|css|javascript|nodejs|engineering|security'
 const BASEURL = process.env.BASE_URL || 'https://progweb.it'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
@@ -61,60 +61,71 @@ const getPostsByTopic = (topic) => {
 })*/
 // sitemap.xml
 router.get('/sitemap.xml', async(req, res) => {
-  const date = '2026-11-25'
+  const deployed = '2026-11-25'
   const xml = `
   <?xml version="1.0" encoding="UTF-8"?>
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- HP -->
   <url>
     <loc>${BASEURL}</loc>
-    <lastmod>${date}</lastmod>
+    <lastmod>${deployed}</lastmod>
     <changefreq>daily</changefreq>
   </url>
+  <!-- Privacy -->
   <url>
     <loc>${BASEURL}/privacy</loc>
-    <lastmod>${date}</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
+  <!-- Contatti -->
   <url>
     <loc>${BASEURL}/contatti</loc>
-    <lastmod>${date}</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
   </url>
+  <!-- Posts -->
   <url>
     <loc>${BASEURL}/posts</loc>
-    <lastmod>${date}</lastmod>
+    <lastmod>${deployed}</lastmod>
     <changefreq>daily</changefreq>
   </url>
+  <!-- HTML -->
   <url>
     <loc>${BASEURL}/html</loc>
-    <lastmod>${date}</lastmod>
+    <lastmod>${deployed}</lastmod>
     <changefreq>daily</changefreq>
   </url>
+  <!-- CSS -->
   <url>
     <loc>${BASEURL}/css</loc>
-    <lastmod>${date}</lastmod>
+    <lastmod>${deployed}</lastmod>
     <changefreq>daily</changefreq>
   </url>
+  <!-- JavaScript -->
   <url>
     <loc>${BASEURL}/javascript</loc>
-    <lastmod>${date}</lastmod>
+    <lastmod>${deployed}</lastmod>
     <changefreq>daily</changefreq>
   </url>
+  <!-- SW Engineering -->
   <url>
     <loc>${BASEURL}/engineer</loc>
-    <lastmod>${date}</lastmod>
+    <lastmod>${deployed}</lastmod>
     <changefreq>daily</changefreq>
   </url>
+  <!-- Cyber Security -->
   <url>
     <loc>${BASEURL}/security</loc>
-    <lastmod>${date}</lastmod>
+    <lastmod>${deployed}</lastmod>
     <changefreq>daily</changefreq>
   </url>
+  <!-- NodeJS -->
   <url>
     <loc>${BASEURL}/nodejs</loc>
-    <lastmod>${date}</lastmod>
+    <lastmod>${deployed}</lastmod>
     <changefreq>daily</changefreq>
   </url>
+  <!-- Post (Slugged) -->
     ${postsIdx.map(post => `
       <url>
         <loc>${BASEURL}/${post.topic}/${post.slug}</loc>
@@ -140,23 +151,21 @@ router.get('/favicon.ico', (req, res) => {
 // Privacy
 router.get('/privacy', (req, res) => {
   const id = 'privacy'
-  const title = 'Privacy'
   const breadcrumbs = [
     {
-      title
+      title: 'Privacy'
     }
   ]
   const canonical = `${BASEURL}${req.path}`
-  res.render('privacy/privacy', {  id, breadcrumbs, canonical })
+  res.render('privacy/privacy', { id, breadcrumbs, canonical })
 })
 
 // Contacts
 router.get('/contatti', (req, res) => {
   const id = 'contacts'
-  const title = 'Contatti'
   const breadcrumbs = [
     {
-      title
+      title: 'Contatti'
     }
   ]
   const canonical = `${BASEURL}${req.path}`
@@ -168,7 +177,7 @@ router.get('/', async(req, res) => {
   const posts = getLastPosts()
   const lastPosts = posts
   const id = 'home'
-  const breadcrumbs = []
+  const breadcrumbs = null
   const canonical = `${BASEURL}${req.path}`
   res.render('home/home', { id, breadcrumbs, canonical, posts, lastPosts })
 })
@@ -180,24 +189,22 @@ router.get('/posts', (req, res) => {
   const posts = postsIdx
   const lastPosts = getLastPosts()
   const id = 'posts'
-  const title = 'Gli ultimi post'
   const breadcrumbs = [
     {
-      title
+      title: 'Gli ultimi post'
     }
   ]
   const canonical = `${BASEURL}${req.path}`
-  res.render('posts', { id, breadcrumbs, canonical, posts, lastPosts })
+  res.render('posts/posts', { id, breadcrumbs, canonical, posts, lastPosts })
 })
 // html
 router.get('/html', (req, res) => {
   const posts = getPostsByTopic('html')
   const lastPosts = getLastPosts()
   const id = 'html'
-  const title = 'Hyper Text Markup Language'
   const breadcrumbs = [
     {
-      title
+      title: 'Hyper Text Markup Language'
     }
   ]
   const canonical = `${BASEURL}${req.path}`
@@ -208,73 +215,66 @@ router.get('/css', (req, res) => {
   const posts = getPostsByTopic('css')
   const lastPosts = getLastPosts()
   const id = 'css'
-  const title = 'Cascading Style Sheets'
   const breadcrumbs = [
     {
-      title
+      title: 'Cascading Style Sheets'
     }
   ]
   const canonical = `${BASEURL}${req.path}`
   res.render('topic/css/css', { id, breadcrumbs, canonical, posts, lastPosts })
 })
-// js
+// javascript
 router.get('/javascript', (req, res) => {
-  const posts = getPostsByTopic('js')
+  const posts = getPostsByTopic('javascript')
   const lastPosts = getLastPosts()
-  const id = 'js'
-  const title = 'JavaScript'
+  const id = 'javascript'
   const breadcrumbs = [
     {
-      title
+      title: 'JavaScript'
     }
   ]
   const canonical = `${BASEURL}${req.path}`
-  res.render('topic/js/js', { id, breadcrumbs, canonical, posts, lastPosts })
+  res.render('topic/javascript/javascript', { id, breadcrumbs, canonical, posts, lastPosts })
 })
 // engineering
 router.get('/engineering', (req, res) => {
-  const posts = getPostsByTopic('eng')
+  const posts = getPostsByTopic('engineering')
   const lastPosts = getLastPosts()
   const id = 'engineering'
-  const title = 'Software Engineering'
   const breadcrumbs = [
     {
-      title
+      title: 'Software Engineering'
     }
   ]
   const canonical = `${BASEURL}${req.path}`
-  res.render('topic/eng/eng', { id, breadcrumbs, canonical, posts, lastPosts })
+  res.render('topic/engineering/engineering', { id, breadcrumbs, canonical, posts, lastPosts })
 })
 // cyber security
 router.get('/security', (req, res) => {
   const posts = getPostsByTopic('security')
   const lastPosts = getLastPosts()
   const id = 'security'
-  const title = 'Cyber Security'
   const breadcrumbs = [
     {
-      title
+      title: 'Cyber Security'
     }
   ]
   const canonical = `${BASEURL}${req.path}`
-  res.render('topic/sec/sec', { id, breadcrumbs, canonical, posts, lastPosts })
+  res.render('topic/security/security', { id, breadcrumbs, canonical, posts, lastPosts })
 })
-// node
+// nodejs
 router.get('/nodejs', (req, res) => {
-  const posts = getPostsByTopic('node')
+  const posts = getPostsByTopic('nodejs')
   const lastPosts = getLastPosts()
-  const id = 'node'
-  const title = 'NodeJS'
+  const id = 'nodejs'
   const breadcrumbs = [
     {
-      title
+      title: 'NodeJS'
     }
   ]
   const canonical = `${BASEURL}${req.path}`
-  res.render('topic/node/node', { id, breadcrumbs, canonical, posts, lastPosts })
+  res.render('topic/nodejs/nodejs', { id, breadcrumbs, canonical, posts, lastPosts })
 })
-
-
 
 // Posts
 router.get(`/:topic(${TOPIC})/:slug`, (req, res) => postViewController(req, res))

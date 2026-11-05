@@ -13,11 +13,8 @@ block append meta
   link(rel="canonical", href=canonical)
 
 block main
-  include ../../components/breadcrumbs/breadcrumbs.pug
+  section
+    h1= __('css.title')
 
-  main(class="tworows")
-    section
-      h1= __('css.title')
-
-    include ../../components/side.pug
+  include ../../components/side.pug
 

@@ -16,11 +16,10 @@
 
   --html: rgb(239, 89, 49);
   --css: rgb(0, 100, 158);
-  --js: rgb(245, 130, 51);
-  --eng: rgb(249, 188, 16);
-  --node: rgb(2, 110, 0);
-  --coding: rgb(153, 153, 153);
-  --sec: rgb(150, 209, 243);
+  --javascript: rgb(245, 130, 51);
+  --engineering: rgb(249, 188, 16);
+  --nodejs: rgb(2, 110, 0);
+  --security: rgb(150, 209, 243);
 
   --primary: var(--darker-gray);
   --secondary: var(--white);

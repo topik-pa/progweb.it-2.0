@@ -40,5 +40,5 @@ export async function postViewController(req, res) {
       name: data.title
     }
   ]
-  res.render('post/post', { id, breadcrumbs, canonical, topic, slug, data })
+  res.render('post/post', { id, breadcrumbs, canonical, data })
 }

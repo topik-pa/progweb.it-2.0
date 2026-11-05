@@ -1,0 +1,20 @@
+extends ../../layout.pug
+
+block append meta
+  meta(property="og:title" content=__('views.engineering') + ' | ' + __('proj_name'))
+  meta(property="og:description" content=__('engineering.meta.description'))
+  meta(property="og:image" content=og_image)
+  meta(property="og:url" content=canonical)
+
+  title= __('views.engineering') + ' | ' + proj_name
+  meta(name="description" content=__('engineering.meta.description'))
+  meta(name="keywords" content=__('engineering.meta.keywords'))
+
+  link(rel="canonical", href=canonical)
+
+block main
+  section
+    h1= __('engineering.title')
+
+  include ../../components/side.pug
+

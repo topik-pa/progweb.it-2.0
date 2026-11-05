@@ -7,13 +7,13 @@
     "home": "Home",
     "privacy": "Privacy",
     "contacts": "Contatti",
-    "posts": "Contatti",
-    "html": "Contatti",
-    "css": "Contatti",
-    "js": "Contatti",
-    "engineering": "Contatti",
-    "security": "Contatti",
-    "node": "Contatti"
+    "posts": "Tutti i post",
+    "html": "HTML",
+    "css": "CSS",
+    "javascript": "JavaScript",
+    "engineering": "Software Engineering",
+    "security": "Cyber Security",
+    "nodejs": "NodeJS"
   },
   "breadcrumbs": {
     "text": "Sei in: "
@@ -52,9 +52,9 @@
     "title": "Cascading Style Sheets"
   },
 
-  "eng": {
+  "engineering": {
     "meta": {
-      "keywords": "engineering, ingegneria, del, software",
+      "keywords": "engineering, ingegneria, software",
       "title": "Software engineering",
       "description": "Pagina relativa alla Software Engineering"
     },
@@ -63,23 +63,23 @@
 
   "html": {
     "meta": {
-      "keywords": "html",
+      "keywords": "html, xhtml, html5",
       "title": "Hyper Text Markup Language",
       "description": "Pagina relavita al linguaggio di markup HTML"
     },
     "title": "Hyper Text Markup Language"
   },
 
-  "js": {
+  "javascript": {
     "meta": {
       "keywords": "javascript, js",
       "title": "JavaScript",
-      "description": "Pagina relativa al linguaggio di scripting JS"
+      "description": "Pagina relativa al linguaggio di scripting JavaScript"
     },
     "title": "JavaScript"
   },
 
-  "node": {
+  "nodejs": {
     "meta": {
       "keywords": "node, js, nodejs",
       "title": "NodeJS",
@@ -88,13 +88,13 @@
     "title": "NodeJS"
   },
 
-  "sec": {
+  "security": {
     "meta": {
-      "keywords": "security, software, sicurezza, informatica",
-      "title": "Software Security",
-      "description": "Pagina relativa alla Sicurezza Informatica"
+      "keywords": "cyber, security, software, sicurezza, informatica",
+      "title": "Cyber Security",
+      "description": "Pagina relativa alla Sicurezza Informatica in ambiente Web"
     },
-    "title": "Software Security"
+    "title": "Cyber Security"
   },
 
   "404": {

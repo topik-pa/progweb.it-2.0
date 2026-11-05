@@ -50,5 +50,4 @@ block main
 
           div(class="published") Pubblicato il <time datetime=post.date>#{new Intl.DateTimeFormat('it-IT', {day: 'numeric', month: 'long', year: 'numeric'}).format(new Date(post.date))}</time>
 
-
   include ../components/side.pug

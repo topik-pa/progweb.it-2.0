@@ -2,7 +2,7 @@
   "serial": 1,
   "slug": "jwt-autenticazione-stateless",
   "date": "2025-03-14",
-  "topic": "js",
+  "topic": "javascript",
   "author": "marco",
   "title": "Scopri i JSON Web Token (JWT) - autenticazione stateless per le tue applicazioni web",
   "description": "I JWT e l'autenticazione token-based: cosa sono e come funzionano i JSON Web Token. Esempi pratici, vantaggi e svantaggi, best practice dell'autenticazione senza stato",

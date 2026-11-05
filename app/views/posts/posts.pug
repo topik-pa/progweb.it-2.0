@@ -1,4 +1,4 @@
-extends ./layout.pug
+extends ../layout.pug
 
 block append meta
   meta(property="og:title" content=__('views.posts') + ' | ' + __('proj_name'))
@@ -13,11 +13,7 @@ block append meta
   link(rel="canonical", href=canonical)
 
 block main
-  include ./components/breadcrumbs/breadcrumbs.pug
+  section
+    h1= __('posts.title')
 
-  main(class="tworows")
-    section
-      h1= __('posts.title')
-
-    include ./components/side.pug
-
+  include ../components/side.pug

@@ -1,5 +1,4 @@
-/* eslint-disable max-len */
-/* eslint-disable no-console */
+/* eslint-disable */
 import sharp from 'sharp'
 import path from 'path'
 

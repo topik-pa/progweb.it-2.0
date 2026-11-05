@@ -22,11 +22,16 @@ body {
 main {
   flex: 1;
   line-height: 130%;
+  margin: var(--view-padding) 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
-main section {
+main > section {
+  width: 70%;
+  border-right: 1px dashed var(--lighter-gray);
   padding-right: var(--view-padding);
-  margin: var(--view-padding) 0;
 }
 
 a {
@@ -95,18 +100,6 @@ code {
   color: var(--blue);
 }
 
-.tworows {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-.tworows > section {
-  width: 70%;
-  border-right: 1px dashed var(--lighter-gray);
-}
-
 @media screen and (max-width: 768px) {
-  .tworows section  {
-    width: 100%;
-  }
+
 }

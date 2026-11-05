@@ -21,23 +21,19 @@
   background-color: rgba(0, 100, 158, .1);
   border-color: var(--css);
 }
-.badge.js {
+.badge.javascript {
   background-color: rgba(245, 130, 51, .1);
-  border-color: var(--js);
+  border-color: var(--javascript);
 }
-.badge.eng {
+.badge.engineering {
   background-color: rgba(249, 188, 16, .1);
-  border-color: var(--eng);
+  border-color: var(--engineering);
 }
-.badge.node {
+.badge.nodejs {
   background-color: rgba(2, 110, 0, .1);
-  border-color: var(--node);
+  border-color: var(--nodejs);
 }
-.badge.coding {
-  background-color: rgba(153, 153, 153, .1);
-  border-color: var(--coding);
-}
-.badge.sec {
+.badge.security {
   background-color: rgba(150, 209, 243, .1);
-  border-color: var(--sec);
+  border-color: var(--security);
 }

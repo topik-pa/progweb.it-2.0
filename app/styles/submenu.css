@@ -18,7 +18,7 @@
   margin-bottom: var(--xx-large-space);
 }
 .submenu.topic li {
-  border-left: var(--normal-space) solid var(--coding);
+  border-left: var(--normal-space) solid red;
   padding-left: var(--x-small-space)
 }
 .submenu.topic li.html {
@@ -27,15 +27,15 @@
 .submenu.topic li.css {
   border-color: var(--css);
 }
-.submenu.topic li.js {
-  border-color: var(--js);
+.submenu.topic li.javascript {
+  border-color: var(--javascript);
 }
-.submenu.topic li.eng {
-  border-color: var(--eng);
+.submenu.topic li.engineering {
+  border-color: var(--engineering);
 }
-.submenu.topic li.node {
-  border-color: var(--node);
+.submenu.topic li.nodejs {
+  border-color: var(--nodejs);
 }
-.submenu.topic li.sec {
-  border-color: var(--sec);
+.submenu.topic li.security {
+  border-color: var(--security);
 }

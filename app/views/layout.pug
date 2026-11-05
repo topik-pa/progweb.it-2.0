@@ -47,7 +47,7 @@
   let prod = process.env.NODE_ENV === 'production'
   let proj_name = 'Programmazione Web Italia'
   let proj_tagline = 'Codice, metodologie e idee dal mondo dello Sviluppo Web'
-  let proj_description = 'Spunti di programmazione Web per utenti italiani'
+  let proj_description = 'Pillole quotidiane per programmatori e architetti Web'
   let proj_acronim = 'PWI'
   let proj_url = 'https://progweb.it'
   let proj_copy = 2026
@@ -83,6 +83,7 @@ html(lang="it")
       meta(property="og:site_name" content=proj_name)
   body(id=id)
     include ./components/header/header.pug
+    include ./components/breadcrumbs/breadcrumbs.pug
     main(class=className)
       block main
     include ./components/cookie_layer/cookie_layer.pug

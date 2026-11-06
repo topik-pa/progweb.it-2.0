@@ -52,7 +52,7 @@
   let proj_url = 'https://progweb.it'
   let proj_copy = 2026
   let proj_owner = 'Marco Pavan'
-  let proj_email = 'info@progweb.it'
+  let proj_email = 'marco@progweb.it'
   let proj_logo = 'https://progweb.it/assets/images/logo-min.png'
   let og_image = 'https://progweb.it/assets/images/og-image.png'
   let sc_project = process.env.SC_PROJECT || null
@@ -101,26 +101,26 @@ html(lang="it")
         "@graph": [
           {
             "@type": "Organization",
-            "@id": "https://progweb.it/#organization",
-            "name": "progweb.it",
-            "url": "https://progweb.it",
-            "logo": "https://progweb.it/assets/images/logo.webp",
-            "description": "progweb.it",
+            "@id": "#{proj_url}/#organization",
+            "name": "#{proj_name}",
+            "url": "#{proj_url}",
+            "logo": "#{proj_url}/assets/images/logo-min.png",
+            "description": "#{proj_tagline}",
             "sameAs": [
               "https://www.linkedin.com/in/markopavan/"
             ],
             "founder": {
               "@type": "Person",
-              "name": "Marco Pavan"
+              "name": "#{proj_owner}"
             }
           },
           {
             "@type": "WebSite",
-            "@id": "https://progweb.it/#website",
-            "name": "progweb.it",
-            "url": "https://progweb.it",
+            "@id": "#{proj_url}/#website",
+            "name": "#{proj_name}",
+            "url": "#{proj_url}",
             "publisher": {
-              "@id": "https://progweb.it/#organization"
+              "@id": "#{proj_url}/#organization"
             }
           }
         ]

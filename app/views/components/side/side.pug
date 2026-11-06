@@ -12,7 +12,7 @@ aside(id="side")
 
   div(class="submenu socials")
     h3 Social
-    p I nostri Canali Social
+    p I Canali Social
     ul
       each social in socials
         li
@@ -21,14 +21,16 @@ aside(id="side")
     p #[em Contatta PWI] per commentare o suggerire come migliorare i contenuti
     ul
       li
-        a(href="mailto:info@progweb.it", title="Mail") #[i(class="icon-envelop")] info@progweb.it
+        a(href="mailto:info@progweb.it", title="Mail per questioni generiche") #[i(class="icon-envelop")] info@progweb.it
+      li  
+        a(href="mailto:marco@progweb.it", title="Mail diretta per questioni più specifiche") #[i(class="icon-envelop")] marco@progweb.it
 
-  div(class="submenu others")
+  div(class="submenu last")
     if lastPosts
       h3 Gli ultimi articoli
       ul
-      each post in lastPosts
-        li
-          a(href="/" + post.topic + "/" + post.slug, title=post.desc) #{post.title}
-            img(loading="lazy", width="768", height="403", src="/assets/images/posts/" + post.topic + "/" + post.slug + "-m.webp", alt=post.desc)
+        each post in lastPosts
+          li
+            a(href="/" + post.topic + "/" + post.slug, title=post.desc) #{post.title}
+              img(loading="lazy", width="768", height="403", src="/assets/images/posts/" + post.topic + "/" + post.slug + "-m.webp", alt=post.desc)
 

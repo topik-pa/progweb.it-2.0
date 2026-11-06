@@ -16,7 +16,7 @@ import logger from '../configs/logger.js'
 const BASEURL = process.env.BASE_URL || 'https://progweb.it'
 
 // Controller for slugged routes (posts)
-export async function postViewController(req, res) {
+export async function postViewController(req, res, lastPosts) {
   const id = 'post'
   const topic = req.params.topic
   const slug = req.params.slug
@@ -40,5 +40,5 @@ export async function postViewController(req, res) {
       name: post.title
     }
   ]
-  res.render('post/post', { id, breadcrumbs, canonical, post })
+  res.render('post/post', { id, breadcrumbs, canonical, post, lastPosts })
 }

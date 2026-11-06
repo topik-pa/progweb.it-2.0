@@ -38,6 +38,14 @@ block main
       h1 Benvenuto su #{proj_name} #[br]
         small #{proj_description}
 
+    p Qui troverai #[em pillole quotidiane] di sviluppo Web e non solo... Con "pillole" si intendono articoli, guide avvisi #[em sulle novità del mondo della Programmazione Web], sulle tecniche per imbastire una Architettura informativa, sulla Sicurezza e tutto ciò che concerne questi aspetti.
+    p Gli argomenti principali sono: i #[em Cascading Style Sheets] (CSS), l'#[em Hyper Text Markup Language] (HTML), il linguaggio di #[em scripting JavaScript], il #[em framework NodeJS] (basato su JavaScript), l'#[em Architettura] e la #[em Sicurezza] in ambito Web.
+    p Se ti fa piacere rimanere aggiornato sulle pubblicazioni quotidiane di nuovi post, ti suggeriamo di iscriverti sui nostri canali social: 
+      each social in socials
+        span 
+          a(href=social.url, title=social.name) #[i(class=social.icon)] #{social.name}&nbsp;&nbsp;
+    p Questi che seguono sono gli ultimi articoli pubblicati...#[br]#[br]
+
     include ../components/post_preview/post_preview.pug
 
   include ../components/side/side.pug

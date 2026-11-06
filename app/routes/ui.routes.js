@@ -277,7 +277,7 @@ router.get('/nodejs', (req, res) => {
 })
 
 // Posts
-router.get(`/:topic(${TOPIC})/:slug`, (req, res) => postViewController(req, res))
+router.get(`/:topic(${TOPIC})/:slug`, (req, res) => postViewController(req, res, getLastPosts()))
 
 
 export default router

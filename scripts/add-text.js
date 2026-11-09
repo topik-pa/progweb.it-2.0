@@ -11,7 +11,7 @@ if (!topic || !slug, !title || !subtitle) {
 }
 
 function escapeXml(unsafe) {
-  console.log('undafe', unsafe)
+  // console.log('undafe', unsafe)
   return (''+unsafe).replace(/[<>&'"]/g, (c) => {
     switch (c) {
     case '<': return '&lt;'
@@ -32,7 +32,7 @@ async function addTextToImage() {
     const image = sharp(imagePath)
     const metadata = await image.metadata()
 
-    console.log(metadata)
+    //console.log(metadata)
 
     // 2. Definisci le coordinate di partenza richieste
     const startX = 40
@@ -113,9 +113,9 @@ async function addTextToImage() {
       .toFile(path768)
     console.log(`Generato formato ridotto: ${path768}`)
 
-    console.log('Tutti i formati sono pronti!')
+    console.log('\n\n✅ Tutti i formati sono pronti!')
   } catch (error) {
-    console.error('Errore durante l\'elaborazione dell\'immagine:', error)
+    console.error('\n\n❌ Errore durante l\'elaborazione dell\'immagine:', error)
   }
 }
 

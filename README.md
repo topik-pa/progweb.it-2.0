@@ -150,6 +150,7 @@ ELIMINA
 
 https://www.progweb.it/js-jwt-autenticazione-stateless
 REDIRECT OK -> https://www.progweb.it/javascript/jwt-autenticazione-stateless
+POST INSERITO OK
 
 
 
@@ -230,14 +231,14 @@ ELIMINARE
 
 
 https://www.progweb.it/curriculum-efficace-esempio-developer
-IMPORTARE CONTENUTO
+IMPORTARE CONTENUTO / ELIMINARE
 
 
 
 
 
 https://www.progweb.it/javascript-html-tabella-dinamica
-IMPORTARE CONTENUTO
+IMPORTARE CONTENUTO / ELIMINARE
 
 
 
@@ -269,20 +270,20 @@ REDIRECT OK -> https://www.progweb.it/nodejs/node-setup-progetto
 
 https://www.progweb.it/architettura-del-sw-definizione-obiettivi
 REDIRECT OK -> https://www.progweb.it/engineering/architettura-del-sw-definizione-obiettivi
-
+POST INSERITO OK
 
 
 
 
 https://www.progweb.it/html-attributo-ping
 REDIRECT OK -> https://www.progweb.it/html/attributo-ping-definizione-esempi
-
+POST INSERITO OK
 
 
 
 https://www.progweb.it/javascript-closure
 REDIRECT OK-> https://www.progweb.it/javascript/closure-definizione-esempi-uso
-
+POST INSERITO OK
 
 
 
@@ -295,51 +296,51 @@ REDIRECT OK-> https://www.progweb.it/javascript/closure-definizione-esempi-uso
 <!-- LANDING PAGES -->
 
 https://www.progweb.it/web-seo/en
-INSERIRE
+IMPORTARE CONTENUTO / ELIMINARE
 
 
 
 https://www.progweb.it/web-seo
-INSERIRE
+IMPORTARE CONTENUTO / ELIMINARE
 
 
 
 https://www.progweb.it/responsive-web-design/en
-INSERIRE
+IMPORTARE CONTENUTO / ELIMINARE
 
 
 
 https://www.progweb.it/responsive-web-design
-INSERIRE
+IMPORTARE CONTENUTO / ELIMINARE
 
 
 
 https://www.progweb.it/web-accessibility/en
-INSERIRE
+IMPORTARE CONTENUTO / ELIMINARE
 
 
 
 https://www.progweb.it/web-accessibility
-INSERIRE
+IMPORTARE CONTENUTO / ELIMINARE
 
 
 
 https://www.progweb.it/web-sustainability/en
-INSERIRE
+IMPORTARE CONTENUTO / ELIMINARE
 
 
 
 https://www.progweb.it/web-sustainability
-INSERIRE
+IMPORTARE CONTENUTO / ELIMINARE
 
 
 
 https://www.progweb.it/from-idea-to-prototype/en
-INSERIRE
+IMPORTARE CONTENUTO / ELIMINARE
 
 
 
 https://www.progweb.it/from-idea-to-prototype
-INSERIRE
+IMPORTARE CONTENUTO / ELIMINARE
 
 

@@ -3,6 +3,7 @@
   margin: var(--view-padding) 0;
   width: 70%;
   border-right: 1px dashed var(--lighter-gray);
+  line-height: 140%;
 }
 #post article section {
   border: none;

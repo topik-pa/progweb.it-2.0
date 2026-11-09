@@ -35,6 +35,9 @@
 import express from 'express'
 const app = express()
 
+// Removed for security reason
+app.disable('x-powered-by')
+
 // Generate a nonce for Content Security Policy
 import crypto from 'crypto'
 // Generate a nonce per request for CSP
@@ -82,6 +85,7 @@ app.use((req, res, next) => {
   ].join('; ')
   res.setHeader('Content-Security-Policy', cspHeader)
   res.setHeader('X-Content-Type-Options', 'nosniff')
+  res.setHeader('Referrer-Policy', 'strict-origin-when-cross-origin')
   next()
 })
 

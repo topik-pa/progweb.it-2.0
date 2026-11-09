@@ -1,23 +1,23 @@
-article {
+#post article {
   counter-reset: step;
   margin: var(--view-padding) 0;
   width: 70%;
   border-right: 1px dashed var(--lighter-gray);
 }
-article section {
+#post article section {
   border: none;
   width: initial;
   margin: var(--view-padding);
   padding: var(--view-padding);
 }
-article section:nth-child(even) {
+#post article section:nth-child(even) {
   background-color: var(--lightest-gray);
   border-radius: var(--border-radius-small);
 }
-article aside section:nth-child(odd) {
+#post article aside section:nth-child(odd) {
   background-color: transparent;
 }
-article h1 {
+#post article h1 {
   text-align: center;
   text-transform: uppercase;
   margin: var(--xx-large-space) auto;
@@ -25,7 +25,7 @@ article h1 {
   text-wrap: balance;
 }
 
-article .intro {
+#post article .intro {
   font-style: italic;
   font-weight: 500;
   position: relative;
@@ -40,21 +40,21 @@ article .intro {
   position: relative;
   border-bottom: 1px solid var(--dark-gray);
 }
-article .intro img {
+#post article .intro img {
   position: absolute;
   right: 0;
   bottom: -88px;
   border: 3px solid var(--dark-gray);
   border-radius: 50%;
 }
-article .intro:before {
+#post article .intro:before {
   content: "\201C";
   font-size: calc( var(--font-size-biggest) * 2 );
   position: absolute;
   left: 0;
   top: calc(var(--normal-space) * -1);
 }
-article .intro:after {
+#post article .intro:after {
   content: "\201C";
   font-size: calc( var(--font-size-biggest) * 2 );
   transform: rotate(180deg);
@@ -62,20 +62,20 @@ article .intro:after {
   left: 0;
   bottom: calc(var(--normal-space) * -1);
 }
-article .intro.marco:after {
+#post article .intro.marco:after {
   content: "Marco Pavan";
   bottom: -3rem;
   transform: rotate(0deg);
   font-size: var(--font-size-normal)
 }
-article .intro.marisa:after {
+#post article .intro.marisa:after {
   content: "Marisa";
   bottom: -3rem;
   transform: rotate(0deg);
   font-size: var(--font-size-normal)
 }
 
-article img.cover {
+#post article img.cover {
   margin: 0 auto;
   display: block;
   max-width: 80%;
@@ -83,20 +83,20 @@ article img.cover {
   width: auto;
 }
 
-article .cp_embed_wrapper {
+#post article .cp_embed_wrapper {
   margin: var(--large-space) 0 var(--xx-small-space);
 }
 
-article .penref {
+#post article .penref {
   font-size: var(--font-size-small);
   font-style: italic;
 }
 
-article h2:nth-of-type(2), article aside:nth-of-type(1), article .code:nth-of-type(1), article h3:nth-of-type(2) {
+#post article h2:nth-of-type(2), #post article aside:nth-of-type(1), #post article .code:nth-of-type(1), #post article h3:nth-of-type(2) {
   clear: both;
 }
 
-article h2:before {
+#post article h2:before {
   counter-increment: step;
   content: counter(step);
   border: 1px solid var(--darker-gray);
@@ -109,25 +109,25 @@ article h2:before {
   text-align: center;
   line-height: var(--x-large-space);
 }
-article .img-wrapper {
+#post article .img-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
-article .img-wrapper img {
+#post article .img-wrapper img {
   max-width: 100%;
   height: auto;
   margin: var(--large-space) 0;
 }
 
-article aside {
+#post article aside {
   margin: var(--view-padding);
   padding: var(--view-padding);
   border-left: var(--x-large-space) solid var(--lighter-gray);
   position: relative;
 }
-article aside::before {
+#post article aside::before {
   content: 'Approfondimento';
   position: absolute;
   top: 0;
@@ -135,27 +135,27 @@ article aside::before {
   color: var(--light-gray);
   font-style: italic;
 }
-article aside h2 {
+#post article aside h2 {
   margin-bottom: var(--x-large-space);
 }
-article aside h3 {
+#post article aside h3 {
   margin-top: 0;
 }
-article aside li {
+#post article aside li {
   margin-bottom: var(--small-space);
 }
-article aside.links {
+#post article aside.links {
   border-color: var(--blue);
 }
-article aside.links::before {
+#post article aside.links::before {
   content: none;
 }
-article aside.links h2::before {
+#post article aside.links h2::before {
   content: none;
 }
 
 @media screen and (max-width: 1440px) {
-  article .intro img {
+  #post article .intro img {
     width: 80px;
     height: auto;
     bottom: -66px;
@@ -164,7 +164,7 @@ article aside.links h2::before {
 }
 
 @media screen and (max-width: 1024px) {
-  article img.cover {
+  #post article img.cover {
     float: none;
     width: 100%;
     max-width: none;
@@ -173,35 +173,35 @@ article aside.links h2::before {
 }
 
 @media screen and (max-width: 768px) {
-  article {
+  #post article {
     width: 100%;
     border: none;
   }
-  article h1 {
+  #post article h1 {
     margin-top: 0;
   }
-  article h1, article .intro {
+  #post article h1, #post article .intro {
     max-width: 100%;
   }
-  article section {
+  #post article section {
     margin: var(--view-padding) 0;
     /*padding: 0;*/
     /*width: 100%;*/
   }
-  article section:nth-child(even) {
+  #post article section:nth-child(even) {
     padding: var(--view-padding);
     /*width: 100%;*/
   }
-  article .intro-wrap {
+  #post article .intro-wrap {
     /*margin: var(--view-padding);*/
   }
-  article aside {
+  #post article aside {
     margin: 0;;
   }
-  article .img-wrapper {
+  #post article .img-wrapper {
     flex-direction: column;
   }
-  article .intro img {
+  #post article .intro img {
     width: 60px;
     bottom: -60px;
   }

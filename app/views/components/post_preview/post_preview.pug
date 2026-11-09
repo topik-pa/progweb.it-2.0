@@ -1,6 +1,6 @@
 if posts
   each post, i in posts
-    div(class="preview")
+    article(class="preview")
       div(class="badge " + post.topic) #[a(href="/" + post.topic, title="Vai alla sezione: " + post.topic.toUpperCase()) #{post.topic}]
       h2
         a(href="/" + post.topic + "/" + post.slug, title=post.desc) #{post.title}

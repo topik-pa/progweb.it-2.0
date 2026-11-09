@@ -46,3 +46,24 @@ block viewscripts
         "logo": "#{proj_logo}"
       }
     }
+  script(type='application/ld+json').
+    {
+      "@context": "https://schema.org", 
+      "@type": "BlogPosting",
+      "headline": "#{post.title}",
+      "image": "#{proj_url + "/assets/images/posts/" + post.topic + "/" + post.slug + ".webp"}",
+      "editor": "#{proj_owner}", 
+      "genre": "programmazione web #{post.topic} #{post.slug}", 
+      "keywords": "#{post.keywords}", 
+      "publisher": "#{proj_name}",
+      "url": "#{proj_url}",
+      "datePublished": "#{post.date}",
+      "dateCreated": "#{post.date}",
+      "dateModified": "#{post.modified}",
+      "description": "#{post.description}",
+      "articleBody": "#{post.slug} - #{post.title} - #{post.description}",
+        "author": {
+          "@type": "Person",
+          "name": "#{proj_owner}"
+        }
+    }

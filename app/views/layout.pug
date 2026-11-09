@@ -55,9 +55,9 @@
   let proj_email = 'marco@progweb.it'
   let proj_logo = 'https://progweb.it/assets/images/logo-min.png'
   let og_image = 'https://progweb.it/assets/images/og-image.png'
-  let sc_project = process.env.SC_PROJECT || null
-  let sc_security = process.env.SC_SECURITY || null
-  let googleSiteVerification = process.env.G_SITE_VERIFICATION || null
+  let sc_project = process.env.SC_PROJECT || ''
+  let sc_security = process.env.SC_SECURITY || ''
+  let googleSiteVerification = process.env.G_SITE_VERIFICATION || ''
 
 
 doctype html
@@ -76,7 +76,7 @@ html(lang="it")
         script(src='/dist/bundle.js', defer)
       else
         link(rel="stylesheet", type="text/css", href="/styles/main.css")
-        script(src='/scripts/index.js', type='module', defer)
+        script(src='/scripts/index.js', type='module')
       link(rel="dns-prefetch" href="https://www.statcounter.com")
       link(rel="dns-prefetch" href="https://c.statcounter.com")
       meta(property="og:type" content="website")

@@ -1,13 +1,13 @@
 aside(id="share")
   h2 #[em Condividi] questo contenuto tra i tuoi contatti!
   p Se pensi ti sia stato utile, aiuta la comunità di sviluppatori condividendo questo contenuto.
-  section
+  div
     div
-      a(href="https://www.facebook.com/sharer/sharer.php?u="+encodeURIComponent(canonical), title="Condividi su Facebook", target="_blank") Condividi su Facebook #[br]#[br]
+      a(href="https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(canonical), title="Condividi su Facebook", target="_blank") Condividi su Facebook #[br]#[br]
         i(class=socials[0].icon)
     div
-      a(href="https://www.linkedin.com/shareArticle?mini=true&url=" + encodeURIComponent(canonical) + "&title=" + post.title + "&source=" + encodeURIComponent(canonical) + "&summary=" + post.description, title="Condividi su LinkedIn", target="_blank") Condividi su LinkedIn #[br]#[br]
+      a(href="https://www.linkedin.com/shareArticle?mini=true&url=" + encodeURIComponent(canonical) + "&title=" + encodeURIComponent(post.title) + "&source=" + encodeURIComponent(canonical) + "&summary=" + encodeURIComponent(post.description), title="Condividi su LinkedIn", target="_blank") Condividi su LinkedIn #[br]#[br]
         i(class=socials[1].icon)
     div
-      a(href="https://t.me/share/url?url=" + encodeURIComponent(canonical) + "&text=" + post.title, title="Condividi su Telegram", target="_blank") Condividi su Telegram #[br]#[br]
+      a(href="https://t.me/share/url?url=" + encodeURIComponent(canonical) + "&text=" + encodeURIComponent(post.title), title="Condividi su Telegram", target="_blank") Condividi su Telegram #[br]#[br]
         i(class=socials[2].icon)

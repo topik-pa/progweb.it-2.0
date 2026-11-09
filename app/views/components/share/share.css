@@ -17,7 +17,7 @@
 #share h2::before {
   content: none!important;
 }
-#share section {
+#share > div {
   display: flex;
   justify-content: space-between;
   i {

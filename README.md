@@ -6,12 +6,10 @@ controlla url che hanno cambiato indirizzo, url non più esistenti e nuove url
 caricare i post precedenti
 Landing pages: importare e inserire su side.pug
 
-fix grafihce nuove
-appunti su post it
-
 googleSiteVerification
 
 testo pagina Contatti
+Pagina Chi siamo
 
 Strano bug Firefox immagine preview HP
 

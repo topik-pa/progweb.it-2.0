@@ -24,3 +24,9 @@
     font-size: var(--font-size-huge);
   }
 }
+
+@media screen and (max-width: 768px) {
+  #share {
+    margin: var(--x-large-space) 0;
+  }
+}

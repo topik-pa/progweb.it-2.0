@@ -6,5 +6,5 @@
 #socials a {
   margin-left: var(--large-space);
   color: var(--primary);
-  font-size: var(--font-size-bigger);
+  font-size: var(--font-size-big);
 }

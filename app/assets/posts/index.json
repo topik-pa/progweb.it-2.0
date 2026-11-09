@@ -1,5 +1,23 @@
 [
   {
+    "serial": 3,
+    "slug": "attributo-ping-definizione-esempi",
+    "date": "2026-11-26",
+    "topic": "html",
+    "title": "L'attributo 'ping': del tag <a> in HTML5: a cosa serve e come utilizzarlo",
+    "desc": "Fin dalla sua pubblicazione HTML5 ha introdotto alcuni attributi che, seppur interessanti, non sono mai stati usati o compresi fino in fondo, l'attributo 'ping' è secondo me uno di questi.",
+    "body": ""
+  },
+  {
+    "serial": 2,
+    "slug": "closure-definizione-esempi-uso",
+    "date": "2025-03-14",
+    "topic": "javascript",
+    "title": "JavaScript Closure - Tutti i segreti e gli utilizzi delle Closure in JavaScript",
+    "desc": "Tutte le volte che ho dovuto affrontare il discorso CLOSURE in JS finivo per avere una impressione riassumibile nella frase: \"Tutto molto bello, ma... QUINDI?\"",
+    "body": ""
+  },
+  {
     "serial": 1,
     "slug": "jwt-autenticazione-stateless",
     "date": "2025-03-14",

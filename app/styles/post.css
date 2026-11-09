@@ -5,10 +5,10 @@ article {
   border-right: 1px dashed var(--lighter-gray);
 }
 article section {
-  border: none!important;
-  width: initial!important;
-  margin: var(--view-padding)!important;
-  padding: var(--view-padding)!important;
+  border: none;
+  width: initial;
+  margin: var(--view-padding);
+  padding: var(--view-padding);
 }
 article section:nth-child(even) {
   background-color: var(--lightest-gray);
@@ -21,7 +21,7 @@ article h1 {
   text-align: center;
   text-transform: uppercase;
   margin: var(--xx-large-space) auto;
-  max-width: 75%;
+  max-width: 80%;
   text-wrap: balance;
 }
 
@@ -30,7 +30,7 @@ article .intro {
   font-weight: 500;
   position: relative;
   width: fit-content;
-  max-width: 75%;
+  max-width: 80%;
   margin: calc(var(--xx-large-space) * 1.5) auto;
   padding: var(--normal-space);
   text-align: center;
@@ -78,7 +78,7 @@ article .intro.marisa:after {
 article img.cover {
   margin: 0 auto;
   display: block;
-  max-width: 75%;
+  max-width: 80%;
   height: auto;
   width: auto;
 }
@@ -177,9 +177,26 @@ article aside.links h2::before {
     width: 100%;
     border: none;
   }
-  article > section {
-    margin: var(--view-padding) 0!important;
-    width: calc(100% - (var(--view-padding) * 2))!important;
+  article h1 {
+    margin-top: 0;
+  }
+  article h1, article .intro {
+    max-width: 100%;
+  }
+  article section {
+    margin: var(--view-padding) 0;
+    /*padding: 0;*/
+    /*width: 100%;*/
+  }
+  article section:nth-child(even) {
+    padding: var(--view-padding);
+    /*width: 100%;*/
+  }
+  article .intro-wrap {
+    /*margin: var(--view-padding);*/
+  }
+  article aside {
+    margin: 0;;
   }
   article .img-wrapper {
     flex-direction: column;

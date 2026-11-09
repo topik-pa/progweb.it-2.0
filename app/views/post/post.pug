@@ -24,8 +24,8 @@ block viewscripts
     {
       "@context": "https://schema.org",
       "@type": "Article",
-      "datePublished": post.date,
-      "dateModified": post.date,
+      "datePublished": "#{post.date}",
+      "dateModified": "#{post.modified}",
       "url": "#{canonical}",
       "name": "#{post.title}",
       "headline": "#{post.title}",
@@ -33,16 +33,16 @@ block viewscripts
       "image": "#{proj_url + "/assets/images/posts/" + post.topic + "/" + post.slug + ".webp"}",
       "author": {
         "@type": "Person",
-        "name": "#{owner}"
+        "name": "#{proj_owner}"
       },
       "copyrightHolder": {
         "@type": "Person",
-        "name": "#{owner}"
+        "name": "#{proj_owner}"
       },
       "publisher": {
         "@type": "Organization",
         "name": "#{proj_name}",
         "url": "#{proj_url}",
-        "logo": "#{logo}"
+        "logo": "#{proj_logo}"
       }
     }

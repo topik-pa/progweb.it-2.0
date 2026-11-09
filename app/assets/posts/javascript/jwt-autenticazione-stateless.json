@@ -2,6 +2,7 @@
   "serial": 1,
   "slug": "jwt-autenticazione-stateless",
   "date": "2025-03-14",
+  "modified": "2026-11-26",
   "topic": "javascript",
   "author": "marco",
   "title": "Scopri i JSON Web Token (JWT) - autenticazione stateless per le tue applicazioni web",

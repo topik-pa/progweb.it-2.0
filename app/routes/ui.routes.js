@@ -148,6 +148,54 @@ router.get('/favicon.ico', (req, res) => {
 })
 
 
+// Redirects
+router.get('/js-jwt-autenticazione-stateless', (req, res) => {
+  res.redirect(301, '/javascript/jwt-autenticazione-stateless')
+})
+router.get('html-tag-dialog-utilizzo-esempi', (req, res) => {
+  res.redirect(301, '/html/html-tag-dialog-utilizzo-esempi')
+})
+router.get('/javascript-throttle-debounce-definizione-esempi', (req, res) => {
+  res.redirect(301, '/javascript/throttle-debounce-definizione-esempi')
+})
+router.get('/progettazione-software-sviluppo-evoluzionistico', (req, res) => {
+  res.redirect(301, '/engineering/progettazione-software-sviluppo-evoluzionistico')
+})
+router.get('html-attributo-loading-lazy-load', (req, res) => {
+  res.redirect(301, '/html/attributo-loading-lazy-load')
+})
+router.get('/css-variabili-sintassi-esempi', (req, res) => {
+  res.redirect(301, '/css/variabili-sintassi-esempi')
+})
+router.get('/javascript-promise-definizione-sintassi-esempi', (req, res) => {
+  res.redirect(301, '/javascript/promise-definizione-sintassi-esempi')
+})
+router.get('/javascript-generator-definizione-esempi', (req, res) => {
+  res.redirect(301, '/javascript/generator-definizione-esempi')
+})
+router.get('/security-by-design-principi', (req, res) => {
+  res.redirect(301, '/security/security-by-design-principi')
+})
+router.get('/programmazione-strutturata-oggetti-funzionale', (req, res) => {
+  res.redirect(301, '/engineering/programmazione-strutturata-oggetti-funzionale')
+})
+router.get('/css-selettore-has-esempi', (req, res) => {
+  res.redirect(301, '/css/selettore-has-esempi')
+})
+router.get('/node-setup-progetto', (req, res) => {
+  res.redirect(301, '/nodejs/node-setup-progetto')
+})
+router.get('/architettura-del-sw-definizione-obiettivi', (req, res) => {
+  res.redirect(301, '/engineering/architettura-del-sw-definizione-obiettivi')
+})
+router.get('/html-attributo-ping', (req, res) => {
+  res.redirect(301, '/html/attributo-ping-definizione-esempi')
+})
+router.get('/javascript-closure', (req, res) => {
+  res.redirect(301, '/javascript/closure-definizione-esempi-uso')
+})
+
+
 // Privacy
 router.get('/privacy', (req, res) => {
   const id = 'privacy'

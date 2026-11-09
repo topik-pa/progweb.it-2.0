@@ -23,6 +23,7 @@ main {
   flex: 1;
   line-height: 130%;
   /*margin: var(--view-padding) 0;*/
+  margin: var(--normal-space);
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -69,11 +70,12 @@ p {
 
 small {
   font-size: 53%;
+  line-height: 150%;
 }
 
 ul, ol {
-  margin: var(--normal-space);
-  padding-left: var(--normal-space);
+  /*margin: var(--normal-space);*/
+  /*padding-left: var(--normal-space);*/
   list-style: auto;
   list-style-position: inside;
 }
@@ -104,5 +106,7 @@ code {
 }
 
 @media screen and (max-width: 768px) {
-
+  main > section {
+    width: 100%;
+  }
 }

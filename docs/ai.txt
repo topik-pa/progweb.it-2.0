@@ -1,0 +1,8 @@
+H - Titolo articolo
+H - slug
+H - Descrizione 1
+H - Descrizione 2 (index)
+H - keywords
+H - Corpo del testo
+H - Corpo del testo 2 (index)
+H - Testo social

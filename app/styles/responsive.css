@@ -14,7 +14,7 @@ html {
 @media screen and (max-width: 1024px) {
   body {
     padding: var(--x-small-space);
-    padding-bottom: 0;
+    padding-top: 0;
   }
 }
 

@@ -13,6 +13,13 @@ googleSiteVerification
 
 testo pagina Contatti
 
+Strano bug Firefox immagine preview HP
+
+
+
+Dopo...
+Aggiungere i related (post...)
+
 
 
 
@@ -33,7 +40,7 @@ OK
 
 
 https://www.progweb.it/privacy
-
+OK
 
 
 
@@ -144,7 +151,7 @@ ELIMINA
 
 
 https://www.progweb.it/js-jwt-autenticazione-stateless
-REDIRECT -> https://www.progweb.it/javascript/jwt-autenticazione-stateless
+REDIRECT OK -> https://www.progweb.it/javascript/jwt-autenticazione-stateless
 
 
 
@@ -152,7 +159,7 @@ REDIRECT -> https://www.progweb.it/javascript/jwt-autenticazione-stateless
 
 
 https://www.progweb.it/html-tag-dialog-utilizzo-esempi
-REDIRECT -> https://www.progweb.it/html/html-tag-dialog-utilizzo-esempi
+REDIRECT OK -> https://www.progweb.it/html/html-tag-dialog-utilizzo-esempi
 
 
 
@@ -161,7 +168,7 @@ REDIRECT -> https://www.progweb.it/html/html-tag-dialog-utilizzo-esempi
 
 
 https://www.progweb.it/javascript-throttle-debounce-definizione-esempi
-REDIRECT -> https://www.progweb.it/javascript/throttle-debounce-definizione-esempi
+REDIRECT OK -> https://www.progweb.it/javascript/throttle-debounce-definizione-esempi
 
 
 
@@ -170,7 +177,7 @@ REDIRECT -> https://www.progweb.it/javascript/throttle-debounce-definizione-esem
 
 
 https://www.progweb.it/progettazione-software-sviluppo-evoluzionistico
-REDIRECT -> https://www.progweb.it/engineering/progettazione-software-sviluppo-evoluzionistico
+REDIRECT OK -> https://www.progweb.it/engineering/progettazione-software-sviluppo-evoluzionistico
 
 
 
@@ -179,7 +186,7 @@ REDIRECT -> https://www.progweb.it/engineering/progettazione-software-sviluppo-e
 
 
 https://www.progweb.it/html-attributo-loading-lazy-load
-REDIRECT -> https://www.progweb.it/html/attributo-loading-lazy-load
+REDIRECT OK -> https://www.progweb.it/html/attributo-loading-lazy-load
 
 
 
@@ -187,7 +194,7 @@ REDIRECT -> https://www.progweb.it/html/attributo-loading-lazy-load
 
 
 https://www.progweb.it/css-variabili-sintassi-esempi
-REDIRECT -> https://www.progweb.it/css/variabili-sintassi-esempi
+REDIRECT OK -> https://www.progweb.it/css/variabili-sintassi-esempi
 
 
 
@@ -195,7 +202,7 @@ REDIRECT -> https://www.progweb.it/css/variabili-sintassi-esempi
 
 
 https://www.progweb.it/javascript-promise-definizione-sintassi-esempi
-REDIRECT -> https://www.progweb.it/javascript/promise-definizione-sintassi-esempi
+REDIRECT OK -> https://www.progweb.it/javascript/promise-definizione-sintassi-esempi
 
 
 
@@ -203,14 +210,14 @@ REDIRECT -> https://www.progweb.it/javascript/promise-definizione-sintassi-esemp
 
 
 https://www.progweb.it/javascript-generator-definizione-esempi
-REDIRECT -> https://www.progweb.it/javascript/generator-definizione-esempi
+REDIRECT OK -> https://www.progweb.it/javascript/generator-definizione-esempi
 
 
 
 
 
 https://www.progweb.it/security-by-design-principi
-REDIRECT -> https://www.progweb.it/security/security-by-design-principi
+REDIRECT OK -> https://www.progweb.it/security/security-by-design-principi
 
 
 
@@ -240,7 +247,7 @@ IMPORTARE CONTENUTO
 
 
 https://www.progweb.it/programmazione-strutturata-oggetti-funzionale
-REDIRECT -> https://www.progweb.it/engineering/programmazione-strutturata-oggetti-funzionale
+REDIRECT OK -> https://www.progweb.it/engineering/programmazione-strutturata-oggetti-funzionale
 
 
 
@@ -248,14 +255,14 @@ REDIRECT -> https://www.progweb.it/engineering/programmazione-strutturata-oggett
 
 
 https://www.progweb.it/css-selettore-has-esempi
-REDIRECT -> https://www.progweb.it/css/selettore-has-esempi
+REDIRECT OK -> https://www.progweb.it/css/selettore-has-esempi
 
 
 
 
 
 https://www.progweb.it/node-setup-progetto
-REDIRECT -> https://www.progweb.it/nodejs/node-setup-progetto
+REDIRECT OK -> https://www.progweb.it/nodejs/node-setup-progetto
 
 
 
@@ -263,20 +270,20 @@ REDIRECT -> https://www.progweb.it/nodejs/node-setup-progetto
 
 
 https://www.progweb.it/architettura-del-sw-definizione-obiettivi
-REDIRECT -> https://www.progweb.it/engineering/architettura-del-sw-definizione-obiettivi
+REDIRECT OK -> https://www.progweb.it/engineering/architettura-del-sw-definizione-obiettivi
 
 
 
 
 
 https://www.progweb.it/html-attributo-ping
-REDIRECT -> https://www.progweb.it/html/attributo-ping-definizione-esempi
+REDIRECT OK -> https://www.progweb.it/html/attributo-ping-definizione-esempi
 
 
 
 
 https://www.progweb.it/javascript-closure
-REDIRECT -> https://www.progweb.it/javascript/closure-definizione-esempi-uso
+REDIRECT OK-> https://www.progweb.it/javascript/closure-definizione-esempi-uso
 
 
 

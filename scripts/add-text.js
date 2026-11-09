@@ -6,7 +6,7 @@ import path from 'path'
 const [,, topic, slug, title, subtitle, subtitle2] = process.argv
 
 if (!topic || !slug, !title || !subtitle) {
-  console.error('Uso: node add-text.js "<topic>" "<titolo>" "<sottotitolo>"')
+  console.error('Uso: node add-text.js "<topic>" "<slug>" "<titolo>" "<sottotitolo-1>" "<sottotitolo-2>"')
   process.exit(1)
 }
 
@@ -51,14 +51,14 @@ async function addTextToImage() {
 
       <!-- Filtro per l'ombreggiatura del sottotitolo -->
       <filter id="subtitle-shadow" x="-20%" y="-20%" width="140%" height="140%">
-        <feDropShadow dx="2" dy="2" stdDeviation="4" flood-color="#333333" flood-opacity="0.5"/>
+        <feDropShadow dx="1" dy="1" stdDeviation="0" flood-color="#333333" flood-opacity="1"/>
       </filter>
     </defs>
 
     <style>
       .title {
         font-family: 'Liberation Sans', sans-serif;
-        font-size: 64px;
+        font-size: 68px;
         letter-spacing: 7px;
         font-weight: bold;
         fill: #FFFFFF;
@@ -66,8 +66,8 @@ async function addTextToImage() {
       }
       .subtitle {
         font-family: 'Courier New', monospace;
-        font-size: 42px;
-        fill: #000000;
+        font-size: 48px;
+        fill: #EEEEEE;
       }
     </style>
 
@@ -75,9 +75,9 @@ async function addTextToImage() {
     <text x="${escapeXml(startX)}" y="${escapeXml(startY)}" class="title" filter="url(#title-shadow)">${escapeXml(title)}</text>
 
     <!-- Sottotitolo posizionato sotto al titolo (Math prima di escape) -->
-    <text x="${escapeXml(startX)}" y="${escapeXml(startY + 90)}" class="subtitle">${escapeXml(subtitle)}</text>
+    <text x="${escapeXml(startX)}" y="${escapeXml(startY + 90)}" class="subtitle" filter="url(#subtitle-shadow)">${escapeXml(subtitle)}</text>
 
-    <text x="${escapeXml(startX)}" y="${escapeXml(startY + 147)}" class="subtitle">${escapeXml(subtitle2)}</text>
+    <text x="${escapeXml(startX)}" y="${escapeXml(startY + 147)}" class="subtitle" filter="url(#subtitle-shadow)">${escapeXml(subtitle2 || '')}</text>
   </svg>
 `
 
@@ -87,13 +87,14 @@ async function addTextToImage() {
     // const svgBuffer = Buffer.from(svgOverlay)
 
     // 5. Sovrappone l'SVG all'immagine originale e salva il file di output
-    const parsedPath = path.parse(imagePath)
+    // const parsedPath = path.parse(imagePath)
     const outputDir = path.join(import.meta.dirname, '..', 'app', 'assets', 'images', 'posts', topic)
 
     const masterImageBuffer = await sharp(imagePath)
-      .resize(1200, 630, { fit: 'cover', position: 'center' })
+      //.resize(1200, 630, { fit: 'cover', position: 'center' })
       .composite([{ input: Buffer.from(svgOverlay), top: 0, left: 0 }])
-      .webp({ quality: 100 })
+      .pipelineColourspace('rgb16')
+      .webp({ lossless: true })
       .toBuffer()
 
     const path1200 = path.join(outputDir, `${slug}.webp`)

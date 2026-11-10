@@ -182,7 +182,7 @@ REDIRECT OK -> https://www.progweb.it/engineering/progettazione-software-svilupp
 
 https://www.progweb.it/html-attributo-loading-lazy-load
 REDIRECT OK -> https://www.progweb.it/html/attributo-loading-lazy-load
-
+POST INSERITO OK
 
 
 
@@ -190,7 +190,7 @@ REDIRECT OK -> https://www.progweb.it/html/attributo-loading-lazy-load
 
 https://www.progweb.it/css-variabili-sintassi-esempi
 REDIRECT OK -> https://www.progweb.it/css/variabili-sintassi-esempi
-
+POST INSERITO OK
 
 
 
@@ -206,7 +206,7 @@ REDIRECT OK -> https://www.progweb.it/javascript/promise-definizione-sintassi-es
 
 https://www.progweb.it/javascript-generator-definizione-esempi
 REDIRECT OK -> https://www.progweb.it/javascript/generator-definizione-esempi
-
+POST INSERITO OK
 
 
 

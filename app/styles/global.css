@@ -83,11 +83,6 @@ ul li, ol li {
   margin: var(--small-space) 0;
 }
 
-code {
-  font-family: monospace;
-  font-weight: 550;
-}
-
 .hide {
   display: none!important;
 }

@@ -6,6 +6,10 @@
   min-width: 75%;
   max-width: 100%;
   counter-reset: line;
+  code {
+    font-family: monospace;
+    font-weight: 550;
+  }
 }
 .code h4 {
   text-align: center;

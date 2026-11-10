@@ -1,12 +1,39 @@
 [
   {
+    "serial": 11,
+    "slug": "progettazione-software-sviluppo-evoluzionistico",
+    "date": "2026-11-25",
+    "topic": "engineering",
+    "title": "Sviluppo evoluzionistico: un approccio organico alla progettazione software",
+    "desc": "Un approccio allo sviluppo software che si ispira al modo in cui gli organismi viventi crescono e si sviluppano in Natura seguendo una crescita equilibrata e interdipendente tra tutte le parti coinvolte",
+    "body": "<p>Un approccio allo sviluppo software che si ispira al modo in cui gli organismi viventi crescono e si sviluppano in Natura seguendo una crescita equilibrata e interdipendente tra tutte le parti coinvolte</p><h3>Introduzione</h3><h4>Concetto di sviluppo \"organico\" (o \"evoluzionistico\")</h4><p>Lo sviluppo software è spesso percepito come un processo tecnico e lineare; cosa accadrebbe se lo considerassimo, invece, come qualcosa di più naturale e fluido? Da questa idea nasce il concetto di Sviluppo Organico, un approccio che <em>si ispira al modo in cui gli organismi viventi crescono e si sviluppano in Natura</em> seguendo <em>uno sviluppo equilibrato e interdipendente tra tutte le parti che li compongono</em>.</p><p>Proprio come un organismo non può crescere concentrandosi su una sola parte alla volta (un braccio, una gamba o un suo organo specifico) anche un software dovrebbe...</p>"
+  },
+  {
+    "serial": 10,
+    "slug": "attributo-loading-lazy-load",
+    "date": "2026-11-25",
+    "topic": "html",
+    "title": "Attributo \"loading\" in HTML5 - Migliora performance e UX con il lazy load nativo!",
+    "desc": "Migliorare l'efficienza del caricamento delle pagine web ritardando il caricamento delle immagini e degli iframe non ancora visibili a schermo",
+    "body": "<p>Migliorare l'efficienza del caricamento delle pagine web ritardando il caricamento delle immagini e degli iframe non ancora visibili a schermo</p><h3>Introduzione</h3><h4>Breve descrizione dell'attributo \"loading\"</h4><p>L'attributo </span>loading</span> in HTML5 è stato introdotto <em>per migliorare l'efficienza del caricamento delle pagine web</em>. Questo attributo, applicabile alle immagini (&lt;img&gt;) e agli iframe (&lt;iframe&gt;), consente agli sviluppatori di specificare come e quando questi elementi devono essere caricati rispetto alla visualizzazione del contenuto da parte dell'utente (per esempio: se l'immagine non è ancora visibile perchè ancora below-the-fold). La sua funzione principale è ottimizzare l'utilizzo delle risorse, ritardando il caricamento degli elementi non essenziali fino a quando non diventano visibili nel viewport a seguito dell'attività di scrolling dell'utente. In questo modo, si riducono i tempi di caricamento iniziali della pagina, migliorando sia l'esperienza utente (UX) sia il posizionamento nei motori di ricerca, che premiano le pagine con prestazioni elevate...</p>"
+  },
+  {
+    "serial": 9,
+    "slug": "custom-properties-variabili-sintassi-esempi",
+    "date": "2026-11-25",
+    "topic": "css",
+    "title": "Variabili in CSS: scopri le Custom Properties e migliora il codice dei tuoi fogli di stile",
+    "desc": "Attraverso le Custom Properties è ora possibile definire e riutilizzare delle variabili all'interno dei nostri fogli di stile.",
+    "body": "<p>Attraverso le Custom Properties è ora possibile definire e riutilizzare delle variabili all'interno dei nostri fogli di stile.</p><h3>Introduzione alle variabili in CSS</h3><p>Negli ultimi anni, le variabili in CSS (note anche come \"<em>CSS Custom Properties</em>\") hanno trasformato il modo in cui progettiamo e gestiamo lo stile dei siti web. Con l'introduzione di questa funzionalità, è diventato possibile definire dei valori riutilizzabili all'interno di un foglio di stile, portando un notevole miglioramento in termini di manutenibilità e scalabilità del codice.</p><p>Le variabili <em>sono valori che possiamo definire una volta e riutilizzare</em> in più punti del nostro codice e <em>permettono di centralizzare e organizzare le proprietà</em> che vengono usate più volte, come colori, spaziature e dimensioni dei caratteri...</p>"
+  },
+  {
     "serial": 8,
     "slug": "funzioni-generator-generatori-definizione-esempi",
     "date": "2026-11-25",
     "topic": "javascript",
     "title": "Cosa sono i Generator in JavaScript? Scopri tutte le potenzialità dei Generatori!",
-    "desc": "Le funzioni generatrici (generators), introdotte con ECMAScript 6, permettono di eseguire, interrompere e riprendele lìesecuzione del loro codice... Come utilizzarle nel nostro codice.",
-    "body": "<p>Le funzioni generatrici (generators), introdotte con ECMAScript 6, permettono di eseguire, interrompere e riprendele lìesecuzione del loro codice... Come utilizzarle nel nostro codice.</p><h3>Introduzione</h3><h4>Introduzione alle funzioni generatrici in JavaScript</h4><p>Le funzioni generatrici (generators) sono state introdotte con ECMAScript 6 (ES6), la loro particolarità principale è riferita al fatto che <em>l'esecuzione del loro codice può essere interrotta e ripresa più volte</em> generando e restituendo valori \"intermedi\" al metodo chiamante. Grazie alla loro capacità di sospendere e riprendere l'esecuzione, sono una scelta ottimale nel caso di iterazioni complesse, flussi di dati, implementazioni asincrone o quando si lavora con sequenze di valori o calcoli \"on demand\".</p><h3>Differenza tra una funzione ordinaria e una funzione generatrice</h3><p>A differenza di una normale funzione, che restituisce un solo valore al termine della sua esecuzione, <em>i generatori JavaScript restituiscono molteplici valori</em> mano a mano che il loro codice viene eseguito...</p>"
+    "desc": "Le funzioni generatrici (generators), introdotte con ECMAScript 6, permettono di eseguire, interrompere e riprendele l'esecuzione del loro codice... Come utilizzarle nel nostro progetto.",
+    "body": "<p>Le funzioni generatrici (generators), introdotte con ECMAScript 6, permettono di eseguire, interrompere e riprendele l'esecuzione del loro codice... Come utilizzarle nel nostro progetto.</p><h3>Introduzione</h3><h4>Introduzione alle funzioni generatrici in JavaScript</h4><p>Le funzioni generatrici (generators) sono state introdotte con ECMAScript 6 (ES6), la loro particolarità principale è riferita al fatto che <em>l'esecuzione del loro codice può essere interrotta e ripresa più volte</em> generando e restituendo valori \"intermedi\" al metodo chiamante. Grazie alla loro capacità di sospendere e riprendere l'esecuzione, sono una scelta ottimale nel caso di iterazioni complesse, flussi di dati, implementazioni asincrone o quando si lavora con sequenze di valori o calcoli \"on demand\".</p><h3>Differenza tra una funzione ordinaria e una funzione generatrice</h3><p>A differenza di una normale funzione, che restituisce un solo valore al termine della sua esecuzione, <em>i generatori JavaScript restituiscono molteplici valori</em> mano a mano che il loro codice viene eseguito...</p>"
   },
   {
     "serial": 7,

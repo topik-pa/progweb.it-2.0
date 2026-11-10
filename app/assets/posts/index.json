@@ -1,5 +1,14 @@
 [
   {
+    "serial": 6,
+    "slug": "selettore-has-sintassi-esempi",
+    "date": "2026-11-25",
+    "topic": "css",
+    "title": "Scopri come utilizzare il nuovo selettore :has() in CSS",
+    "desc": "Il selettore has() in CSS - descrizione ed esempi pratici",
+    "body": "<p>Il selettore has() in CSS - descrizione ed esempi pratici</p><h2>Il selettore :has() in CSS4</h2><p>Il selettore :has() è una delle 4 <em>pseudo-classi funzionali</em> (insieme a: :is(); :where() e :not()) e consente agli sviluppatori di selezionare elementi del DOM che contengono al loro interno elementi che rispondono al selettore passato come parametro nella funzione :has(). E' essenzialmente <em>un selettore che permette di ottenere il \"parent\"</em> degli elementi definiti attraverso il parametro.</p><p>Provo a fare un semplice esempio chiarificatore... </p><div class=\"code\"><span>Esempio 1 - selettore CSS :has()</span><code> <pre>a:has(img)</pre></code></div><p>L'istruzione CSS qui sopra seleziona tutti gli elementi &lt;a&gt; che hanno al loro interno un elemento &lt;img&gt;...</p>"
+  },
+  {
     "serial": 5,
     "slug": "nodejs-express-setup-progetto",
     "date": "2026-11-25",

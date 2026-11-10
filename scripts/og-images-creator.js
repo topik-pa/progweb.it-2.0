@@ -6,12 +6,11 @@ import path from 'path'
 const [,, topic, slug, title, subtitle, subtitle2] = process.argv
 
 if (!topic || !slug, !title || !subtitle) {
-  console.error('Uso: node add-text.js "<topic>" "<slug>" "<titolo>" "<sottotitolo-1>" "<sottotitolo-2>"')
+  console.error('Uso: node og-images-creator.js "<topic>" "<slug>" "<titolo>" "<sottotitolo>" ["<sottotitolo-2>"]')
   process.exit(1)
 }
 
 function escapeXml(unsafe) {
-  // console.log('undafe', unsafe)
   return (''+unsafe).replace(/[<>&'"]/g, (c) => {
     switch (c) {
     case '<': return '&lt;'
@@ -24,15 +23,12 @@ function escapeXml(unsafe) {
   })
 }
 
-
 async function addTextToImage() {
   try {
     // 1. Carica l'immagine per ottenerne le dimensioni
     const imagePath = path.join(import.meta.dirname, `${topic}.png`)
     const image = sharp(imagePath)
     const metadata = await image.metadata()
-
-    //console.log(metadata)
 
     // 2. Definisci le coordinate di partenza richieste
     const startX = 40
@@ -80,13 +76,7 @@ async function addTextToImage() {
     <text x="${escapeXml(startX)}" y="${escapeXml(startY + 147)}" class="subtitle" filter="url(#subtitle-shadow)">${escapeXml(subtitle2 || '')}</text>
   </svg>
 `
-
-
-
-    // 4. Converte la stringa SVG in un Buffer
-    // const svgBuffer = Buffer.from(svgOverlay)
-
-    // 5. Sovrappone l'SVG all'immagine originale e salva il file di output
+    // 4. Sovrappone l'SVG all'immagine originale e salva il file di output
     // const parsedPath = path.parse(imagePath)
     const outputDir = path.join(import.meta.dirname, '..', 'app', 'assets', 'images', 'posts', topic)
 
@@ -97,6 +87,7 @@ async function addTextToImage() {
       .webp({ lossless: true })
       .toBuffer()
 
+    // 5. Genera le og-image
     const path1200 = path.join(outputDir, `${slug}.webp`)
     await sharp(masterImageBuffer).toFile(path1200)
     console.log(`Generato formato master: ${path1200}`)

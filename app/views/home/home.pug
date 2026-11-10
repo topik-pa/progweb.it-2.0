@@ -39,12 +39,13 @@ block main
         small #{proj_description}
     div.intro
       p Qui troverai #[em pillole quotidiane] di sviluppo Web e non solo... Con "pillole" si intendono articoli, guide avvisi #[em sulle novità del mondo della Programmazione Web], sulle tecniche per imbastire una Architettura informativa, sulla Sicurezza e tutto ciò che concerne questi aspetti.
-      p Gli argomenti principali sono: i #[em Cascading Style Sheets] (CSS), l'#[em Hyper Text Markup Language] (HTML), il linguaggio di #[em scripting JavaScript], il #[em framework NodeJS] (basato su JavaScript), l'#[em Architettura] e la #[em Sicurezza] in ambito Web.
-      p Se ti fa piacere rimanere aggiornato sulle pubblicazioni quotidiane di nuovi post, ti suggeriamo di iscriverti sui nostri canali social: 
+      p Più specificatamente, #[em gli argomenti] principali vertono sulle seguenti categorie: i #[em Cascading Style Sheets] (CSS), l'#[em Hyper Text Markup Language] (HTML), il linguaggio di #[em scripting JavaScript], il #[em framework NodeJS] (basato su JavaScript), l'#[em Architettura] e la #[em Sicurezza] in ambito Web.
+      p L'#[em utente ideale] ha già una certa #[em esperienza di programmazione] e ha la necessità di conoscere più dettagliatamente certi argomenti, oppure ha la semplice necessità di #[em essere aggiornato] ripetto alle novità del settore. In ogni caso la trattazione è il più possibili semplice ed esaustiva cosicchè anche l'#[em utente alle prime armi] potrà cimentarsi con le nozioni e il codice presente nei vari post.
+      p Se ti fa piacere rimanere aggiornato sulle #[em pubblicazioni quotidiane] di nuovi post, ti suggeriamo di #[em iscriverti] sui nostri canali social: 
         each social in socials
           span 
             a(href=social.url, title=social.name) #[i(class=social.icon)] #{social.name}&nbsp;&nbsp;
-      p Questi che seguono sono gli ultimi articoli pubblicati...#[br]#[br]
+      p #[br]Questi che seguono sono gli ultimi articoli pubblicati...#[br]#[br]
 
     include ../components/post_preview/post_preview.pug
 

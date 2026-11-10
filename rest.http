@@ -17,11 +17,23 @@ GET http://localhost:3000/
 ### Contacts
 GET http://localhost:3000/contacts
 
-### PrivacyPolicy
+### Privacy Policy
 GET http://localhost:3000/privacy
 
 ### Slugged 404
-GET http://localhost:3000/js/promise-esempi-sintassi
+GET http://localhost:3000/javascript/promise-esempi-sintassi-fake
+
+### Simple 404
+GET http://localhost:3000/pippo
+
+### Slugged post
+GET http://localhost:3000/javascript/jwt-autenticazione-stateless
+
+### All posts
+GET http://localhost:3000/posts
+
+### Posts HTML
+GET http://localhost:3000/html
 
 
 

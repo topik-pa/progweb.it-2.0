@@ -4,15 +4,11 @@
 ## TODO
 controlla url che hanno cambiato indirizzo, url non più esistenti e nuove url
 caricare i post precedenti
-Landing pages: importare e inserire su side.pug
 
 googleSiteVerification
 
 testo pagina Contatti
 Pagina Chi siamo
-
-Strano bug Firefox immagine preview HP
-
 
 
 Dopo...
@@ -217,7 +213,7 @@ REDIRECT OK -> https://www.progweb.it/javascript/generator-definizione-esempi
 
 https://www.progweb.it/security-by-design-principi
 REDIRECT OK -> https://www.progweb.it/security/security-by-design-principi
-
+POST INSERITO OK
 
 
 
@@ -255,7 +251,7 @@ REDIRECT OK -> https://www.progweb.it/engineering/programmazione-strutturata-ogg
 
 https://www.progweb.it/css-selettore-has-esempi
 REDIRECT OK -> https://www.progweb.it/css/selettore-has-esempi
-
+POST INSERITO OK
 
 
 

@@ -1,12 +1,30 @@
 [
   {
+    "serial": 8,
+    "slug": "funzioni-generator-generatori-definizione-esempi",
+    "date": "2026-11-25",
+    "topic": "javascript",
+    "title": "Cosa sono i Generator in JavaScript? Scopri tutte le potenzialità dei Generatori!",
+    "desc": "Le funzioni generatrici (generators), introdotte con ECMAScript 6, permettono di eseguire, interrompere e riprendele lìesecuzione del loro codice... Come utilizzarle nel nostro codice.",
+    "body": "<p>Le funzioni generatrici (generators), introdotte con ECMAScript 6, permettono di eseguire, interrompere e riprendele lìesecuzione del loro codice... Come utilizzarle nel nostro codice.</p><h3>Introduzione</h3><h4>Introduzione alle funzioni generatrici in JavaScript</h4><p>Le funzioni generatrici (generators) sono state introdotte con ECMAScript 6 (ES6), la loro particolarità principale è riferita al fatto che <em>l'esecuzione del loro codice può essere interrotta e ripresa più volte</em> generando e restituendo valori \"intermedi\" al metodo chiamante. Grazie alla loro capacità di sospendere e riprendere l'esecuzione, sono una scelta ottimale nel caso di iterazioni complesse, flussi di dati, implementazioni asincrone o quando si lavora con sequenze di valori o calcoli \"on demand\".</p><h3>Differenza tra una funzione ordinaria e una funzione generatrice</h3><p>A differenza di una normale funzione, che restituisce un solo valore al termine della sua esecuzione, <em>i generatori JavaScript restituiscono molteplici valori</em> mano a mano che il loro codice viene eseguito...</p>"
+  },
+  {
+    "serial": 7,
+    "slug": "security-by-design-principi-paradigmi",
+    "date": "2026-11-25",
+    "topic": "security",
+    "title": "La Security by Design - scopri quali sono i 10 paradigmi della Sicurezza Web",
+    "desc": "Un approccio orientato alla Sicurezza: 10 paradigmi da tenere a mente e implementare fin dalle prime fasi dello sviluppo",
+    "body": "<p>Come e perchè integrare i principali paradigmi di sicurezza nell'implementazione del nostro sistema software fin dalle primissime fasi di progettazione. Che cosa significa il concetto di \"Security by Design\" e quali sono i vantaggi che offre?</p><h3>Il concetto di Security by Design </h3><p>La <em>Security by Design</em> è un approccio fondamentale nello sviluppo software che mira ad integrare l'<em>implementazione della sicurezza fin dalle prime fasi del ciclo di vita del software</em>. In un tale approccio, gli strumenti e le tecniche di sicurezza fanno parte integrante dello sviluppo e non sono una sua appendice da integrare una volta che il lavoro di sviluppo principale è concluso. Il costo derivante dalla applicazione di questi principi è affrontato fin dalle prime fasi di sviluppo diventando <em>un investimento piuttosto che un debito tecnico</em> da affrontare in un momento successivo...</p>"
+  },
+  {
     "serial": 6,
     "slug": "selettore-has-sintassi-esempi",
     "date": "2026-11-25",
     "topic": "css",
     "title": "Scopri come utilizzare il nuovo selettore :has() in CSS",
     "desc": "Il selettore has() in CSS - descrizione ed esempi pratici",
-    "body": "<p>Il selettore has() in CSS - descrizione ed esempi pratici</p><h2>Il selettore :has() in CSS4</h2><p>Il selettore :has() è una delle 4 <em>pseudo-classi funzionali</em> (insieme a: :is(); :where() e :not()) e consente agli sviluppatori di selezionare elementi del DOM che contengono al loro interno elementi che rispondono al selettore passato come parametro nella funzione :has(). E' essenzialmente <em>un selettore che permette di ottenere il \"parent\"</em> degli elementi definiti attraverso il parametro.</p><p>Provo a fare un semplice esempio chiarificatore... </p><div class=\"code\"><span>Esempio 1 - selettore CSS :has()</span><code> <pre>a:has(img)</pre></code></div><p>L'istruzione CSS qui sopra seleziona tutti gli elementi &lt;a&gt; che hanno al loro interno un elemento &lt;img&gt;...</p>"
+    "body": "<p>Il selettore has() in CSS - descrizione ed esempi pratici</p><h3>Il selettore :has() in CSS4</h3><p>Il selettore :has() è una delle 4 <em>pseudo-classi funzionali</em> (insieme a: :is(); :where() e :not()) e consente agli sviluppatori di selezionare elementi del DOM che contengono al loro interno elementi che rispondono al selettore passato come parametro nella funzione :has(). E' essenzialmente <em>un selettore che permette di ottenere il \"parent\"</em> degli elementi definiti attraverso il parametro.</p><p>Provo a fare un semplice esempio chiarificatore... </p><div class=\"code\"><span>Esempio 1 - selettore CSS :has()</span><code> <pre>a:has(img)</pre></code></div><p>L'istruzione CSS qui sopra seleziona tutti gli elementi &lt;a&gt; che hanno al loro interno un elemento &lt;img&gt;...</p>"
   },
   {
     "serial": 5,

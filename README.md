@@ -164,7 +164,7 @@ REDIRECT OK -> https://www.progweb.it/html/html-tag-dialog-utilizzo-esempi
 
 https://www.progweb.it/javascript-throttle-debounce-definizione-esempi
 REDIRECT OK -> https://www.progweb.it/javascript/throttle-debounce-definizione-esempi
-
+POST INSERITO OK
 
 
 
@@ -173,7 +173,7 @@ REDIRECT OK -> https://www.progweb.it/javascript/throttle-debounce-definizione-e
 
 https://www.progweb.it/progettazione-software-sviluppo-evoluzionistico
 REDIRECT OK -> https://www.progweb.it/engineering/progettazione-software-sviluppo-evoluzionistico
-
+POST INSERITO OK
 
 
 

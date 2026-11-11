@@ -1,5 +1,14 @@
 [
   {
+    "serial": 12,
+    "slug": "throttle-debounce-definizione-esempi",
+    "date": "2026-11-25",
+    "topic": "javascript",
+    "title": "Throttle e debounce in JavaScript: definizione, esempi e casi d'uso",
+    "desc": "Gestire eventi che accadono o si susseguono ad intervalli di tempo molto frequenti in maniera efficente e senza appesantire la nostra app",
+    "body": "<p>Gestire eventi che accadono o si susseguono ad intervalli di tempo molto frequenti in maniera efficente e senza appesantire la nostra app</p><h3>Introduzione</h3><p>Nella programmazione JavaScript, capita spesso di dover <em>gestire eventi che accadono o si susseguono ad intervalli di tempo molto frequenti</em>; per esempio lo scroll del mouse, il resize della finestra o la digitazione di alcuni caratteri all'interno di un campo di testo. Nel primo caso in  elenco, lo scroll della rotellina del mouse per visualizzare il contenuto below-the-fold può generare decine se non centinaia (dipende dalla velocità di scroll) di eventi. Se il nostro compito, come programmatori, è quello di mettersi all'ascolto di questi eventi e lanciare l'esecuzione di un metodo ad ognuno di essi, potremmo incorrere in seri problemi di performance con rallentamenti visibili nelle applicazioni e conseguente degradazione della user experience.</p><p>Qui entrano in gioco due tecniche fondamentali: throttle e debounce. Entrambe <em>servono a limitare il numero di volte in cui una funzione viene eseguita</em>, ma lo fanno in modi diversi e con scopi differenti. In questo articolo vedremo ciascuna di queste tecniche, quando usarle e come implementarle.</p>"
+  },
+  {
     "serial": 11,
     "slug": "progettazione-software-sviluppo-evoluzionistico",
     "date": "2026-11-25",

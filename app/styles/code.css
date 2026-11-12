@@ -1,4 +1,4 @@
-.code {
+.coding {
   font-family: monospace;
   margin: var(--xx-large-space) auto;
   font-weight: 500;
@@ -6,17 +6,17 @@
   min-width: 75%;
   max-width: 100%;
   counter-reset: line;
-  code {
+  .code {
     font-family: monospace;
     font-weight: 550;
   }
 }
-.code h4 {
+.coding h4 {
   text-align: center;
   font-style: italic;
   font-weight: 550;
 }
-.code code {
+.coding .code {
   padding: 1rem;
   background: var(--black);
   display: block;
@@ -26,23 +26,23 @@
   border-radius: var(--border-radius-small);
   text-shadow: none;
 }
-.code code pre::before {
+.coding .code pre::before {
   counter-increment: line;
   content: counter(line);
   margin-right: 1rem;
   color: #7bd316;
 }
-.code.shell code pre::before {
+.coding.shell .code pre::before {
   content: '$';
 }
-.code span.comment {
+.coding span.comment {
   color: var(--gray);
   font-style: italic;
 }
 
-.code.changed pre {
+.coding.changed pre {
   color: var(--light-gray);
 }
-.code.changed pre.change {
+.coding.changed pre.change {
   color: var(--white);
 }

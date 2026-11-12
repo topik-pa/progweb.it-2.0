@@ -93,7 +93,7 @@
   font-style: italic;
 }
 
-#post article h2:nth-of-type(2), #post article aside:nth-of-type(1), #post article .code:nth-of-type(1), #post article h3:nth-of-type(2) {
+#post article h2:nth-of-type(2), #post article aside:nth-of-type(1), #post article .coding:nth-of-type(1), #post article h3:nth-of-type(2) {
   clear: both;
 }
 

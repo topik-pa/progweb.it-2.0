@@ -46,3 +46,9 @@
 .coding.changed pre.change {
   color: var(--white);
 }
+
+span.code {
+  font-family: monospace;
+  font-weight: 500;
+  border: 1px solid var(--lighter-gray);
+}

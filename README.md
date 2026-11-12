@@ -3,7 +3,6 @@
 
 ## TODO
 controlla url che hanno cambiato indirizzo, url non più esistenti e nuove url
-caricare i post precedenti
 
 googleSiteVerification
 
@@ -155,7 +154,7 @@ POST INSERITO OK
 
 https://www.progweb.it/html-tag-dialog-utilizzo-esempi
 REDIRECT OK -> https://www.progweb.it/html/html-tag-dialog-utilizzo-esempi
-
+POST INSERITO OK
 
 
 
@@ -198,7 +197,7 @@ POST INSERITO OK
 
 https://www.progweb.it/javascript-promise-definizione-sintassi-esempi
 REDIRECT OK -> https://www.progweb.it/javascript/promise-definizione-sintassi-esempi
-
+POST INSERITO OK
 
 
 
@@ -243,7 +242,7 @@ IMPORTARE CONTENUTO / ELIMINARE
 
 https://www.progweb.it/programmazione-strutturata-oggetti-funzionale
 REDIRECT OK -> https://www.progweb.it/engineering/programmazione-strutturata-oggetti-funzionale
-
+POST INSERITO OK
 
 
 

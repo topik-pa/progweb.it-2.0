@@ -1,5 +1,32 @@
 [
   {
+    "serial": 15,
+    "slug": "tag-dialog-utilizzo-esempi",
+    "date": "2026-11-25",
+    "topic": "html",
+    "title": "Il tag <dialog> in HTML5: esempi e spiegazione su come generare finestre di dialogo",
+    "desc": "Come utilizzare il nuovo tag &lt;dialog&gt; di HTML5 per generare finestre modali e non modali. I vantaggi di una soluzione nativa ed esempi di codice",
+    "body": "<p>Come utilizzare il nuovo tag &lt;dialog&gt; di HTML5 per generare finestre modali e non modali. I vantaggi di una soluzione nativa ed esempi di codice</p><h3>Introduzione</h3><p>La gestione di popup e finestre modali è sempre stata una sfida per gli sviluppatori web. Tradizionalmente, <em>questi elementi richiedevano combinazioni di HTML, CSS e JavaScript</em> creati ad hoc dallo sviluppatore per funzionare correttamente. Con l'introduzione dell'elemento &lt;dialog&gt; in HTML5, <em>questa complessità viene ridotta</em>, offrendo <em>una soluzione nativa e standard per creare finestre di dialogo</em> accessibili e facili da gestire. In questo articolo esploreremo come utilizzare &lt;dialog&gt; e quali vantaggi offre...</p>"
+  },
+  {
+    "serial": 14,
+    "slug": "promise-definizione-sintassi-esempi",
+    "date": "2026-11-25",
+    "topic": "javascript",
+    "title": "JavaScript Promise: impara a gestire efficacemente gli eventi asincroni!",
+    "desc": "Gestire le operazioni asincrone in JavaScript attraverso le Promise: una introduzione passo dopo passo alla programmazione asincrona.",
+    "body": "<p>Gestire le operazioni asincrone in JavaScript attraverso le Promise: una introduzione passo dopo passo alla programmazione asincrona.</p><h3>Introduzione alle operazioni asincrone</h3><h4>Cos'è una operazione asincrona?</h4><p>Iniziamo prima definendo che cos'è la <em>programmazione sincrona</em>: in tale contesto il programma esegue tutte le istruzioni che lo compongono in maniera lineare una dopo l'altra. In altri termini, l'esecuzione attende di aver portato a termine una istruzione prima di passare a quella immediatamente successiva. Un esempio banale è il seguente, dove ogni log viene stampato a console esattamente come ce lo aspettiamo: \"1\", \"2\", \"3\"...</p>"
+  },
+  {
+    "serial": 13,
+    "slug": "programmazione-strutturata-oggetti-funzionale",
+    "date": "2026-11-25",
+    "topic": "engineering",
+    "title": "Scopri quali sono i 3 principali paradigmi della programmazione software",
+    "desc": "Tipologie di programmazione, Matematica e Scienza, Dijkstra e il goto... Un post sulla storia e sui concetti generali della Programmazione",
+    "body": "<p>Tipologie di programmazione, Matematica e Scienza, Dijkstra e il goto... Un post sulla storia e sui concetti generali della Programmazione</p><h3>Programmazione strutturata</h3><p>Lo scopo della programmazione strutturata è la <em>destrutturazione di una applicazione software in moduli</em>, ogni modulo può, a sua volta, essere suddiviso ricorsivamente in componenti più piccole, fino ad arrivare alla <em>singola funzione atomica</em>. Questo paradigma permette di affrontare un problema complesso (la nostra applicazione) attraverso un <em>approccio divide-et-impera</em> separando le sue funzionalità in unità più piccole e gestendole in maniera indipendente: è un approcciò più strategico nella gestione della complessità. </p><p>Ogni funzione può essere descritta tramite l'utilizzo delle <em>tre strutture di controllo</em>: sequenza, selezione e iterazione, ne deriva che tutti i programmi, a prescindere dalla loro complessità, possono essere descritti utilizzando solamente questi tre principi di base...</p>"
+  },
+  {
     "serial": 12,
     "slug": "throttle-debounce-definizione-esempi",
     "date": "2026-11-25",

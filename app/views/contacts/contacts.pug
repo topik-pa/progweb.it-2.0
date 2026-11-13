@@ -13,4 +13,21 @@ block append meta
   link(rel="canonical", href=canonical)
 
 block main
-  h1= __('contacts.title')
+  section
+    h1= __('contacts.title')
+    p Contatta PWI per domande, informazioni o altre necessità attraverso i seguenti canali.
+    section 
+      h2 Tramite email
+      p E' possibile utilizzare questi indirizzo email: 
+        br
+        br
+        a(href="mailto:info@progweb.it") info@progweb.it
+        br
+        a(href="mailto:marco@progweb.it") marco@progweb.it
+    section
+      h2 Tramite Social
+      p E' possibile mandare un messaggio tramite i seguenti Social
+      ul 
+        each social in socials
+          li
+            a(href=social.url, title=social.name) #[i(class=social.icon)] #{social.name}

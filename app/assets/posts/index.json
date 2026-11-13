@@ -2,7 +2,7 @@
   {
     "serial": 15,
     "slug": "tag-dialog-utilizzo-esempi",
-    "date": "2026-11-25",
+    "date": "2026-11-13",
     "topic": "html",
     "title": "Il tag <dialog> in HTML5: esempi e spiegazione su come generare finestre di dialogo",
     "desc": "Come utilizzare il nuovo tag &lt;dialog&gt; di HTML5 per generare finestre modali e non modali. I vantaggi di una soluzione nativa ed esempi di codice",
@@ -11,7 +11,7 @@
   {
     "serial": 14,
     "slug": "promise-definizione-sintassi-esempi",
-    "date": "2026-11-25",
+    "date": "2026-11-10",
     "topic": "javascript",
     "title": "JavaScript Promise: impara a gestire efficacemente gli eventi asincroni!",
     "desc": "Gestire le operazioni asincrone in JavaScript attraverso le Promise: una introduzione passo dopo passo alla programmazione asincrona.",
@@ -20,7 +20,7 @@
   {
     "serial": 13,
     "slug": "programmazione-strutturata-oggetti-funzionale",
-    "date": "2026-11-25",
+    "date": "2026-11-07",
     "topic": "engineering",
     "title": "Scopri quali sono i 3 principali paradigmi della programmazione software",
     "desc": "Tipologie di programmazione, Matematica e Scienza, Dijkstra e il goto... Un post sulla storia e sui concetti generali della Programmazione",
@@ -29,7 +29,7 @@
   {
     "serial": 12,
     "slug": "throttle-debounce-definizione-esempi",
-    "date": "2026-11-25",
+    "date": "2026-11-04",
     "topic": "javascript",
     "title": "Throttle e debounce in JavaScript: definizione, esempi e casi d'uso",
     "desc": "Gestire eventi che accadono o si susseguono ad intervalli di tempo molto frequenti in maniera efficente e senza appesantire la nostra app",
@@ -38,7 +38,7 @@
   {
     "serial": 11,
     "slug": "progettazione-software-sviluppo-evoluzionistico",
-    "date": "2026-11-25",
+    "date": "2026-11-01",
     "topic": "engineering",
     "title": "Sviluppo evoluzionistico: un approccio organico alla progettazione software",
     "desc": "Un approccio allo sviluppo software che si ispira al modo in cui gli organismi viventi crescono e si sviluppano in Natura seguendo una crescita equilibrata e interdipendente tra tutte le parti coinvolte",
@@ -47,7 +47,7 @@
   {
     "serial": 10,
     "slug": "attributo-loading-lazy-load",
-    "date": "2026-11-25",
+    "date": "2026-10-29",
     "topic": "html",
     "title": "Attributo \"loading\" in HTML5 - Migliora performance e UX con il lazy load nativo!",
     "desc": "Migliorare l'efficienza del caricamento delle pagine web ritardando il caricamento delle immagini e degli iframe non ancora visibili a schermo",
@@ -56,7 +56,7 @@
   {
     "serial": 9,
     "slug": "custom-properties-variabili-sintassi-esempi",
-    "date": "2026-11-25",
+    "date": "2026-10-25",
     "topic": "css",
     "title": "Variabili in CSS: scopri le Custom Properties e migliora il codice dei tuoi fogli di stile",
     "desc": "Attraverso le Custom Properties è ora possibile definire e riutilizzare delle variabili all'interno dei nostri fogli di stile.",
@@ -65,7 +65,7 @@
   {
     "serial": 8,
     "slug": "funzioni-generator-generatori-definizione-esempi",
-    "date": "2026-11-25",
+    "date": "2026-10-20",
     "topic": "javascript",
     "title": "Cosa sono i Generator in JavaScript? Scopri tutte le potenzialità dei Generatori!",
     "desc": "Le funzioni generatrici (generators), introdotte con ECMAScript 6, permettono di eseguire, interrompere e riprendele l'esecuzione del loro codice... Come utilizzarle nel nostro progetto.",
@@ -74,7 +74,7 @@
   {
     "serial": 7,
     "slug": "security-by-design-principi-paradigmi",
-    "date": "2026-11-25",
+    "date": "2026-10-15",
     "topic": "security",
     "title": "La Security by Design - scopri quali sono i 10 paradigmi della Sicurezza Web",
     "desc": "Un approccio orientato alla Sicurezza: 10 paradigmi da tenere a mente e implementare fin dalle prime fasi dello sviluppo",
@@ -83,7 +83,7 @@
   {
     "serial": 6,
     "slug": "selettore-has-sintassi-esempi",
-    "date": "2026-11-25",
+    "date": "2026-10-13",
     "topic": "css",
     "title": "Scopri come utilizzare il nuovo selettore :has() in CSS",
     "desc": "Il selettore has() in CSS - descrizione ed esempi pratici",
@@ -92,7 +92,7 @@
   {
     "serial": 5,
     "slug": "nodejs-express-setup-progetto",
-    "date": "2026-11-25",
+    "date": "2026-10-10",
     "topic": "nodejs",
     "title": "Setup di un progetto NodeJS / Express - Strumenti e metodologie per iniziare un nuovo progetto",
     "desc": "Iniziare a scrivere in NodeJS/Express con il piede giusto: strumenti e metodologie professionali per l'init di un nuovo progetto",
@@ -101,7 +101,7 @@
   {
     "serial": 4,
     "slug": "architettura-del-sw-definizione-obiettivi",
-    "date": "2026-11-25",
+    "date": "2026-10-07",
     "topic": "engineering",
     "title": "Perchè implementare un corretta Architettura del Software? Concetti, esempi e vantaggi di una buona scelta architetturale",
     "desc": "Perchè si implementa una Architettura coerente ed efficente? Quali sono le ripercussioni sul Progetto e su tutto il Team? Qui metto in luce alcuni concetti e idee che stanno alla base di una buona Architetture del Software.",
@@ -110,7 +110,7 @@
   {
     "serial": 3,
     "slug": "closure-definizione-esempi-uso",
-    "date": "2026-11-25",
+    "date": "2026-10-04",
     "topic": "javascript",
     "title": "JavaScript Closure - Tutti i segreti e gli utilizzi delle Closure in JavaScript",
     "desc": "Tutte le volte che ho dovuto affrontare il discorso CLOSURE in JS finivo per avere una impressione riassumibile nella frase: \"Tutto molto bello, ma... QUINDI?\"",
@@ -119,7 +119,7 @@
   {
     "serial": 2,
     "slug": "attributo-ping-definizione-esempi",
-    "date": "2026-11-25",
+    "date": "2026-10-01",
     "topic": "html",
     "title": "L'attributo 'ping': del tag <a> in HTML5: a cosa serve e come utilizzarlo",
     "desc": "Fin dalla sua pubblicazione HTML5 ha introdotto alcuni attributi che, seppur interessanti, non sono mai stati usati o compresi fino in fondo, l'attributo 'ping' è secondo me uno di questi.",
@@ -128,7 +128,7 @@
   {
     "serial": 1,
     "slug": "jwt-autenticazione-stateless",
-    "date": "2026-11-25",
+    "date": "2026-09-25",
     "topic": "javascript",
     "title": "Scopri i JSON Web Token (JWT) - autenticazione stateless per le tue applicazioni web",
     "desc": "Come gestire i JSON Web Token (JWT) per implemetare applicazioni web stateless",

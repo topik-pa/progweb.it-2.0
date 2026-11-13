@@ -27,7 +27,7 @@
 
   "contacts": {
     "meta": {
-      "keywords": "contatti",
+      "keywords": "contatti, contact, us",
       "title": "Contattaci",
       "description": "Pagina Contatti"
     },
@@ -36,7 +36,7 @@
 
   "posts": {
     "meta": {
-      "keywords": "post",
+      "keywords": "post, ultimi, lista",
       "title": "Gli ultimi post",
       "description": "Lista di tutti i post pubblicati"
     },
@@ -45,7 +45,7 @@
 
   "css": {
     "meta": {
-      "keywords": "css",
+      "keywords": "css, cascading, style, sheets, fogli, stile, web",
       "title": "Elenco dei post relativi ai Cascading Style Sheets",
       "description": "Pagina relativa ai fogli di stile CSS"
     },
@@ -54,7 +54,7 @@
 
   "engineering": {
     "meta": {
-      "keywords": "engineering, ingegneria, software",
+      "keywords": "engineering, ingegneria, software, web, architettura, struttura, codice",
       "title": "Elenco dei post relativi al Software engineering",
       "description": "Pagina relativa alla Software Engineering"
     },
@@ -63,7 +63,7 @@
 
   "html": {
     "meta": {
-      "keywords": "html, xhtml, html5",
+      "keywords": "html, xhtml, html5, web, codice",
       "title": "Elenco dei post relativi a Hyper Text Markup Language",
       "description": "Pagina relavita al linguaggio di markup HTML"
     },
@@ -72,7 +72,7 @@
 
   "javascript": {
     "meta": {
-      "keywords": "javascript, js",
+      "keywords": "javascript, js, scripting, codice, web",
       "title": "Elenco dei post relativi a JavaScript",
       "description": "Pagina relativa al linguaggio di scripting JavaScript"
     },
@@ -81,7 +81,7 @@
 
   "nodejs": {
     "meta": {
-      "keywords": "node, js, nodejs",
+      "keywords": "node, js, nodejs, backend, js, javascript",
       "title": "Elenco dei post relativi a NodeJS",
       "description": "Pagina relativa a NodeJS"
     },
@@ -90,7 +90,7 @@
 
   "security": {
     "meta": {
-      "keywords": "cyber, security, software, sicurezza, informatica",
+      "keywords": "cyber, security, software, sicurezza, informatica, web",
       "title": "Elenco dei post relativi alla Cyber Security",
       "description": "Pagina relativa alla Sicurezza Informatica in ambiente Web"
     },

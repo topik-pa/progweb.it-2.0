@@ -1,8 +1,8 @@
 {
   "serial": 2,
   "slug": "attributo-loading-lazy-load",
-  "date": "2024-05-17",
-  "modified": "2026-11-25",
+  "date": "2026-10-29",
+  "modified": "2026-11-13",
   "topic": "html",
   "author": "marco",
   "title": "Attributo \"loading\" in HTML5 - Migliora performance e UX con il lazy load nativo!",

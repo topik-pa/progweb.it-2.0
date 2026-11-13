@@ -73,7 +73,7 @@ app.use((req, res, next) => {
     'default-src \'none\'',
     'script-src \'self\' \'nonce-' + res.locals.nonce + '\'',
     'style-src \'self\' \'unsafe-inline\'',
-    'img-src \'self\' \'unsafe-inline\'',
+    'img-src \'self\' data:',
     'object-src \'none\'',
     'frame-src \'self\'',
     'form-action \'self\'',

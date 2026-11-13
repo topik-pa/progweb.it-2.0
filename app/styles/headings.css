@@ -14,7 +14,7 @@ h1 span {
 h2 {
   font-size: var(--font-size-bigger);
   letter-spacing: .1rem;
-  margin: var(--large-space) 0;
+  margin: var(--small-space) 0 var(--large-space);
   line-height: 115%;
 }
 h3 {

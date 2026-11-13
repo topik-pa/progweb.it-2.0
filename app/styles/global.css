@@ -101,6 +101,9 @@ ul li, ol li {
 }
 
 @media screen and (max-width: 768px) {
+  main {
+    margin: 0;
+  }
   main > section {
     width: 100%;
   }

@@ -186,7 +186,7 @@
   }
   #post article section {
     margin: var(--view-padding) 0;
-    /*padding: 0;*/
+    padding: 0;
     /*width: 100%;*/
   }
   #post article section:nth-child(even) {
@@ -197,13 +197,13 @@
     /*margin: var(--view-padding);*/
   }
   #post article aside {
-    margin: 0;;
+    margin: var(--view-padding) 0;
   }
   #post article .img-wrapper {
     flex-direction: column;
   }
   #post article .intro img {
-    width: 60px;
-    bottom: -60px;
+    width: 50px;
+    bottom: -50px;
   }
 }

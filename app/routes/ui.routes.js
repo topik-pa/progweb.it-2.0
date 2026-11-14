@@ -61,7 +61,7 @@ const getPostsByTopic = (topic) => {
 })*/
 // sitemap.xml
 router.get('/sitemap.xml', async(req, res) => {
-  const deployed = '2026-11-25'
+  const deployed = '2026-11-13'
   const xml = `
   <?xml version="1.0" encoding="UTF-8"?>
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -74,13 +74,13 @@ router.get('/sitemap.xml', async(req, res) => {
   <!-- Privacy -->
   <url>
     <loc>${BASEURL}/privacy</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <!-- Contatti -->
   <url>
     <loc>${BASEURL}/contatti</loc>
-    <lastmod>2026-11-25</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <!-- Posts -->

@@ -1,5 +1,14 @@
 [
   {
+    "serial": 16,
+    "slug": "if-condizione-logica-nativa-esempi",
+    "date": "2026-11-16",
+    "topic": "css",
+    "title": "La condizione if() in CSS: una logica condizionale nativa che cambia l'architettura dei nostri stili",
+    "desc": "La funzione nativa if() in CSS porta la valutazione condizionale direttamente nel motore di rendering del browser reagendo ai cambiamenti dinamici del browser o all'aggiornamento di una variabile CSS a runtime",
+    "body": "<p>La condizione if() in CSS: una logica condizionale nativa che cambia l'architettura dei nostri stili</p><h3>Perché avevamo bisogno di if() in CSS</h3>\n    <p>Chi sviluppa interfacce complesse sa bene quanto sia frustrante gestire le varianti di un componente. Fino a ieri, se volevi modificare più proprietà in base a un singolo parametro, avevi due strade: creare classi modificatrici (come <code>.btn--danger</code> o <code>.card--dark</code>) oppure calcolare valori tramite custom properties e hack matematici con <code>calc()</code>.</p>\n    <p>I preprocessori come Sass offrono da tempo la direttiva <code>@if</code>, ma quella logica viene risolta a build-time. Non reagisce ai cambiamenti dinamici del browser, al ridimensionamento del viewport o all'aggiornamento di una variabile CSS a runtime. La funzione nativa <code>if()</code> colma esattamente questo divario, portando la valutazione condizionale direttamente nel motore di rendering del browser...</p>"
+  },
+  {
     "serial": 15,
     "slug": "tag-dialog-utilizzo-esempi",
     "date": "2026-11-13",

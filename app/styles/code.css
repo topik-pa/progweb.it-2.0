@@ -39,16 +39,35 @@
   color: var(--gray);
   font-style: italic;
 }
-
 .coding.changed pre {
   color: var(--light-gray);
 }
 .coding.changed pre.change {
   color: var(--white);
 }
-
 span.code {
   font-family: monospace;
   font-weight: 500;
   border: 1px solid var(--lighter-gray);
+}
+.coding .code pre {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+
+/* New code structure */
+article pre {
+  margin: var(--normal-space) auto;
+  padding: 1rem;
+  background: var(--black);
+  border-radius: var(--border-radius-small);
+  color: var(--white);
+  overflow-x: auto;
+  display: inline-block;
+}
+article code {
+  font-family: monospace;
+  font-weight: 550;
 }

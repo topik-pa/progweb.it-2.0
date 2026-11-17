@@ -155,17 +155,19 @@
   content: none;
 }
 
-#post article pre {
-  margin: var(--xx-large-space) auto;
-  padding: 1rem;
-  background: var(--black);
-  border-radius: var(--border-radius-small);
-  color: var(--white);
-  overflow-x: auto;
+
+#post article table {
+  border-collapse: collapse;
 }
-#post article code {
-  font-family: monospace;
-  font-weight: 550;
+#post article th {
+  background: var(--lighter-gray);
+}
+#post article th, #post article td {
+  border: 1px solid var(--lighter-gray);
+  padding: 5px;
+}
+#post article tr:nth-child(even) {
+  background: var(--white);
 }
 
 @media screen and (max-width: 1440px) {

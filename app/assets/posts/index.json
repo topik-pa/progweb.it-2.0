@@ -1,5 +1,32 @@
 [
   {
+    "serial": 19,
+    "slug": "middleware-express-creazione-esempi-codice",
+    "date": "2026-11-17",
+    "topic": "nodejs",
+    "title": "Middleware in Node.js: cosa sono e come crearli con Express",
+    "desc": "I middleware sono una componente essenziale delle applicazioni Node.js basate su Express. Scopri cosa sono, come funzionano e come crearne di personalizzati per comprimere le risposte HTTP, forzare HTTPS e gestire il redirect dal dominio www alla versione senza www.",
+    "body": "<p>I middleware sono una componente essenziale delle applicazioni Node.js basate su Express. Scopri cosa sono, come funzionano e come crearne di personalizzati per comprimere le risposte HTTP, forzare HTTPS e gestire il redirect dal dominio www alla versione senza www.</p><h3>Che cos'è un middleware in Node.js</h3><p>Un <strong>middleware</strong> è una funzione che viene eseguita durante il ciclo di elaborazione di una richiesta HTTP. In un'applicazione Express, ogni richiesta attraversa una sequenza di middleware che possono modificarne il contenuto, eseguire controlli, elaborare informazioni oppure interrompere il flusso restituendo direttamente una risposta.</p><p>Un middleware Express standard riceve tre parametri...</p>"
+  },
+  {
+    "serial": 18,
+    "slug": "operatore-nullish-coalescing-guida-utilizzo",
+    "date": "2026-11-17",
+    "topic": "javascript",
+    "title": "Nullish Coalescing in JavaScript: guida all'operatore ?? con esempi di utilizzo",
+    "desc": "Hai mai utilizzato l'operatore || per assegnare un valore predefinito, salvo poi accorgerti che anche uno 0 o un false venivano sostituiti? Il Nullish Coalescing (??) risolve proprio questo problema: scopri come funziona, quali sono le differenze rispetto all'operatore OR e come sfruttarlo insieme all'Optional Chaining.",
+    "body": "<p>Scopri come funziona il Nullish Coalescing in JavaScript (??), le differenze con l'operatore OR (||), gli esempi pratici e l'utilizzo con Optional Chaining.</p><h3>Che cos'è il Nullish Coalescing Operator</h3>\n        <p>Il <strong>Nullish Coalescing Operator</strong>, introdotto con ECMAScript 2020 (ES11), è un operatore logico che consente di specificare un valore alternativo quando un'espressione restituisce <code>null</code> oppure <code>undefined</code>.</p>\n        <p>La sua sintassi è particolarmente semplice: </p><pre><code>const risultato = valore ?? valorePredefinito;</code></pre><p>Il comportamento è il seguente...</p>"
+  },
+  {
+    "serial": 17,
+    "slug": "file-env-variabili-ambiente-esempio",
+    "date": "2026-11-17",
+    "topic": "engineering",
+    "title": "Guida ai file .env: architettura, sicurezza e best practice per lo sviluppo web",
+    "desc": "Gestire credenziali e configurazioni tra ambiente locale e produzione è una delle sfide quotidiane per ogni sviluppatore web. Scopriamo come sfruttare al meglio i file .env per rendere la tua architettura più pulita, sicura e manutenibile.",
+    "body": "<p>Gestire credenziali e configurazioni tra ambiente locale e produzione è una delle sfide quotidiane per ogni sviluppatore web. Scopriamo come sfruttare al meglio i file .env per rendere la tua architettura più pulita, sicura e manutenibile.</p><h3>Cos'è un file .env e perché è fondamentale nell'architettura moderna</h3><p>Un file <code>.env</code> (abbreviazione di <em>environment</em>) è un semplice file di testo privo di estensione formale, utilizzato per definire le <strong>variabili d'ambiente</strong> di un'applicazione. La sua struttura si basa su coppie chiave-valore, separate dal simbolo uguale (<code>CHIAVE=VALORE</code>)...</p>"
+  },
+  {
     "serial": 16,
     "slug": "if-condizione-logica-nativa-esempi",
     "date": "2026-11-16",

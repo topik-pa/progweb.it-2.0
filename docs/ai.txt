@@ -6,7 +6,7 @@ H - Corpo del testo
 H - Testo social
 
 
-Per un blog di programmazione web di nome "Programmazione web italia: codice, metodologie e idee dal mondo dello Sviluppo Web", scrivimi il testo per un articolo su [argomento].
+Per un blog di programmazione web di nome "Programmazione web italia: codice, metodologie e idee dal mondo dello Sviluppo Web", scrivimi il testo per un articolo nella sezione [sezione] su [argomento].
 Il target lo sviluppatore è mid-senior, devono essere presenti esempi di codice se necessario. 
 Il tono deve essere semplice e diretto, va bene l'uso del "tu", ma mai troppo confidenziale: il tutto deve risultare professionale. Evita emoticons se non necessari e altre caratteristiche troppo informali.
 Scivimelo in codice html e suddividi l'articolo in sezioni separate da una <section> apposita. Fai attenzione all'uso semantico dei tag e alla validazione html! Evita di inserire classi o id non strettamente necessari. 

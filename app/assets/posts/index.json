@@ -1,12 +1,21 @@
 [
   {
+    "serial": 21,
+    "slug": "optional-chaining-esempio-codice-utilizzo",
+    "date": "2026-11-18",
+    "topic": "javascript",
+    "title": "JavaScript Optional Chaining (?.): come funziona e quando utilizzarlo",
+    "desc": "Quante volte ti è capitato di dover verificare che ogni proprietà di un oggetto esista prima di poterla utilizzare? Con l'Optional Chaining JavaScript mette a disposizione una sintassi semplice ed efficace per gestire questi casi, rendendo il codice più leggibile e riducendo i controlli condizionali.",
+    "body": "<p>Quante volte ti è capitato di dover verificare che ogni proprietà di un oggetto esista prima di poterla utilizzare? Con l'Optional Chaining JavaScript mette a disposizione una sintassi semplice ed efficace per gestire questi casi, rendendo il codice più leggibile e riducendo i controlli condizionali.</p><h3>Cos'è l'Optional Chaining in JavaScript</h3><p>L'<em>Optional Chaining</em> è un operatore JavaScript che consente di accedere alle proprietà di un oggetto senza generare un errore quando uno dei riferimenti intermedi è <code>null</code> oppure <code>undefined</code></p><p>Prima della sua introduzione, per accedere a proprietà annidate era spesso necessario utilizzare una serie di verifiche...</p>"
+  },
+  {
     "serial": 20,
     "slug": "content-security-policy-csp-guida-sicurezza-web",
     "date": "2026-11-18",
     "topic": "security",
     "title": "Content-Security-Policy (CSP): guida alla sicurezza web e protezione dagli attacchi XSS",
     "desc": "Proteggere un'applicazione web significa anche controllare quali risorse possono essere caricate ed eseguite dal browser. La Content-Security-Policy (CSP) è uno strumento fondamentale per limitare queste possibilità e ridurre il rischio di attacchi XSS: vediamo come funziona, come configurarla e quali direttive utilizzare per implementare una policy efficace.",
-    "body": "<p>Proteggere un'applicazione web significa anche controllare quali risorse possono essere caricate ed eseguite dal browser. La Content-Security-Policy (CSP) è uno strumento fondamentale per limitare queste possibilità e ridurre il rischio di attacchi XSS: vediamo come funziona, come configurarla e quali direttive utilizzare per implementare una policy efficace.</p><h3>Cos'è la Content-Security-Policy (CSP)</h3><p>La <strong>Content-Security-Policy (CSP)</strong> è una policy di sicurezza implementata dal browser che consente di controllare quali risorse possono essere caricate ed eseguite all'interno di una pagina web. Attraverso una serie di direttive, è possibile limitare le origini da cui provengono script, fogli di stile, immagini, font, connessioni e altri contenuti.</p>"
+    "body": "<p>Proteggere un'applicazione web significa anche controllare quali risorse possono essere caricate ed eseguite dal browser. La Content-Security-Policy (CSP) è uno strumento fondamentale per limitare queste possibilità e ridurre il rischio di attacchi XSS: vediamo come funziona, come configurarla e quali direttive utilizzare per implementare una policy efficace.</p><h3>Cos'è la Content-Security-Policy (CSP)</h3><p>La <strong>Content-Security-Policy (CSP)</strong> è una policy di sicurezza implementata dal browser che consente di controllare quali risorse possono essere caricate ed eseguite all'interno di una pagina web. Attraverso una serie di direttive, è possibile limitare le origini da cui provengono script, fogli di stile, immagini, font, connessioni e altri contenuti...</p>"
   },
   {
     "serial": 19,

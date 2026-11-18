@@ -25,7 +25,7 @@ block viewscripts
   script(type='application/ld+json').
     {
       "@context": "https://schema.org",
-      "@type": "Article",
+      "@type": ["Article", "TechArticle"],
       "datePublished": "#{post.date}",
       "dateModified": "#{post.modified}",
       "url": "#{canonical}",
@@ -68,4 +68,29 @@ block viewscripts
           "@type": "Person",
           "name": "#{proj_owner}"
         }
+    }
+  script(type='application/ld+json').
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "@id": "#{proj_url}/#breadcrumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "#{proj_url}"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "#{post.topic}",
+          "item": "#{proj_url}/#{post.topic}"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "#{post.title}"
+        }
+      ]
     }

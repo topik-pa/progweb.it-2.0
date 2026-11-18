@@ -1,5 +1,14 @@
 [
   {
+    "serial": 20,
+    "slug": "content-security-policy-csp-guida-sicurezza-web",
+    "date": "2026-11-18",
+    "topic": "security",
+    "title": "Content-Security-Policy (CSP): guida alla sicurezza web e protezione dagli attacchi XSS",
+    "desc": "Proteggere un'applicazione web significa anche controllare quali risorse possono essere caricate ed eseguite dal browser. La Content-Security-Policy (CSP) è uno strumento fondamentale per limitare queste possibilità e ridurre il rischio di attacchi XSS: vediamo come funziona, come configurarla e quali direttive utilizzare per implementare una policy efficace.",
+    "body": "<p>Proteggere un'applicazione web significa anche controllare quali risorse possono essere caricate ed eseguite dal browser. La Content-Security-Policy (CSP) è uno strumento fondamentale per limitare queste possibilità e ridurre il rischio di attacchi XSS: vediamo come funziona, come configurarla e quali direttive utilizzare per implementare una policy efficace.</p><h3>Cos'è la Content-Security-Policy (CSP)</h3><p>La <strong>Content-Security-Policy (CSP)</strong> è una policy di sicurezza implementata dal browser che consente di controllare quali risorse possono essere caricate ed eseguite all'interno di una pagina web. Attraverso una serie di direttive, è possibile limitare le origini da cui provengono script, fogli di stile, immagini, font, connessioni e altri contenuti.</p>"
+  },
+  {
     "serial": 19,
     "slug": "middleware-express-creazione-esempi-codice",
     "date": "2026-11-17",
@@ -15,7 +24,7 @@
     "topic": "javascript",
     "title": "Nullish Coalescing in JavaScript: guida all'operatore ?? con esempi di utilizzo",
     "desc": "Hai mai utilizzato l'operatore || per assegnare un valore predefinito, salvo poi accorgerti che anche uno 0 o un false venivano sostituiti? Il Nullish Coalescing (??) risolve proprio questo problema: scopri come funziona, quali sono le differenze rispetto all'operatore OR e come sfruttarlo insieme all'Optional Chaining.",
-    "body": "<p>Scopri come funziona il Nullish Coalescing in JavaScript (??), le differenze con l'operatore OR (||), gli esempi pratici e l'utilizzo con Optional Chaining.</p><h3>Che cos'è il Nullish Coalescing Operator</h3>\n        <p>Il <strong>Nullish Coalescing Operator</strong>, introdotto con ECMAScript 2020 (ES11), è un operatore logico che consente di specificare un valore alternativo quando un'espressione restituisce <code>null</code> oppure <code>undefined</code>.</p>\n        <p>La sua sintassi è particolarmente semplice: </p><pre><code>const risultato = valore ?? valorePredefinito;</code></pre><p>Il comportamento è il seguente...</p>"
+    "body": "<p>Scopri come funziona il Nullish Coalescing in JavaScript (??), le differenze con l'operatore OR (||), gli esempi pratici e l'utilizzo con Optional Chaining.</p><h3>Che cos'è il Nullish Coalescing Operator</h3>  <p>Il <strong>Nullish Coalescing Operator</strong>, introdotto con ECMAScript 2020 (ES11), è un operatore logico che consente di specificare un valore alternativo quando un'espressione restituisce <code>null</code> oppure <code>undefined</code>.</p>  <p>La sua sintassi è particolarmente semplice: </p><pre><code>const risultato = valore ?? valorePredefinito;</code></pre><p>Il comportamento è il seguente...</p>"
   },
   {
     "serial": 17,
@@ -33,7 +42,7 @@
     "topic": "css",
     "title": "La condizione if() in CSS: una logica condizionale nativa che cambia l'architettura dei nostri stili",
     "desc": "La funzione nativa if() in CSS porta la valutazione condizionale direttamente nel motore di rendering del browser reagendo ai cambiamenti dinamici del browser o all'aggiornamento di una variabile CSS a runtime",
-    "body": "<p>La condizione if() in CSS: una logica condizionale nativa che cambia l'architettura dei nostri stili</p><h3>Perché avevamo bisogno di if() in CSS</h3>\n    <p>Chi sviluppa interfacce complesse sa bene quanto sia frustrante gestire le varianti di un componente. Fino a ieri, se volevi modificare più proprietà in base a un singolo parametro, avevi due strade: creare classi modificatrici (come <code>.btn--danger</code> o <code>.card--dark</code>) oppure calcolare valori tramite custom properties e hack matematici con <code>calc()</code>.</p>\n    <p>I preprocessori come Sass offrono da tempo la direttiva <code>@if</code>, ma quella logica viene risolta a build-time. Non reagisce ai cambiamenti dinamici del browser, al ridimensionamento del viewport o all'aggiornamento di una variabile CSS a runtime. La funzione nativa <code>if()</code> colma esattamente questo divario, portando la valutazione condizionale direttamente nel motore di rendering del browser...</p>"
+    "body": "<p>La condizione if() in CSS: una logica condizionale nativa che cambia l'architettura dei nostri stili</p><h3>Perché avevamo bisogno di if() in CSS</h3><p>Chi sviluppa interfacce complesse sa bene quanto sia frustrante gestire le varianti di un componente. Fino a ieri, se volevi modificare più proprietà in base a un singolo parametro, avevi due strade: creare classi modificatrici (come <code>.btn--danger</code> o <code>.card--dark</code>) oppure calcolare valori tramite custom properties e hack matematici con <code>calc()</code>.</p><p>I preprocessori come Sass offrono da tempo la direttiva <code>@if</code>, ma quella logica viene risolta a build-time. Non reagisce ai cambiamenti dinamici del browser, al ridimensionamento del viewport o all'aggiornamento di una variabile CSS a runtime. La funzione nativa <code>if()</code> colma esattamente questo divario, portando la valutazione condizionale direttamente nel motore di rendering del browser...</p>"
   },
   {
     "serial": 15,

@@ -65,7 +65,6 @@ article pre {
   border-radius: var(--border-radius-small);
   color: var(--white);
   overflow-x: auto;
-  display: inline-block;
 }
 article code {
   font-family: monospace;

@@ -64,7 +64,7 @@
   bottom: calc(var(--normal-space) * -1);
 }
 #post article .intro.marco:after {
-  content: "Marco Pavan";
+  content: "Marco Pavan + AI";
   bottom: -3rem;
   transform: rotate(0deg);
   font-size: var(--font-size-normal)
@@ -170,9 +170,20 @@
   background: var(--white);
 }
 
+#related ul {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--large-space);
+  list-style: none;
+}
+#related img {
+  width: 100%;
+  height: auto;
+}
+
 @media screen and (max-width: 1440px) {
   #post article .intro img {
-    width: 80px;
+    width: 66px;
     height: auto;
     bottom: -66px;
     border: 2px solid var(--dark-gray);
@@ -220,5 +231,9 @@
   #post article .intro img {
     width: 50px;
     bottom: -50px;
+  }
+
+  #related ul {
+    flex-direction: column;
   }
 }

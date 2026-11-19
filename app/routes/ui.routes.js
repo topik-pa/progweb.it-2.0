@@ -109,7 +109,7 @@ router.get('/sitemap.xml', async(req, res) => {
   </url>
   <!-- SW Engineering -->
   <url>
-    <loc>${BASEURL}/engineer</loc>
+    <loc>${BASEURL}/engineering</loc>
     <lastmod>${deployed}</lastmod>
     <changefreq>daily</changefreq>
   </url>

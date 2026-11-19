@@ -1,5 +1,14 @@
 [
   {
+    "serial": 23,
+    "slug": "selettore-is-sintassi-esempi",
+    "date": "2026-11-19",
+    "topic": "css",
+    "title": "CSS :is(): come raggruppare selettori e semplificare il codice",
+    "desc": "La pseudo-classe CSS :is() permette di raggruppare più selettori e semplificare le regole di stile. Scopri come utilizzarla, come funziona la specificità e come rendere i tuoi stylesheet più leggibili e manutenibili.",
+    "body": "<p>La pseudo-classe CSS :is() permette di raggruppare più selettori e semplificare le regole di stile. Scopri come utilizzarla, come funziona la specificità e come rendere i tuoi stylesheet più leggibili e manutenibili.</p><h3>Cos'è la pseudo-classe CSS :is()</h3><p><code>:is()</code> è una pseudo-classe funzionale che accetta una lista  di selettori e individua tutti gli elementi che corrispondono ad almeno  uno di essi. Puoi utilizzarla per raggruppare selettori differenti e  applicare loro le stesse dichiarazioni CSS.</p><p>  Il suo obiettivo principale è semplificare la scrittura dei selettori,  soprattutto quando devi ripetere la stessa struttura in più punti di uno stylesheet...</p>"
+  },
+  {
     "serial": 22,
     "slug": "selettore-where-sintassi-esempi",
     "date": "2026-11-19",

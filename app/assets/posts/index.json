@@ -1,5 +1,14 @@
 [
   {
+    "serial": 22,
+    "slug": "selettore-where-sintassi-esempi",
+    "date": "2026-11-19",
+    "topic": "css",
+    "title": "CSS :where(): selettori a specificità zero e stili flessibili",
+    "desc": "La pseudo-classe CSS :where() consente di raggruppare selettori anche complessi mantenendo la specificità a zero. Scopri come utilizzarla per realizzare stylesheet più flessibili, ridurre i conflitti e semplificare la gestione degli stili.",
+    "body": "<p>La pseudo-classe CSS :where() consente di raggruppare selettori anche complessi mantenendo la specificità a zero. Scopri come utilizzarla per realizzare stylesheet più flessibili, ridurre i conflitti e semplificare la gestione degli stili.</p><h3>Cos'è il selettore CSS :where()</h3><p>  <code>:where()</code> è una pseudo-classe funzionale introdotta per  semplificare la scrittura dei selettori CSS e, soprattutto, per  controllarne la specificità.</p><p>  Il suo funzionamento è simile a quello di <code>:is()</code>: accetta  una lista di selettori e corrisponde agli elementi che soddisfano almeno  uno di essi. La differenza fondamentale...</p>"
+  },
+  {
     "serial": 21,
     "slug": "optional-chaining-esempio-codice-utilizzo",
     "date": "2026-11-18",

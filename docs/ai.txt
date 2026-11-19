@@ -17,6 +17,6 @@ Se fosse necessario aggiungi le seguenti sezioni:
 sezione compatibilità con i browser (se una feature non fosse compatibile con tutti i browser);
 sezione link utili (per approfondire maggiormente la questione)
 
-Alla fine suggeriscimi il testo del titolo, una introduzione informale (1 o 2 frasi), una serie di keywords, e una description (da inserire in meta=description)
+Alla fine suggeriscimi il testo del titolo, una introduzione informale (1 o 2 frasi), una serie di keywords, uno slug e una description (da inserire in meta=description)
 
 Tutti i contenuti che mi fornisci devono essere prodotti facendo attenzione alla SEO: saranno ospitati in un blog tematico e quindi è necessario fare attenzione a questo aspetto.

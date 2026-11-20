@@ -1,5 +1,14 @@
 [
   {
+    "serial": 25,
+    "slug": "this-lexical-scope-differenze-funzionamento",
+    "date": "2026-11-20",
+    "topic": "javascript",
+    "title": "JavaScript: this e lexical scope, differenze concettuali e funzionamento",
+    "desc": "Che differenza c'è tra this e lexical scope in JavaScript? Scopri come funzionano, quale ruolo hanno le arrow function e le closure e mettiti alla prova con alcuni esempi tipici dei colloqui tecnici.",
+    "body": "<p>Che differenza c'è tra this e lexical scope in JavaScript? Scopri come funzionano, quale ruolo hanno le arrow function e le closure e mettiti alla prova con alcuni esempi tipici dei colloqui tecnici.</p><h3>Che cosa sono this e lexical scope in JavaScript?</h3><p> Prima di analizzare le differenze, è importante chiarire che <code>this</code> e lexical scope appartengono a due meccanismi distinti del linguaggio.</p><p> <code>this</code> è un riferimento disponibile all'interno di una funzione, il cui valore dipende principalmente dalle modalità con cui la funzione viene invocata. Nelle funzioni tradizionali, quindi, non è determinato semplicemente dal punto in cui la funzione viene dichiarata.</p>"
+  },
+  {
     "serial": 24,
     "slug": "gestione-eccezioni-errori-http-500",
     "date": "2026-11-19",

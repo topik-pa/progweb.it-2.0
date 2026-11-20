@@ -6,12 +6,11 @@ block append meta
   meta(name="keywords" content=post.keywords)
   link(rel="canonical", href=canonical)
 
-  meta(name="og:url" content=canonical)
-  meta(name="og:type" content="article")
-  meta(name="og:title" content=post.title)
-  meta(name="og:site_name" content=proj_name)
-  meta(name="og:description" content=post.description)
-  meta(name="og:image" content=proj_url + "/assets/images/posts/" + post.topic + "/" + post.slug + ".webp")
+  meta(property="og:url" content=canonical)
+  meta(property="og:type" content="article")
+  meta(property="og:title" content=post.title)
+  meta(property="og:description" content=post.description)
+  meta(property="og:image" content=proj_url + "/assets/images/posts/" + post.topic + "/" + post.slug + ".webp")
 
 block main
   article

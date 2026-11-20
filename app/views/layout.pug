@@ -65,7 +65,7 @@ html(lang="it")
   head
     block meta
       meta(charset="utf-8")
-      meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+      meta(name="viewport" content="width=device-width, initial-scale=1")
       meta(name="author" content=proj_owner + ' - ' + proj_email)
       meta(name="google-site-verification" content=googleSiteVerification)
       link(rel="shortcut icon", href="/favicon.ico", type="image/x-icon")
@@ -79,7 +79,6 @@ html(lang="it")
         script(src='/scripts/index.js', type='module')
       link(rel="dns-prefetch" href="https://www.statcounter.com")
       link(rel="dns-prefetch" href="https://c.statcounter.com")
-      meta(property="og:type" content="website")
       meta(property="og:site_name" content=proj_name)
   body(id=id)
     include ./components/header/header.pug

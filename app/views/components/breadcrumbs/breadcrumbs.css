@@ -8,22 +8,23 @@
   align-items: center;
 }
 
-#breadcrumbs nav {
+#breadcrumbs ol {
+  list-style-type: none;
   display: flex;
   align-items: center;
-  margin: var(--x-small-space) var(--x-small-space);
 }
 
 #breadcrumbs span, #breadcrumbs a {
   font-weight: 500;
 }
 
-#breadcrumbs nav a:not(:first-child)::before, #breadcrumbs nav span::before {
+#breadcrumbs li:not(:first-child) a::before, #breadcrumbs span::before {
   content: '\2192';
   margin: .2rem;
   color: var(--primary);
 }
 #breadcrumbs span {
+  display: inline-block;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;

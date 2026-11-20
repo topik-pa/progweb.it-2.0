@@ -1,9 +1,13 @@
 if breadcrumbs
   div(id="breadcrumbs")
     nav
-      a(href="/", title="Home") Home
-      each elem in breadcrumbs
-        if elem.url
-          a(href=elem.url, title=elem.name) #{elem.name.toUpperCase()}
-        else
-          span #{elem.name}
+      ol
+        li 
+          a(href="/", title="Home") Home
+        each elem in breadcrumbs
+          if elem.url
+            li 
+              a(href=elem.url, title=elem.name) #{elem.name.toUpperCase()}
+          else
+            li
+              span #{elem.name}

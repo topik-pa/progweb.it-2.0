@@ -2,11 +2,6 @@
 
 
 ## TODO
-controlla url che hanno cambiato indirizzo, url non più esistenti e nuove url
-
-googleSiteVerification
-
-testo pagina Contatti
 Pagina Chi siamo
 
 
@@ -39,14 +34,14 @@ OK
 
 
 https://www.progweb.it/grafici
-ELIMINA
+ELIMINA OK
 
 
 
 <!--TOPIC-->
 
 https://www.progweb.it/coding
-ELIMINA
+ELIMINA OK
 
 
 
@@ -94,49 +89,49 @@ OK
 <!--ARCHIVE-->
 
 https://www.progweb.it/giugno-2024
-ELIMINA
+ELIMINA OK
 
 
 
 
 https://www.progweb.it/maggio-2024
-ELIMINA
+ELIMINA OK
 
 
 
 
 https://www.progweb.it/aprile-2024
-ELIMINA
+ELIMINA OK
 
 
 
 
 https://www.progweb.it/marzo-2024
-ELIMINA
+ELIMINA OK
 
 
 
 
 https://www.progweb.it/dicembre-2023
-ELIMINA
+ELIMINA OK
 
 
 
 
 https://www.progweb.it/novembre-2023
-ELIMINA
+ELIMINA OK
 
 
 
 
 https://www.progweb.it/ottobre-2023
-ELIMINA
+ELIMINA OK
 
 
 
 
 https://www.progweb.it/settembre-2023
-ELIMINA
+ELIMINA OK
 
 
 
@@ -218,7 +213,7 @@ POST INSERITO OK
 
 
 https://www.progweb.it/analisi/confronto-portali-ecommerce-moda-italiani
-ELIMINARE
+ELIMINARE OK
 
 
 
@@ -226,14 +221,14 @@ ELIMINARE
 
 
 https://www.progweb.it/curriculum-efficace-esempio-developer
-IMPORTARE CONTENUTO / ELIMINARE
+IMPORTARE CONTENUTO / ELIMINARE OK
 
 
 
 
 
 https://www.progweb.it/javascript-html-tabella-dinamica
-IMPORTARE CONTENUTO / ELIMINARE
+IMPORTARE CONTENUTO / ELIMINARE OK
 
 
 
@@ -291,51 +286,51 @@ POST INSERITO OK
 <!-- LANDING PAGES -->
 
 https://www.progweb.it/web-seo/en
-IMPORTARE CONTENUTO / ELIMINARE
+IMPORTARE CONTENUTO / ELIMINARE OK
 
 
 
 https://www.progweb.it/web-seo
-IMPORTARE CONTENUTO / ELIMINARE
+IMPORTARE CONTENUTO / ELIMINARE OK
 
 
 
 https://www.progweb.it/responsive-web-design/en
-IMPORTARE CONTENUTO / ELIMINARE
+IMPORTARE CONTENUTO / ELIMINARE OK
 
 
 
 https://www.progweb.it/responsive-web-design
-IMPORTARE CONTENUTO / ELIMINARE
+IMPORTARE CONTENUTO / ELIMINARE OK
 
 
 
 https://www.progweb.it/web-accessibility/en
-IMPORTARE CONTENUTO / ELIMINARE
+IMPORTARE CONTENUTO / ELIMINARE OK
 
 
 
 https://www.progweb.it/web-accessibility
-IMPORTARE CONTENUTO / ELIMINARE
+IMPORTARE CONTENUTO / ELIMINARE OK
 
 
 
 https://www.progweb.it/web-sustainability/en
-IMPORTARE CONTENUTO / ELIMINARE
+IMPORTARE CONTENUTO / ELIMINARE OK
 
 
 
 https://www.progweb.it/web-sustainability
-IMPORTARE CONTENUTO / ELIMINARE
+IMPORTARE CONTENUTO / ELIMINARE OK
 
 
 
 https://www.progweb.it/from-idea-to-prototype/en
-IMPORTARE CONTENUTO / ELIMINARE
+IMPORTARE CONTENUTO / ELIMINARE OK
 
 
 
 https://www.progweb.it/from-idea-to-prototype
-IMPORTARE CONTENUTO / ELIMINARE
+IMPORTARE CONTENUTO / ELIMINARE OK
 
 

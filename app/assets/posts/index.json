@@ -1,5 +1,14 @@
 [
   {
+    "serial": 28,
+    "slug": "vscode-setup-sviluppo-web-configurazione",
+    "date": "2026-11-23",
+    "topic": "engineering",
+    "title": "VS Code Setup per lo sviluppo web: configurazione completa",
+    "desc": "Configurare bene il proprio editor è uno dei modi più semplici per migliorare il workflow quotidiano. Vediamo come creare un setup condiviso con VS Code, Prettier, ESLint, EditorConfig e REST Client, pronto per un progetto web reale.",
+    "body": "<p>Configurare bene il proprio editor è uno dei modi più semplici per migliorare il workflow quotidiano. Vediamo come creare un setup condiviso con VS Code, Prettier, ESLint, EditorConfig e REST Client, pronto per un progetto web reale.</p><h3>Un ambiente di sviluppo standardizzato</h3><p> Quando si lavora su un progetto web, l'editor non dovrebbe essere soltanto uno strumento per scrivere codice, ma parte integrante del processo di sviluppo. Le configurazioni, gli strumenti di analisi e le convenzioni di formattazione devono essere facilmente replicabili tra le diverse postazioni.</p><p> <em>L'obiettivo è ridurre le differenze tra gli ambienti di lavoro e fare in modo che ogni sviluppatore possa concentrarsi sul codice, senza dover configurare manualmente ogni singolo strumento.</em></p>"
+  },
+  {
     "serial": 27,
     "slug": "configurare-visual-studio-code-sviluppo-web",
     "date": "2026-11-23",

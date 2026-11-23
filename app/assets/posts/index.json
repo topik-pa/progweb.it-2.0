@@ -1,5 +1,14 @@
 [
   {
+    "serial": 26,
+    "slug": "clamp-tipografia-fluida-layout-responsive",
+    "date": "2026-11-23",
+    "topic": "css",
+    "title": "Scopri come funziona CSS clamp(): crea tipografia fluida, spaziature responsive e layout adattivi definendo valori minimi, preferiti e massimi.",
+    "desc": "Vuoi rendere tipografia, spaziature e layout più fluidi senza moltiplicare le media query? Con CSS clamp() puoi definire valori dinamici mantenendo un controllo preciso sulle dimensioni minime e massime.",
+    "body": "<p>Vuoi rendere tipografia, spaziature e layout più fluidi senza moltiplicare le media query? Con CSS clamp() puoi definire valori dinamici mantenendo un controllo preciso sulle dimensioni minime e massime.</p><h3>Cos'è CSS clamp() e a cosa serve</h3><p><code>clamp()</code> è una funzione CSS che consente di definire un valore compreso tra un limite minimo, un valore preferito e un limite massimo.Il browser calcola il valore preferito e lo mantiene all'interno dell'intervallo specificato, evitando che scenda sotto il minimo o superi il massimo.</p><p>La funzione è particolarmente utile quando vuoi realizzare elementi responsive senza dover necessariamente ricorrere a breakpoint dedicati. Puoi utilizzarla per gestire la dimensione dei font, la larghezza dei contenitori, i margini, il padding, le dimensioni degli elementi e altre proprietà che accettano valori numerici compatibili.</p>"
+  },
+  {
     "serial": 25,
     "slug": "this-lexical-scope-differenze-funzionamento",
     "date": "2026-11-20",

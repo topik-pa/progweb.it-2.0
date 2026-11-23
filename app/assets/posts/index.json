@@ -1,5 +1,14 @@
 [
   {
+    "serial": 27,
+    "slug": "configurare-visual-studio-code-sviluppo-web",
+    "date": "2026-11-23",
+    "topic": "engineering",
+    "title": "Una guida completa alla configurazione di Visual Studio Code per lo sviluppo web",
+    "desc": "Vuoi migliorare il tuo workflow di sviluppo web? Scopri come configurare Visual Studio Code, organizzare settings ed estensioni, utilizzare Prettier, EditorConfig e REST Client per creare un ambiente di lavoro efficiente e condiviso.",
+    "body": "<p>Vuoi migliorare il tuo workflow di sviluppo web? Scopri come configurare Visual Studio Code, organizzare settings ed estensioni, utilizzare Prettier, EditorConfig e REST Client per creare un ambiente di lavoro efficiente e condiviso.</p><h3>Perché configurare un ambiente di sviluppo</h3><p> Quando si lavora su un progetto web, l'editor è uno degli strumenti che utilizzi quotidianamente. La qualità dell'ambiente di lavoro influisce direttamente sulla velocità con cui scrivi codice, individui problemi, esegui test e gestisci le attività di sviluppo.</p><p> Utilizzare un editor con le impostazioni predefinite può essere sufficiente per iniziare, ma...</p>"
+  },
+  {
     "serial": 26,
     "slug": "clamp-tipografia-fluida-layout-responsive",
     "date": "2026-11-23",

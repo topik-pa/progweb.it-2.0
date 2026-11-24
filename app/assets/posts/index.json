@@ -1,5 +1,14 @@
 [
   {
+    "serial":30,
+    "slug": "html-semantico-perche-utilizzare-tag-corretti",
+    "date": "2026-11-24",
+    "topic": "html",
+    "title": "HTML Semantico: utilizzare i tag corretti per strutturare al meglio il nostro documento",
+    "desc": "Scrivere HTML non significa soltanto organizzare elementi e contenuti all'interno di una pagina. Scopri perché utilizzare i tag semantici corretti è fondamentale per migliorare accessibilità, SEO e manutenibilità del codice.",
+    "body": "<p>Scrivere HTML non significa soltanto organizzare elementi e contenuti all'interno di una pagina. Scopri perché utilizzare i tag semantici corretti è fondamentale per migliorare accessibilità, SEO e manutenibilità del codice.</p><h3>Cos'è l'HTML semantico</h3><p> L'HTML semantico è un approccio alla scrittura del markup che prevede l'utilizzo di elementi il cui nome e significato descrivono la natura del contenuto che racchiudono.</p><p> Ogni elemento HTML possiede una funzione specifica. Utilizzare il tag appropriato permette al browser, alle tecnologie assistive e...</p>"
+  },
+  {
     "serial": 29,
     "slug": "specificity-specificita-selettori-calcolo-priorita",
     "date": "2026-11-23",

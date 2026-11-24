@@ -1,5 +1,14 @@
 [
   {
+    "serial":33,
+    "slug": "var-let-const-differenza-variabili",
+    "date": "2026-11-24",
+    "topic": "javascript",
+    "title": "Variabili JavaScript: differenze tra var, let e const",
+    "desc": "Dichiarare una variabile in JavaScript è semplice, ma scegliere tra var, let e const richiede una buona conoscenza del funzionamento del linguaggio. Vediamo quali sono le differenze, come funzionano scope e hoisting e quali dichiarazioni utilizzare nel JavaScript moderno.",
+    "body": "<p>Dichiarare una variabile in JavaScript è semplice, ma scegliere tra var, let e const richiede una buona conoscenza del funzionamento del linguaggio. Vediamo quali sono le differenze, come funzionano scope e hoisting e quali dichiarazioni utilizzare nel JavaScript moderno.</p><h3>Le variabili in JavaScript</h3><p>Le variabili rappresentano uno dei concetti fondamentali di JavaScript e permettono di associare un identificatore a un valore, rendendolo accessibile e utilizzabile durante l'esecuzione del programma.</p><p>JavaScript mette a disposizione tre parole chiave per dichiarare una variabile...</p>"
+  },
+  {
     "serial":32,
     "slug": "flexbox-guida-layout-flessibile-esempi",
     "date": "2026-11-24",

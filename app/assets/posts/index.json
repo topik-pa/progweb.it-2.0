@@ -1,5 +1,14 @@
 [
   {
+    "serial":32,
+    "slug": "flexbox-guida-layout-flessibile-esempi",
+    "date": "2026-11-24",
+    "topic": "css",
+    "title": "CSS Flexbox: guida completa al layout flessibile",
+    "desc": "Centrare un elemento, distribuire lo spazio disponibile o realizzare componenti responsive: CSS Flexbox permette di risolvere questi e molti altri problemi di layout. Vediamo come funziona, dalle proprietà fondamentali ai meccanismi di dimensionamento più avanzati.",
+    "body": "<p>Centrare un elemento, distribuire lo spazio disponibile o realizzare componenti responsive: CSS Flexbox permette di risolvere questi e molti altri problemi di layout. Vediamo come funziona, dalle proprietà fondamentali ai meccanismi di dimensionamento più avanzati.</p><h3>Che cos'è CSS Flexbox</h3><p>CSS Flexbox, abbreviazione di <em>CSS Flexible Box Layout</em>, è un modello di layout introdotto in CSS per semplificare la disposizione, l'allineamento e il dimensionamento degli elementi all'interno di un...</p>"
+  },
+  {
     "serial":31,
     "slug": "box-model-padding-border-margin",
     "date": "2026-11-24",

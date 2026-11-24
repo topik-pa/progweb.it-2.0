@@ -1,0 +1,764 @@
+# **Piano editoriale operativo — Programmazione web Italia**
+
+L'obiettivo è trasformare la lista degli articoli in un piano di pubblicazione concreto, decidendo **cosa scrivere prima, cosa dopo e perché**.
+
+Per il tuo blog non seguirei l'ordine delle categorie, né pubblicherei prima tutti gli articoli HTML, poi CSS e infine JavaScript. Preferirei un percorso che alterni argomenti, costruisca autorevolezza progressivamente e sfrutti i collegamenti interni per creare cluster tematici.
+
+Considerando il taglio del blog — sviluppatori mid/senior, contenuti tecnici, metodologie, esempi pratici e un'impronta Engineering — darei priorità a:
+
+- Argomenti con una forte domanda evergreen.
+- Articoli che hanno molti collegamenti potenziali con altri post.
+- Feature moderne che distinguono un articolo da una guida generica.
+- Contenuti che possono essere scritti con approfondimento e codice reale.
+- Articoli Engineering che differenziano il blog dalla classica raccolta di tutorial.
+- Security, che deve essere una categoria trasversale e non un'aggiunta tardiva.
+
+## **1. La logica delle priorità**
+
+Utilizzerei 4 livelli di priorità, non una semplice numerazione arbitraria.
+
+P1
+
+**Core — da pubblicare subito**
+
+Costruiscono le fondamenta del blog, intercettano temi centrali e generano collegamenti verso molti altri contenuti.
+
+P2
+
+**Growth — consolidamento**
+
+Approfondiscono i cluster iniziali, ampliano la copertura SEO e costruiscono competenza tematica.
+
+P3
+
+**Authority — contenuti distintivi**
+
+Articoli più avanzati, architetturali, metodologici e meno generalisti, pensati per costruire autorevolezza.
+
+&#x20;P4&#x20;
+
+**Long tail — copertura specialistica**
+
+Argomenti di nicchia, singole API, feature, strumenti e approfondimenti da pubblicare nel tempo.
+
+La priorità non è una valutazione della qualità dell'argomento. Un articolo P4 può essere molto interessante, ma un articolo P1 probabilmente offre più valore al blog in questa fase.
+
+## **2. Priorità assoluta: i primi 30 articoli**
+
+Questa è la lista da cui partirei concretamente. Non è ordinata per categoria, ma per valore editoriale complessivo: prima gli articoli che creano le fondamenta, poi quelli che sfruttano e ampliano le fondamenta.
+
+Legenda: P1 = alta priorità · P2 = consolidamento · P3 = autorevolezza. Gli articoli già trattati o in lavorazione sono indicati come tali in base alle nostre conversazioni, non come verifica del tuo CMS.
+
+## **P1 — Priorità massima**
+
+I primi 15 articoli
+
+Questi sono quelli su cui investirei per primi. Costruiscono il nucleo principale del blog.
+
+1–5 · Fondamentali Web
+
+[Semantic HTML | The Odin Project](https://images.openai.com/static-rsc-4/JqvQEPwj2GDG_BJy_fQOlomncccbrQTAobrZpufeIwnyxVH1JREeiRo3Z7Oj28Nzg5RNYFzoX27Qc-tZqD3bhCnFoO9rGbvoJyOmVOGvFniWqR0YQAGDa9l-bkMgg-vzevMxdQKphobwRjbh-u6bpM_9CjiBMfuyOW81rXsqr18?purpose=inline)
+
+**01. HTML Semantico: perché utilizzare i tag corretti**
+
+
+
+HTML
+
+&#x20;· Core
+
+
+
+Un articolo fondamentale per collegare struttura, accessibilità, SEO e manutenibilità.
+
+[Unboxing CSS: Four Surprising Truths About How Web Layouts Really Work - DEV Community](https://images.openai.com/static-rsc-4/JQ1LQAvdxtAP3dX-HNo1-Omyl24TIw8njztdVDA3KSxRJSHaCirDpo22AfhVzoEr7L1Lc_HaXnNBzx36p1JQhm-aeXoe-xShbQaqNoIjzsI28fH-gnWQXx2xMwOB8hAupv9_ZwOigvXkM2pBqXg8OY6AqLVCcwY54nYOGyd7l-Q?purpose=inline)
+
+**02. CSS Box Model: struttura e dimensioni degli elementi**
+
+
+
+CSS
+
+&#x20;· Core
+
+
+
+Concetto indispensabile per comprendere layout, dimensionamento e comportamento degli elementi.
+
+[CSS Flexbox Explained: Master Flex in One Go | by SANDHYA MEHTELE | Bootcamp | Medium](https://images.openai.com/static-rsc-4/JWI_o9B__WCnYhhcMsW3YLmVkGgpuYVqrDHpcelz9QCP0dEtNy3zwTu7BqD1VDbwjuSDx-4riI5j1pfkwuqu2QnbUgUQq8ipsWMgmKuu_z4TvfqGdB42Fg20g-gc1VkMgOskssKxRurH3Ar--Zo8DamVnyCNWr-HGDLCngD2gUk?purpose=inline)
+
+**03. CSS Flexbox: guida completa al layout flessibile**
+
+
+
+CSS
+
+&#x20;· Core
+
+
+
+Alta utilità pratica, ottimo potenziale di esempi e collegamento con Grid.
+
+[Variables and Statements - Wes Bos](https://images.openai.com/static-rsc-4/-NACoLClwTUtDkqJGkZTjuPpU_M5-uDkLSBX_LcEeWZmKMt_dFxYzzGoZbe2ORVXTSmUfcJ9ZoRJbTs-o2JZqG-_5EEwV2cojtURpvo3fYttrfsbeWwJ-r0vMiTiggvQHbRqk6lyaUFd4lgBXtmnxV3VgK28me2vAlhMoCYy4wc?purpose=inline)
+
+**04. JavaScript Variables: var, let e const**
+
+
+
+JavaScript
+
+&#x20;· Core
+
+
+
+Un contenuto evergreen che permette di approfondire scope, hoisting e comportamento del linguaggio.
+
+[Understanding the Journey of a URL: Exploring HTTP Methods and Status Codes | by Y Dhanush | Medium](https://images.openai.com/static-rsc-4/tvpnVFt_6J962KU76jd0_IPeyvRtD4bO35AYq6Cjtm_Tbo0wcNRfAd29Zj-OWtkNoyYLT7NDwO3vMUv1w9HIehp_KSUj7LlGuOOlL_wsoWMb1KVvTJZjJpbvky7zrNgeyQ06u5zJOOgMb5qFfBHxvyesziGB-s1hFNdmpPbC-Cw?purpose=inline)
+
+**05. HTTP: come funziona il protocollo Web**
+
+
+
+Engineering
+
+&#x20;· Core
+
+
+
+Base tecnica importante per comprendere API, browser, server, status code e sicurezza.
+
+6–10 · Argomenti con alto valore di collegamento
+
+[Circular Arrays + the Modulo Operator - Exploring Code #71](https://images.openai.com/static-rsc-4/4tqc0fubkGXGmw9bzAZipUNTIIN7ypYmIC1ZrV1SxUSRN_6aVIWN3EOPkj5PssPAG9WiJj_SvExEL1xNOKuBJQGHPs270O7KWkgU7k1IA2HvnPZWq2Wz9gaVSyU9br9bLg6UnIGdDXgz_Oml1wOauveYsKfX5crKrRxfXBGpzwo?purpose=inline)
+
+**06. CSS Grid Layout: progettare layout bidimensionali**
+
+
+
+CSS
+
+&#x20;· Core
+
+
+
+Completa il cluster Layout insieme a Flexbox e Responsive Design.
+
+[Blog: Technical #2](https://images.openai.com/static-rsc-4/IXRHgcTEAQkLxBKUr35Rj5yt3UfL0cNZ5U2k9MTMXcQGJOxOHIEUd2pncGvis9ansPTgAzQumeWMvYCgctcLtk8hJ32ws2z5CN21kbESGNqQUZbZP6ZUl9xxuz03ZNW1LpDWBd_QivNgJYpAR3eivIruKl9U9Law7h31zV6TwjY?purpose=inline)
+
+**07. DOM: Document Object Model**
+
+
+
+JavaScript
+
+&#x20;· Core
+
+
+
+Il ponte tra JavaScript, HTML e browser; apre la strada agli eventi e alla manipolazione del DOM.
+
+[Review 1st Pull Request: asking for corrections :: Git & Github through GitKraken Client - From Zero to Hero!](https://images.openai.com/static-rsc-4/HoYMjeiFJl_UEjDQ_2lZZ4AjdVlaOI_gZFn3h10gEXojILkgKVRWyLeGzbyu0C_gn2j_e0kw7usSj_yreOIfwwJe-ErYRZa0UFhOvghHBRcMgkNR44DaQprbBswFCwN6tUaQoQGFH9ZWrUH6JQDTYGSQFTdgmbjGD0sY-Sz0Rx8?purpose=inline)
+
+**08. Git: version control e workflow di sviluppo**
+
+
+
+Engineering
+
+&#x20;· Core
+
+
+
+Un tema centrale nella pratica quotidiana, utile anche per introdurre branch, commit e collaborazione.
+
+[Node.js C'est Quoi ? Guide du Backend JavaScript en 2026](https://images.openai.com/static-rsc-4/XhdzpIgPzQDx0Ihhhu081oXEsN97Fo8f5LVQBw8QOEOW64cK1-B12fkY3V01SHqnrzPjjFUVdGIxZfQHgt-3fhQdKogcD6Q-GGrmScDJq_ga12BNz1JFsU4Boy2FJQP9d4nnT4g7dx77nOLH9g6JDYHGgkjuBvoTYmuCZJ_PKEs?purpose=inline)
+
+**09. Node.js: cos'è e come funziona**
+
+
+
+Node.js
+
+&#x20;· Core
+
+
+
+Articolo hub per l'intera sezione backend e per futuri approfondimenti sul runtime.
+
+[How SSL Certificates Boost Your Domain Trustworthiness  – Trustico® Online Security](https://images.openai.com/static-rsc-4/SpRVUchYjIWVLfk6QGQoM53eSksrhjPSXI6aYo_69F3VF21_d3c4-AURoYV1clb-RnCCDD7-s5mH3URo4JF0fRFVUVkgNIqbOtVawK0BDcrhoPnmoQUma4xA8eR1PvB0Fu1VO15hIMCC33AZ4uhkpveyyE-4hOHibaaqtABKJrc?purpose=inline)
+
+**10. HTTPS: come funziona e perché è fondamentale**
+
+
+
+Security
+
+&#x20;· Core
+
+
+
+Un tema fondamentale per sicurezza, certificati, TLS e comunicazione client-server.
+
+11–15 · Differenziazione e approfondimenti
+
+[⭐️🎀 JavaScript Visualized: Promises & Async/Await - DEV Community](https://images.openai.com/static-rsc-4/OaeD06YlSMvRa2hM6Fd2bL4aFHSwoWBgf54__YgUL3qQoLoW736WcnbO8BC1HVPX4IHx5LlhRnK4AljPs7BNhHQA3PevW8UpvMPDm0FcvNAKhG8gHbTfPVa2cCxbg5zqdYurWflpXPAyKGgwUN4fbnS3IskoXr_cj7OHs5M1I-s?purpose=inline)
+
+**11. JavaScript Event Loop: come funziona**
+
+
+
+JavaScript
+
+&#x20;· Core
+
+
+
+Un tema di alto valore tecnico, essenziale per comprendere l'asincronia.
+
+[Clear architecture](https://images.openai.com/static-rsc-4/kYKDCi9BJSUVI5O4zB7hAf62nnY9QN6hhKoDYTyFU_c4DJBrSbd3jvqDh_lZ0oqnJ2BcbkAVIdqCOB9r5mO1uMMgICBT8mr_KqQuE-obzW5ia9EgFgN-eYhotALTHJ6BbeURQb85b-0_Xh-CbNT02qua30o7cpFs3mJdbv59BvA?purpose=inline)
+
+**12. Software Architecture: principi fondamentali**
+
+
+
+Engineering
+
+&#x20;· Core
+
+
+
+Introduce una linea editoriale più matura e orientata alla progettazione software.
+
+[Adding Bootstrap to your Rails App | by Alice Won | Medium](https://images.openai.com/static-rsc-4/NtLLiI6WSrguH-SN-R2jwnsaEYCJCJbemTYDOJjjklPUrN4seArNRa0Zy3W2abJRCd0o9uerU-vLp2QjBjg0r5WkbQGK_NO3S12ByEHjJU3_mxr5ttuUjM1b8jn2p208OVM0z-vrgczissDcyjwWtdpsc7NGe4lzkPlTKyMOn58?purpose=inline)
+
+**13. Responsive Web Design: principi e approccio mobile-first**
+
+
+
+CSS
+
+&#x20;· Core
+
+
+
+Un cluster molto utile per layout, media queries, unità fluide e responsive UI.
+
+[Mastering map(), filter(), reduce(), and forEach() in JavaScript | by shubham | Medium](https://images.openai.com/static-rsc-4/VbaFlRZgrG_g_Snn1yqToLdiiX9lMu4wwNgc6AtBTAMw3N2v8MmDr2wuXO8wq8uvtsV5_8cqorAtM2fBjGkCIJtufcX7qQJfIM5n4ftedft_EwdMo6Y-UYHB2jtleNtlau_suVqTuRTKZhDJ3ZuQpeM1KO6EEa5hMGMOQqU5-mQ?purpose=inline)
+
+**14. Array Methods: map(), filter() e reduce()**
+
+
+
+JavaScript
+
+&#x20;· Core
+
+
+
+Argomento pratico e ricco di esempi, con possibilità di approfondire performance e immutabilità.
+
+[How I Approach XSS Hunting as a Security Beginner | by Narmadha | Feb, 2026 | Medium](https://images.openai.com/static-rsc-4/wVmlcJfgYCXlsba886t-06DmAKqPlX6Z9aCcfGRsZt50xfbT0jTmLi3Mmgnoxx0IQ0_5x6fYrn-n4Np-5HZwHLqi-3xJIpmUL_Mp7MTKy_HfVWHt_hAEkRU6h59tksW4YqgX_jhr1eVPY9nhDnGRbi_0btXRYQnxqBCOyDi8ifw?purpose=inline)
+
+**15. Cross-Site Scripting (XSS): cause, scenari e prevenzione**
+
+
+
+Security
+
+&#x20;· Core
+
+
+
+Un contenuto chiave per la sicurezza frontend, DOM, sanitizzazione e CSP.
+
+## **P2 — Consolidamento**
+
+Articoli 16–30
+
+Rafforzano i cluster già avviati e creano nuove ramificazioni tecniche.
+
+| #  | Titolo                                                      | Categoria   |
+| -- | ----------------------------------------------------------- | ----------- |
+| 16 | CSS Specificity: come funziona la priorità dei selettori    | CSS         |
+| 17 | JavaScript Scope: global, function e block scope            | JavaScript  |
+| 18 | REST API: principi di progettazione e struttura             | Node.js     |
+| 19 | CSS Variables: Custom Properties e design tokens            | CSS         |
+| 20 | SOLID Principles: guida pratica                             | Engineering |
+| 21 | HTML Forms: struttura, attributi e validazione              | HTML        |
+| 22 | JavaScript Closures: come funzionano                        | JavaScript  |
+| 23 | Node.js Event Loop                                          | Node.js     |
+| 24 | Content Security Policy (CSP)                               | Security    |
+| 25 | CSS Media Queries: responsive design                        | CSS         |
+| 26 | Git Branching Strategies: organizzare il workflow           | Engineering |
+| 27 | JavaScript Promises: funzionamento e chaining               | JavaScript  |
+| 28 | Middleware in Node.js: concetti e implementazione           | Node.js     |
+| 29 | CSS `clamp()`: responsive sizing senza breakpoint eccessivi | CSS         |
+| 30 | Software Testing: strategie e livelli di test               | Engineering |
+
+Gli articoli 16, 19, 24 e 29 sono particolarmente interessanti perché alcuni argomenti sono già stati affrontati o sviluppati nelle nostre precedenti conversazioni. Li inserirei nel piano con un lavoro di revisione, collegamento interno e completamento dei cluster, anziché trattarli necessariamente come nuove produzioni.
+
+## **3. Priorità P3 — Costruire autorevolezza**
+
+Questi contenuti non devono necessariamente precedere gli articoli precedenti. Sono però quelli che iniziano a dare profondità al blog, rendendolo meno simile a un sito di tutorial generalisti.
+
+### **HTML**
+
+| Titolo                                            | Perché pubblicarlo               |
+| ------------------------------------------------- | -------------------------------- |
+| HTML `dialog`: modali nativi e gestione del focus | Feature moderna e pratica        |
+| HTML `loading`: lazy loading nativo               | Performance e immagini           |
+| HTML `picture`, `srcset` e `sizes`                | Responsive images                |
+| HTML Accessibility: struttura, semantica e ARIA   | Autorevolezza e accessibilità    |
+| HTML `template` e Web Components                  | Collegamento con JS e componenti |
+
+### **CSS**
+
+| Titolo                               | Perché pubblicarlo        |
+| ------------------------------------ | ------------------------- |
+| CSS `:is()` e `:where()`             | Approfondimento selettori |
+| CSS `:has()`: il relational selector | Feature moderna           |
+| CSS `@layer`: cascade layers         | Architettura CSS          |
+| CSS Container Queries                | Responsive design moderno |
+| CSS Nesting                          | Evoluzione del linguaggio |
+| CSS Subgrid                          | Layout avanzato           |
+| CSS `@property`                      | Custom properties evolute |
+| CSS `:focus-visible`                 | Accessibilità e UX        |
+
+### **JavaScript**
+
+| Titolo                                         | Perché pubblicarlo                       |
+| ---------------------------------------------- | ---------------------------------------- |
+| JavaScript Optional Chaining (`?.`)            | Sintassi moderna e robustezza            |
+| JavaScript `Promise.withResolvers()`           | API moderna e approfondimento Promise    |
+| `async/await`: funzionamento e gestione errori | Asincronia                               |
+| Event Delegation                               | DOM e performance                        |
+| JavaScript `this`: contesto di esecuzione      | Concetto fondamentale avanzato           |
+| Prototype Chain                                | Internals del linguaggio                 |
+| JavaScript Modules: import ed export           | Architettura                             |
+| AbortController                                | Cancellazione delle operazioni asincrone |
+
+### **Engineering**
+
+| Titolo                                                             | Perché pubblicarlo           |
+| ------------------------------------------------------------------ | ---------------------------- |
+| Clean Architecture: principi e struttura                           | Architettura                 |
+| Technical Debt: come identificarlo e gestirlo                      | Engineering reale            |
+| Refactoring: migliorare il codice senza cambiarne il comportamento | Qualità                      |
+| Code Review: come eseguire una review efficace                     | Workflow team                |
+| CI/CD: automatizzare build, test e deployment                      | Workflow moderno             |
+| Developer Experience (DX)                                          | Tema distintivo              |
+| MVP: progettare e validare un prodotto                             | Product engineering          |
+| Design System: architettura e implementazione                      | Collegamento frontend/design |
+
+### **Node.js**
+
+| Titolo                                  | Perché pubblicarlo      |
+| --------------------------------------- | ----------------------- |
+| Node.js Streams: gestire flussi di dati | Internals e performance |
+| Node.js Worker Threads                  | Concorrenza             |
+| Node.js Middleware Pattern              | Backend architecture    |
+| Express Routing e Router modulari       | API development         |
+| Database Connection Pooling             | Performance             |
+| Node.js Error Handling                  | Robustezza              |
+| Node.js Graceful Shutdown               | Production              |
+| Node.js Logging                         | Operations              |
+
+### **Cyber Security**
+
+| Titolo                                      | Perché pubblicarlo    |
+| ------------------------------------------- | --------------------- |
+| SQL Injection: come prevenirla              | Security fondamentale |
+| CSRF: come funziona e come proteggersi      | Web Security          |
+| Secure Cookies: HttpOnly, Secure e SameSite | Applicazione pratica  |
+| JWT: funzionamento e rischi                 | Backend security      |
+| OWASP Top 10                                | Articolo hub          |
+| Authentication vs Authorization             | Concetto fondamentale |
+| npm Supply Chain Attacks                    | Security moderna      |
+| Web Security Headers                        | Protezione browser    |
+
+## **4. Priorità P4 — Long tail e copertura specialistica**
+
+Questa fase non ha una scadenza rigida. La lista diventa il tuo backlog permanente da cui selezionare gli articoli in base a nuove tecnologie, opportunità SEO, richieste dei lettori o collegamenti con contenuti esistenti.
+
+HTML
+
+**Approfondimenti**
+
+HTML Metadata, Open Graph, Structured Data, SVG, Canvas, iframe Security, Tabindex, Accessibility API, Progressive Enhancement, HTML Parsing, Form UX, File Upload.
+
+CSS
+
+**Approfondimenti**
+
+Scroll-driven Animations, CSS Motion Path, Masking, Blend Modes, Content Visibility, CSS Containment, Print Styles, Style Queries, CSS Performance, Specificity Management.
+
+JavaScript
+
+**Approfondimenti**
+
+Proxy, Reflect, WeakMap, WeakSet, Iterators, Generators, Web Workers, IndexedDB, BroadcastChannel, Memory Leaks, Garbage Collection, Functional Programming.
+
+Engineering
+
+**Approfondimenti**
+
+ADR, DDD, Hexagonal Architecture, Monorepo, Observability, SRE, Incident Management, Postmortem, Load Testing, Deployment Strategies, Team Topologies.
+
+Node.js
+
+**Approfondimenti**
+
+Fastify, NestJS, Hono, Redis, Queues, BullMQ, WebSockets, SSE, Docker, Microservices, CQRS, OpenTelemetry, Profiling.
+
+Security
+
+**Approfondimenti**
+
+SSRF, IDOR/BOLA, Clickjacking, Path Traversal, Prototype Pollution, ReDoS, HTTP Request Smuggling, SAST, DAST, Threat Modeling, DevSecOps, Zero Trust, Passkeys.
+
+## **5. Calendario operativo dei primi 12 settimane**
+
+Imposterei una cadenza di **2 articoli a settimana**. È un ritmo che consente di mantenere qualità e approfondimento, senza trasformare la produzione in una corsa alla pubblicazione.
+
+La logica è alternare:
+
+- **Articolo A:** contenuto tecnico, generalmente HTML, CSS o JavaScript.
+- **Articolo B:** engineering, Node.js o Security, in rotazione.
+
+In questo modo il blog non appare monotematico e tutte le categorie crescono gradualmente.
+
+## **Settimana 1–4**
+
+Fondamenta e primi cluster
+
+W1
+
+**HTML Semantico**
+
+HTML · Articolo pillar
+
+**Git: version control e workflow**
+
+Engineering · Workflow fondamentale
+
+W2
+
+**CSS Box Model**
+
+CSS · Fondamentali
+
+**JavaScript Variables: var, let e const**
+
+JavaScript · Fondamentali
+
+W3
+
+**CSS Flexbox**
+
+CSS · Layout
+
+**HTTPS: come funziona e perché è fondamentale**
+
+Cyber Security · Security fondamentali
+
+W4
+
+**JavaScript DOM**
+
+JavaScript · Browser
+
+**Node.js: cos'è e come funziona**
+
+Node.js · Articolo pillar
+
+## **Settimana 5–8**
+
+Consolidamento e approfondimenti
+
+W5
+
+**CSS Grid Layout**
+
+CSS · Layout
+
+**JavaScript Event Loop**
+
+JavaScript · Advanced
+
+W6
+
+**Responsive Web Design**
+
+CSS · Responsive
+
+**Software Architecture: principi fondamentali**
+
+Engineering · Architecture
+
+W7
+
+**Array Methods: map(), filter() e reduce()**
+
+JavaScript · Data manipulation
+
+**Cross-Site Scripting (XSS)**
+
+Cyber Security · Web vulnerabilities
+
+W8
+
+**CSS Specificity**
+
+CSS · Cascade e selettori — articolo già avviato
+
+**REST API: principi di progettazione e struttura**
+
+Node.js · Backend
+
+## **Settimana 9–12**
+
+Espansione e autorevolezza
+
+W9
+
+**CSS Variables: Custom Properties e design tokens**
+
+CSS · Design system
+
+**SOLID Principles**
+
+Engineering · Software design
+
+W10
+
+**HTML Forms: struttura, attributi e validazione**
+
+HTML · Forms
+
+**JavaScript Closures**
+
+JavaScript · Language internals
+
+W11
+
+**Node.js Event Loop**
+
+Node.js · Runtime
+
+**Content Security Policy (CSP)**
+
+Cyber Security · Browser security
+
+W12
+
+**CSS Media Queries**
+
+CSS · Responsive
+
+**Git Branching Strategies**
+
+Engineering · Workflow
+
+Dopo le prime 12 settimane avrai 24 nuove pubblicazioni o articoli aggiornati, con copertura bilanciata di tutte le categorie e diversi cluster già avviati.
+
+## **6. Cosa fare con gli articoli già scritti o in lavorazione**
+
+Questa è una parte importante: non partirei da zero, ma utilizzerei i contenuti che hai già sviluppato come punti di partenza per la roadmap.
+
+Dalle nostre conversazioni risultano già trattati, scritti o avviati diversi argomenti. Li inserirei nella pianificazione in modo da valorizzare il lavoro fatto.
+
+| Articolo                     | Categoria   | Azione                                   |
+| ---------------------------- | ----------- | ---------------------------------------- |
+| CSS `clamp()`                | CSS         | Inserire nel cluster Responsive          |
+| CSS `:where()`               | CSS         | Collegare a Specificity e Selectors      |
+| CSS Variables                | CSS         | Collegare a Design Tokens                |
+| JavaScript Optional Chaining | JavaScript  | Collegare a Objects e Nullish Values     |
+| JavaScript Promise           | JavaScript  | Collegare a Event Loop e Async/Await     |
+| `Promise.withResolvers()`    | JavaScript  | Collegare al cluster Promise             |
+| HTML `dialog`                | HTML        | Collegare a UI native e Focus Management |
+| HTML `loading`               | HTML        | Collegare a Performance e Images         |
+| HTTPS                        | Security    | Collegare a HTTP, TLS e Security Headers |
+| CSP                          | Security    | Collegare a XSS e Frontend Security      |
+| Configurazione VS Code       | Engineering | Collegare a Developer Tooling e Workflow |
+
+Il loro stato effettivo di pubblicazione va verificato nel blog. La tabella si basa sugli argomenti che abbiamo sviluppato insieme.
+
+### **Il cluster che puoi costruire subito**
+
+**CSS — Selettori, cascade e valori**
+
+Un cluster già parzialmente sviluppato e particolarmente conveniente da completare.
+
+Disponibile / trattato
+
+CSS `:where()`
+
+Disponibile / trattato
+
+CSS `clamp()`
+
+Disponibile / trattato
+
+CSS Variables
+
+Da completare
+
+CSS Specificity
+
+Da completare
+
+CSS Cascade
+
+Da completare
+
+CSS `:is()`
+
+Da completare
+
+CSS `:has()`
+
+Da completare
+
+CSS `@layer`
+
+Da completare
+
+CSS Nesting
+
+Questo cluster ha un vantaggio: non devi aspettare di pubblicare 10 articoli prima di avere una struttura. Puoi collegare i contenuti esistenti, aggiungere un articolo pillar e continuare a espanderlo naturalmente.
+
+## **7. Come gestire il backlog senza perdere la priorità**
+
+Ti suggerisco di mantenere un backlog unico, evitando di creare liste separate e non sincronizzate per ogni categoria.
+
+Per ogni articolo registrerei queste informazioni:
+
+| Campo              | Utilizzo                                              |
+| ------------------ | ----------------------------------------------------- |
+| Titolo             | Titolo editoriale provvisorio                         |
+| Categoria          | HTML, CSS, JavaScript, Engineering, Node.js, Security |
+| Priorità           | P1, P2, P3, P4                                        |
+| Stato              | Backlog, Outline, Draft, Review, Published            |
+| Cluster            | Tema SEO di appartenenza                              |
+| Keyword principale | Query target                                          |
+| Tipo               | Pillar, approfondimento, tutorial, reference          |
+| Data prevista      | Pianificazione                                        |
+| URL                | URL definitivo del post                               |
+| Link interni       | Articoli correlati                                    |
+
+### **Un sistema di scoring per decidere cosa pubblicare**
+
+Per non dover decidere ogni volta a sensazione, assegnerei a ogni articolo un punteggio da 1 a 5 su quattro parametri.
+
+## **Editorial Score**
+
+Un metodo semplice per confrontare gli argomenti quando devi scegliere cosa scrivere.
+
+**SEO Potential**
+
+1–5
+
+Potenziale di ricerca e capacità di intercettare un'intenzione di ricerca utile.
+
+**Cluster Value**
+
+1–5
+
+Quanto contribuisce a costruire o completare un cluster di contenuti.
+
+**Technical Value**
+
+1–5
+
+Quanto è utile, approfondito e rilevante per il target tecnico del blog.
+
+**Production Effort**
+
+1–5
+
+Quanto lavoro richiede la produzione. 1 = poco lavoro, 5 = molto lavoro.
+
+La formula che userei è:
+
+\\[ Score = 2SEO + 2Cluster + Technical - Effort \\]
+
+Il punteggio massimo è 25. Il risultato non deve essere considerato una previsione SEO, ma un criterio interno per stabilire cosa conviene produrre prima.
+
+| Score    | Priorità operativa          |
+| -------- | --------------------------- |
+| 18–25    | Pubblicare appena possibile |
+| 14–17    | Inserire nel prossimo ciclo |
+| 10–13    | Pianificare                 |
+| 9 o meno | Backlog long tail           |
+
+In questo modo un articolo che completa un cluster già avviato può precedere un argomento teoricamente interessante ma isolato.
+
+## **8. La mia raccomandazione concreta: da dove partire**
+
+Se dovessi gestire io la linea editoriale da oggi, non cercherei di completare l'intera lista. Mi concentrerei sul primo ciclo di 12 settimane.
+
+1
+
+**HTML Semantico**
+
+2
+
+**Git: version control e workflow**
+
+3
+
+**CSS Box Model**
+
+4
+
+**JavaScript Variables**
+
+5
+
+**CSS Flexbox**
+
+6
+
+**HTTPS**
+
+7
+
+**JavaScript DOM**
+
+8
+
+**Node.js**
+
+9
+
+**CSS Grid**
+
+10
+
+**JavaScript Event Loop**
+
+11
+
+**Responsive Web Design**
+
+12
+
+**Software Architecture**
+
+13
+
+**Array Methods**
+
+14
+
+**XSS**
+
+15
+
+**CSS Specificity**
+
+Questi 15 articoli rappresentano, a mio avviso, il primo nucleo da consolidare. Non sono semplicemente 15 post: costituiscono la struttura su cui puoi costruire decine di approfondimenti, mantenendo un filo logico tra le categorie.
+
+**La mia scelta strategica:** darei al blog un'impronta Engineering forte, senza rinunciare al traffico organico generato dagli argomenti Web più ricercati. HTML, CSS e JavaScript attirano e fidelizzano il lettore; Engineering, Node.js e Cyber Security contribuiscono a costruire la sua identità e autorevolezza.
+
+Il passo successivo naturale è trasformare questo piano in un **backlog editoriale permanente con tutti gli articoli, priorità, cluster, keyword, stato e date**, in modo da avere un vero sistema di gestione dei contenuti e non dover ripensare ogni settimana cosa pubblicare.

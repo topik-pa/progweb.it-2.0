@@ -1,5 +1,14 @@
 [
   {
+    "serial":31,
+    "slug": "box-model-padding-border-margin",
+    "date": "2026-11-24",
+    "topic": "css",
+    "title": "CSS Box Model: gestire la struttura e le dimensioni degli elementi",
+    "desc": "Hai mai assegnato una larghezza a un elemento CSS per poi scoprire che le sue dimensioni effettive erano completamente diverse? Comprendere il CSS Box Model permette di evitare questi problemi e costruire layout più prevedibili, robusti e manutenibili.",
+    "body": "<p>Hai mai assegnato una larghezza a un elemento CSS per poi scoprire che le sue dimensioni effettive erano completamente diverse? Comprendere il CSS Box Model permette di evitare questi problemi e costruire layout più prevedibili, robusti e manutenibili.</p><h3>Cos'è il CSS Box Model</h3><p>Il CSS Box Model è uno dei concetti fondamentali del CSS e definisce il modello attraverso il quale il browser rappresenta, dimensiona e distribuisce gli elementi all'interno di una pagina web.</p><p>Durante il processo di rendering, il browser genera una struttura di box...</p>"
+  },
+  {
     "serial":30,
     "slug": "html-semantico-perche-utilizzare-tag-corretti",
     "date": "2026-11-24",

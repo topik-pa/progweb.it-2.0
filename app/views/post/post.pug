@@ -21,6 +21,8 @@ block main
   include ../components/side/side.pug
 
 block viewscripts
+  if post.widget
+    script(nonce=nonce)!= widget
   script(type='application/ld+json').
     {
       "@context": "https://schema.org",
@@ -93,3 +95,32 @@ block viewscripts
         }
       ]
     }
+  if post.widget
+    script(type='application/ld+json').
+      {
+        "@context": "https://schema.org",
+        "@type": ["WebApplication", "LearningResource"],
+        "@id": "#{canonical}#flexbox-playground",
+        "name": "#{post.widget}",
+        "description": "#{post.widget} - Strumento didattico interattivo",
+        "url": "#{canonical}#flexbox-playground",
+        "inLanguage": "it-IT",
+        "applicationCategory": "EducationalApplication",
+        "applicationSubCategory": "Strumento didattico #{post.topic}",
+        "operatingSystem": "Any",
+        "browserRequirements": "JavaScript",
+        "isAccessibleForFree": true,
+        "learningResourceType": "Dimostrazione interattiva",
+        "educationalUse": "Sperimentazione",
+        "educationalLevel": [
+          "Intermedio",
+          "Avanzato"
+        ],
+        "interactivityType": "active",
+        "competencyRequired": "Programmazione Web, HTML5, CSS3, JavaScript",
+        "offers": {
+          "@type": "Offer",
+          "price": 0,
+          "priceCurrency": "EUR"
+        }
+      }

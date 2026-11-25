@@ -173,6 +173,12 @@
   background: var(--white);
 }
 
+#post .widget {
+  margin: var(--view-padding);
+  padding: var(--view-padding);
+  border-left: var(--x-large-space) solid var(--blue);
+}
+
 #related ul {
   display: flex;
   justify-content: space-between;

@@ -31,6 +31,9 @@ export async function postViewController(req, res, lastPosts) {
     return res.status(404).render('4xx/404')
   }
 
+  let widget = null
+  if(post.widget) widget = await readFile(new URL(`./../views/components/widgets/${post.widget}.js`, import.meta.url), 'utf8')
+
   const breadcrumbs = [
     {
       name: topic,
@@ -40,5 +43,5 @@ export async function postViewController(req, res, lastPosts) {
       name: post.title
     }
   ]
-  res.render('post/post', { id, breadcrumbs, canonical, post, lastPosts })
+  res.render('post/post', { id, breadcrumbs, canonical, post, lastPosts, widget })
 }

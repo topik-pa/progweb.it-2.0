@@ -6,4 +6,10 @@ div
     p(class="intro " + post.author) !{post.description} #[img(src="/assets/images/" + post.author +"-talk.webp", alt=post.author + " dice...", width="80", height="80")]
 
 
+if post.widget
+div.widget 
+  a(href="#widget") Prova il Widget Online &#8681;
+  p In questo articolo è presente un widget dinamico: utilizzalo per mettere alla prova quello che hai imparato!
+
+
 div !{post.body}

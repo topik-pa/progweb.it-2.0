@@ -10,6 +10,7 @@ Per un blog di programmazione web di nome "Programmazione web italia: codice, me
 Il target lo sviluppatore è mid-senior italiano, devono essere presenti esempi di codice se necessario. 
 Il tono deve essere semplice e diretto, va bene l'uso del "tu", ma mai troppo confidenziale: il tutto deve risultare professionale. Evita emoticons se non necessari e altre caratteristiche troppo informali.
 Scivimelo in codice html e suddividi l'articolo in sezioni separate da una <section> apposita. Fai attenzione all'uso semantico dei tag e alla validazione html! Evita di inserire classi o id non strettamente necessari. Utilizza il tag <em> per evidenziare parole o frasi salienti.
+Suggeriscimi anche, se ha senso, un tool dinamico da includere nell'articolo per permettere di sperimentare online con i concetti appena appresi.
 
 Aggiungi una sezione "Conclusioni" con un sunto generale e conclusivo del post.
 

@@ -22,7 +22,7 @@ block main
 
 block viewscripts
   if post.widget
-    script(nonce=nonce)!= widget
+    script(type='module', nonce=nonce)!= widget
   script(type='application/ld+json').
     {
       "@context": "https://schema.org",

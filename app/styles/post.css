@@ -116,7 +116,7 @@
   justify-content: center;
   flex-wrap: wrap;
 }
-#post article .img-wrapper img {
+#post article img {
   max-width: 100%;
   height: auto;
   margin: var(--large-space) 0;
@@ -158,6 +158,9 @@
 
 #post article table {
   border-collapse: collapse;
+  width: 100%;
+  overflow-x: scroll;
+  display: inline-block;
 }
 #post article th {
   background: var(--lighter-gray);

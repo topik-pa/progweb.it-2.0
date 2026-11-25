@@ -49,6 +49,7 @@ header > div:nth-child(3) img {
   header > div:nth-child(3) img {
     display: block;
     height: calc( (var(--view-padding) * 2) - .7rem);
+    width: auto;
     border-radius: 50%;
     border: 1px solid var(--primary);
   }

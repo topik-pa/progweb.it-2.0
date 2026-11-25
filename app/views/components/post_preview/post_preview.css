@@ -3,9 +3,6 @@
   padding-bottom: var(--xx-large-space);
   overflow: auto;
   line-height: 140%;
-  > a {
-    float: left;
-  }
 }
 .preview img {
   height: auto;
@@ -24,6 +21,12 @@
 .preview p:nth-of-type(1) {
   font-weight: 200;
   font-style: italic;
+}
+.preview .widget {
+  border-left: var(--normal-space) solid var(--blue);
+  padding-left: var(--normal-space);
+  font-style: italic;
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 768px) {

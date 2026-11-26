@@ -35,6 +35,7 @@
     "topic": "html",
     "title": "HTML Semantico: utilizzare i tag corretti per strutturare al meglio il nostro documento",
     "desc": "Scrivere HTML non significa soltanto organizzare elementi e contenuti all'interno di una pagina. Scopri perché utilizzare i tag semantici corretti è fondamentale per migliorare accessibilità, SEO e manutenibilità del codice.",
+    "widget": "semantic-explorer",
     "body": "<p>Scrivere HTML non significa soltanto organizzare elementi e contenuti all'interno di una pagina. Scopri perché utilizzare i tag semantici corretti è fondamentale per migliorare accessibilità, SEO e manutenibilità del codice.</p><h3>Cos'è l'HTML semantico</h3><p> L'HTML semantico è un approccio alla scrittura del markup che prevede l'utilizzo di elementi il cui nome e significato descrivono la natura del contenuto che racchiudono.</p><p> Ogni elemento HTML possiede una funzione specifica. Utilizzare il tag appropriato permette al browser, alle tecnologie assistive e...</p>"
   },
   {
@@ -172,6 +173,7 @@
     "topic": "html",
     "title": "Il tag <dialog> in HTML5: esempi e spiegazione su come generare finestre di dialogo",
     "desc": "Come utilizzare il nuovo tag &lt;dialog&gt; di HTML5 per generare finestre modali e non modali. I vantaggi di una soluzione nativa ed esempi di codice",
+    "widget": "dialog-playground",
     "body": "<p>Come utilizzare il nuovo tag &lt;dialog&gt; di HTML5 per generare finestre modali e non modali. I vantaggi di una soluzione nativa ed esempi di codice</p><h3>Introduzione</h3><p>La gestione di popup e finestre modali è sempre stata una sfida per gli sviluppatori web. Tradizionalmente, <em>questi elementi richiedevano combinazioni di HTML, CSS e JavaScript</em> creati ad hoc dallo sviluppatore per funzionare correttamente. Con l'introduzione dell'elemento &lt;dialog&gt; in HTML5, <em>questa complessità viene ridotta</em>, offrendo <em>una soluzione nativa e standard per creare finestre di dialogo</em> accessibili e facili da gestire. In questo articolo esploreremo come utilizzare &lt;dialog&gt; e quali vantaggi offre...</p>"
   },
   {

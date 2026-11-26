@@ -4,6 +4,7 @@
     "slug": "var-let-const-differenza-variabili",
     "date": "2026-11-24",
     "topic": "javascript",
+    "sub": "fundamentals",
     "title": "Variabili JavaScript: differenze tra var, let e const",
     "desc": "Dichiarare una variabile in JavaScript è semplice, ma scegliere tra var, let e const richiede una buona conoscenza del funzionamento del linguaggio. Vediamo quali sono le differenze, come funzionano scope e hoisting e quali dichiarazioni utilizzare nel JavaScript moderno.",
     "body": "<p>Dichiarare una variabile in JavaScript è semplice, ma scegliere tra var, let e const richiede una buona conoscenza del funzionamento del linguaggio. Vediamo quali sono le differenze, come funzionano scope e hoisting e quali dichiarazioni utilizzare nel JavaScript moderno.</p><h3>Le variabili in JavaScript</h3><p>Le variabili rappresentano uno dei concetti fondamentali di JavaScript e permettono di associare un identificatore a un valore, rendendolo accessibile e utilizzabile durante l'esecuzione del programma.</p><p>JavaScript mette a disposizione tre parole chiave per dichiarare una variabile...</p>"
@@ -13,6 +14,7 @@
     "slug": "flexbox-guida-layout-flessibile-esempi",
     "date": "2026-11-24",
     "topic": "css",
+    "sub": "layout",
     "title": "CSS Flexbox: guida completa al layout flessibile",
     "desc": "Centrare un elemento, distribuire lo spazio disponibile o realizzare componenti responsive: CSS Flexbox permette di risolvere questi e molti altri problemi di layout. Vediamo come funziona, dalle proprietà fondamentali ai meccanismi di dimensionamento più avanzati.",
     "widget": "flexbox-playground",
@@ -23,6 +25,7 @@
     "slug": "box-model-padding-border-margin",
     "date": "2026-11-24",
     "topic": "css",
+    "sub": "fundamentals",
     "title": "CSS Box Model: gestire la struttura e le dimensioni degli elementi",
     "desc": "Hai mai assegnato una larghezza a un elemento CSS per poi scoprire che le sue dimensioni effettive erano completamente diverse? Comprendere il CSS Box Model permette di evitare questi problemi e costruire layout più prevedibili, robusti e manutenibili.",
     "widget": "box-model-playground",
@@ -33,6 +36,7 @@
     "slug": "html-semantico-perche-utilizzare-tag-corretti",
     "date": "2026-11-24",
     "topic": "html",
+    "sub": "semantics",
     "title": "HTML Semantico: utilizzare i tag corretti per strutturare al meglio il nostro documento",
     "desc": "Scrivere HTML non significa soltanto organizzare elementi e contenuti all'interno di una pagina. Scopri perché utilizzare i tag semantici corretti è fondamentale per migliorare accessibilità, SEO e manutenibilità del codice.",
     "widget": "semantic-explorer",
@@ -43,6 +47,7 @@
     "slug": "specificity-specificita-selettori-calcolo-priorita",
     "date": "2026-11-23",
     "topic": "css",
+    "sub": "fundamentals",
     "title": "CSS Specificity: come funziona la specificità e la priorità dei selettori CSS",
     "desc": "Come funziona la specificità CSS e come determinare quale regola prevale? Scopri il calcolo dei selettori, il ruolo di !important, :is(), :where() e cascade layers con esempi pratici.",
     "widget": "specificity-calculator",
@@ -53,6 +58,7 @@
     "slug": "vscode-setup-sviluppo-web-configurazione",
     "date": "2026-11-23",
     "topic": "engineering",
+    "sub": "environment",
     "title": "VS Code Setup per lo sviluppo web: configurazione completa",
     "desc": "Configurare bene il proprio editor è uno dei modi più semplici per migliorare il workflow quotidiano. Vediamo come creare un setup condiviso con VS Code, Prettier, ESLint, EditorConfig e REST Client, pronto per un progetto web reale.",
     "body": "<p>Configurare bene il proprio editor è uno dei modi più semplici per migliorare il workflow quotidiano. Vediamo come creare un setup condiviso con VS Code, Prettier, ESLint, EditorConfig e REST Client, pronto per un progetto web reale.</p><h3>Un ambiente di sviluppo standardizzato</h3><p> Quando si lavora su un progetto web, l'editor non dovrebbe essere soltanto uno strumento per scrivere codice, ma parte integrante del processo di sviluppo. Le configurazioni, gli strumenti di analisi e le convenzioni di formattazione devono essere facilmente replicabili tra le diverse postazioni.</p><p> <em>L'obiettivo è ridurre le differenze tra gli ambienti di lavoro e fare in modo che ogni sviluppatore possa concentrarsi sul codice, senza dover configurare manualmente ogni singolo...</em></p>"
@@ -62,6 +68,7 @@
     "slug": "configurare-visual-studio-code-sviluppo-web",
     "date": "2026-11-23",
     "topic": "engineering",
+    "sub": "environment",
     "title": "Una guida completa alla configurazione di Visual Studio Code per lo sviluppo web",
     "desc": "Vuoi migliorare il tuo workflow di sviluppo web? Scopri come configurare Visual Studio Code, organizzare settings ed estensioni, utilizzare Prettier, EditorConfig e REST Client per creare un ambiente di lavoro efficiente e condiviso.",
     "body": "<p>Vuoi migliorare il tuo workflow di sviluppo web? Scopri come configurare Visual Studio Code, organizzare settings ed estensioni, utilizzare Prettier, EditorConfig e REST Client per creare un ambiente di lavoro efficiente e condiviso.</p><h3>Perché configurare un ambiente di sviluppo</h3><p> Quando si lavora su un progetto web, l'editor è uno degli strumenti che utilizzi quotidianamente. La qualità dell'ambiente di lavoro influisce direttamente sulla velocità con cui scrivi codice, individui problemi, esegui test e gestisci le attività di sviluppo.</p><p> Utilizzare un editor con le impostazioni predefinite può essere sufficiente per iniziare, ma...</p>"
@@ -71,6 +78,7 @@
     "slug": "clamp-tipografia-fluida-layout-responsive",
     "date": "2026-11-23",
     "topic": "css",
+    "sub": "responsive",
     "title": "Scopri come funziona CSS clamp(): crea tipografia fluida, spaziature responsive e layout adattivi definendo valori minimi, preferiti e massimi.",
     "desc": "Vuoi rendere tipografia, spaziature e layout più fluidi senza moltiplicare le media query? Con CSS clamp() puoi definire valori dinamici mantenendo un controllo preciso sulle dimensioni minime e massime.",
     "widget": "clamp-generator",
@@ -81,6 +89,7 @@
     "slug": "this-lexical-scope-differenze-funzionamento",
     "date": "2026-11-20",
     "topic": "javascript",
+    "sub": "fundamentals",
     "title": "JavaScript: this e lexical scope, differenze concettuali e funzionamento",
     "desc": "Che differenza c'è tra this e lexical scope in JavaScript? Scopri come funzionano, quale ruolo hanno le arrow function e le closure e mettiti alla prova con alcuni esempi tipici dei colloqui tecnici.",
     "body": "<p>Che differenza c'è tra this e lexical scope in JavaScript? Scopri come funzionano, quale ruolo hanno le arrow function e le closure e mettiti alla prova con alcuni esempi tipici dei colloqui tecnici.</p><h3>Che cosa sono this e lexical scope in JavaScript?</h3><p> Prima di analizzare le differenze, è importante chiarire che <code>this</code> e lexical scope appartengono a due meccanismi distinti del linguaggio.</p><p> <code>this</code> è un riferimento disponibile all'interno di una funzione, il cui valore dipende principalmente dalle modalità con cui la funzione viene invocata. Nelle funzioni tradizionali, quindi, non è determinato semplicemente dal punto in cui la funzione viene dichiarata.</p>"
@@ -90,6 +99,7 @@
     "slug": "gestione-eccezioni-errori-http-500",
     "date": "2026-11-19",
     "topic": "nodejs",
+    "sub": "errors",
     "title": "Node.js: come gestire gli errori HTTP 500 e le eccezioni nel nostro codice",
     "desc": "Come gestire gli errori HTTP 500 in Node.js? Scopri come intercettare le eccezioni, creare un error handler in Express, proteggere le API e gestire gli errori inattesi in produzione.",
     "widget": "node-error-handling-visualizer",
@@ -100,6 +110,7 @@
     "slug": "selettore-is-sintassi-esempi",
     "date": "2026-11-19",
     "topic": "css",
+    "sub": "selectors",
     "title": "CSS :is(): come raggruppare selettori e semplificare il codice",
     "desc": "La pseudo-classe CSS :is() permette di raggruppare più selettori e semplificare le regole di stile. Scopri come utilizzarla, come funziona la specificità e come rendere i tuoi stylesheet più leggibili e manutenibili.",
     "body": "<p>La pseudo-classe CSS :is() permette di raggruppare più selettori e semplificare le regole di stile. Scopri come utilizzarla, come funziona la specificità e come rendere i tuoi stylesheet più leggibili e manutenibili.</p><h3>Cos'è la pseudo-classe CSS :is()</h3><p><code>:is()</code> è una pseudo-classe funzionale che accetta una lista  di selettori e individua tutti gli elementi che corrispondono ad almeno  uno di essi. Puoi utilizzarla per raggruppare selettori differenti e  applicare loro le stesse dichiarazioni CSS.</p><p>  Il suo obiettivo principale è semplificare la scrittura dei selettori,  soprattutto quando devi ripetere la stessa struttura in più punti di uno stylesheet...</p>"
@@ -109,6 +120,7 @@
     "slug": "selettore-where-sintassi-esempi",
     "date": "2026-11-19",
     "topic": "css",
+    "sub": "selectors",
     "title": "CSS :where(): selettori a specificità zero e stili flessibili",
     "desc": "La pseudo-classe CSS :where() consente di raggruppare selettori anche complessi mantenendo la specificità a zero. Scopri come utilizzarla per realizzare stylesheet più flessibili, ridurre i conflitti e semplificare la gestione degli stili.",
     "body": "<p>La pseudo-classe CSS :where() consente di raggruppare selettori anche complessi mantenendo la specificità a zero. Scopri come utilizzarla per realizzare stylesheet più flessibili, ridurre i conflitti e semplificare la gestione degli stili.</p><h3>Cos'è il selettore CSS :where()</h3><p>  <code>:where()</code> è una pseudo-classe funzionale introdotta per  semplificare la scrittura dei selettori CSS e, soprattutto, per  controllarne la specificità.</p><p>  Il suo funzionamento è simile a quello di <code>:is()</code>: accetta  una lista di selettori e corrisponde agli elementi che soddisfano almeno  uno di essi. La differenza fondamentale...</p>"
@@ -118,6 +130,7 @@
     "slug": "optional-chaining-esempio-codice-utilizzo",
     "date": "2026-11-18",
     "topic": "javascript",
+    "sub": "data",
     "title": "JavaScript Optional Chaining (?.): come funziona e quando utilizzarlo",
     "desc": "Quante volte ti è capitato di dover verificare che ogni proprietà di un oggetto esista prima di poterla utilizzare? Con l'Optional Chaining JavaScript mette a disposizione una sintassi semplice ed efficace per gestire questi casi, rendendo il codice più leggibile e riducendo i controlli condizionali.",
     "widget": "optional-chaining-playground",
@@ -128,6 +141,7 @@
     "slug": "content-security-policy-csp-guida-sicurezza-web",
     "date": "2026-11-18",
     "topic": "security",
+    "sub": "headers",
     "title": "Content-Security-Policy (CSP): guida alla sicurezza web e protezione dagli attacchi XSS",
     "widget": "csp-generator",
     "desc": "Proteggere un'applicazione web significa anche controllare quali risorse possono essere caricate ed eseguite dal browser. La Content-Security-Policy (CSP) è uno strumento fondamentale per limitare queste possibilità e ridurre il rischio di attacchi XSS: vediamo come funziona, come configurarla e quali direttive utilizzare per implementare una policy efficace.",
@@ -138,6 +152,7 @@
     "slug": "middleware-express-creazione-esempi-codice",
     "date": "2026-11-17",
     "topic": "nodejs",
+    "sub": "express",
     "title": "Middleware in Node.js: cosa sono e come crearli con Express",
     "desc": "I middleware sono una componente essenziale delle applicazioni Node.js basate su Express. Scopri cosa sono, come funzionano e come crearne di personalizzati per comprimere le risposte HTTP, forzare HTTPS e gestire il redirect dal dominio www alla versione senza www.",
     "widget": "express-middleware-visualizer",
@@ -148,6 +163,7 @@
     "slug": "operatore-nullish-coalescing-guida-utilizzo",
     "date": "2026-11-17",
     "topic": "javascript",
+    "sub": "fundamentals",
     "title": "Nullish Coalescing in JavaScript: guida all'operatore ?? con esempi di utilizzo",
     "desc": "Hai mai utilizzato l'operatore || per assegnare un valore predefinito, salvo poi accorgerti che anche uno 0 o un false venivano sostituiti? Il Nullish Coalescing (??) risolve proprio questo problema: scopri come funziona, quali sono le differenze rispetto all'operatore OR e come sfruttarlo insieme all'Optional Chaining.",
     "body": "<p>Scopri come funziona il Nullish Coalescing in JavaScript (??), le differenze con l'operatore OR (||), gli esempi pratici e l'utilizzo con Optional Chaining.</p><h3>Che cos'è il Nullish Coalescing Operator</h3>  <p>Il <strong>Nullish Coalescing Operator</strong>, introdotto con ECMAScript 2020 (ES11), è un operatore logico che consente di specificare un valore alternativo quando un'espressione restituisce <code>null</code> oppure <code>undefined</code>.</p>  <p>La sua sintassi è particolarmente semplice: </p><pre><code>const risultato = valore ?? valorePredefinito;</code></pre><p>Il comportamento è il seguente...</p>"
@@ -157,6 +173,7 @@
     "slug": "file-env-variabili-ambiente-esempio",
     "date": "2026-11-17",
     "topic": "engineering",
+    "sub": "methodologies",
     "title": "Guida ai file .env: architettura, sicurezza e best practice per lo sviluppo web",
     "desc": "Gestire credenziali e configurazioni tra ambiente locale e produzione è una delle sfide quotidiane per ogni sviluppatore web. Scopriamo come sfruttare al meglio i file .env per rendere la tua architettura più pulita, sicura e manutenibile.",
     "body": "<p>Gestire credenziali e configurazioni tra ambiente locale e produzione è una delle sfide quotidiane per ogni sviluppatore web. Scopriamo come sfruttare al meglio i file .env per rendere la tua architettura più pulita, sicura e manutenibile.</p><h3>Cos'è un file .env e perché è fondamentale nell'architettura moderna</h3><p>Un file <code>.env</code> (abbreviazione di <em>environment</em>) è un semplice file di testo privo di estensione formale, utilizzato per definire le <strong>variabili d'ambiente</strong> di un'applicazione. La sua struttura si basa su coppie chiave-valore, separate dal simbolo uguale (<code>CHIAVE=VALORE</code>)...</p>"
@@ -166,6 +183,7 @@
     "slug": "if-condizione-logica-nativa-esempi",
     "date": "2026-11-16",
     "topic": "css",
+    "sub": "functions",
     "title": "La condizione if() in CSS: una logica condizionale nativa che cambia l'architettura dei nostri stili",
     "desc": "La funzione nativa if() in CSS porta la valutazione condizionale direttamente nel motore di rendering del browser reagendo ai cambiamenti dinamici del browser o all'aggiornamento di una variabile CSS a runtime",
     "body": "<p>La condizione if() in CSS: una logica condizionale nativa che cambia l'architettura dei nostri stili</p><h3>Perché avevamo bisogno di if() in CSS</h3><p>Chi sviluppa interfacce complesse sa bene quanto sia frustrante gestire le varianti di un componente. Fino a ieri, se volevi modificare più proprietà in base a un singolo parametro, avevi due strade: creare classi modificatrici (come <code>.btn--danger</code> o <code>.card--dark</code>) oppure calcolare valori tramite custom properties e hack matematici con <code>calc()</code>.</p><p>I preprocessori come Sass offrono da tempo la direttiva <code>@if</code>, ma quella logica viene risolta a build-time. Non reagisce ai cambiamenti dinamici del browser, al ridimensionamento del viewport o all'aggiornamento di una variabile CSS a runtime. La funzione nativa <code>if()</code> colma esattamente questo divario, portando la valutazione condizionale direttamente nel motore di rendering del browser...</p>"
@@ -175,6 +193,7 @@
     "slug": "tag-dialog-utilizzo-esempi",
     "date": "2026-11-13",
     "topic": "html",
+    "sub": "interactive",
     "title": "Il tag <dialog> in HTML5: esempi e spiegazione su come generare finestre di dialogo",
     "desc": "Come utilizzare il nuovo tag &lt;dialog&gt; di HTML5 per generare finestre modali e non modali. I vantaggi di una soluzione nativa ed esempi di codice",
     "widget": "dialog-playground",
@@ -185,6 +204,7 @@
     "slug": "promise-definizione-sintassi-esempi",
     "date": "2026-11-10",
     "topic": "javascript",
+    "sub": "asynchronous",
     "title": "JavaScript Promise: impara a gestire efficacemente gli eventi asincroni!",
     "desc": "Gestire le operazioni asincrone in JavaScript attraverso le Promise: una introduzione passo dopo passo alla programmazione asincrona.",
     "widget": "promise-playground",
@@ -195,6 +215,7 @@
     "slug": "programmazione-strutturata-oggetti-funzionale",
     "date": "2026-11-07",
     "topic": "engineering",
+    "sub": "methodologies",
     "title": "Scopri quali sono i 3 principali paradigmi della programmazione software",
     "desc": "Tipologie di programmazione, Matematica e Scienza, Dijkstra e il goto... Un post sulla storia e sui concetti generali della Programmazione",
     "body": "<p>Tipologie di programmazione, Matematica e Scienza, Dijkstra e il goto... Un post sulla storia e sui concetti generali della Programmazione</p><h3>Programmazione strutturata</h3><p>Lo scopo della programmazione strutturata è la <em>destrutturazione di una applicazione software in moduli</em>, ogni modulo può, a sua volta, essere suddiviso ricorsivamente in componenti più piccole, fino ad arrivare alla <em>singola funzione atomica</em>. Questo paradigma permette di affrontare un problema complesso (la nostra applicazione) attraverso un <em>approccio divide-et-impera</em> separando le sue funzionalità in unità più piccole e gestendole in maniera indipendente: è un approcciò più strategico nella gestione della complessità. </p><p>Ogni funzione può essere descritta tramite l'utilizzo delle <em>tre strutture di controllo</em>: sequenza, selezione e iterazione, ne deriva che tutti i programmi, a prescindere dalla loro complessità, possono essere descritti utilizzando solamente questi tre principi di base...</p>"
@@ -204,6 +225,7 @@
     "slug": "throttle-debounce-definizione-esempi",
     "date": "2026-11-04",
     "topic": "javascript",
+    "sub": "performance",
     "title": "Throttle e debounce in JavaScript: definizione, esempi e casi d'uso",
     "widget": "debounce-throttle-playground",
     "desc": "Gestire eventi che accadono o si susseguono ad intervalli di tempo molto frequenti in maniera efficente e senza appesantire la nostra app",
@@ -214,6 +236,7 @@
     "slug": "progettazione-software-sviluppo-evoluzionistico",
     "date": "2026-11-01",
     "topic": "engineering",
+    "sub": "architecture",
     "title": "Sviluppo evoluzionistico: un approccio organico alla progettazione software",
     "desc": "Un approccio allo sviluppo software che si ispira al modo in cui gli organismi viventi crescono e si sviluppano in Natura seguendo una crescita equilibrata e interdipendente tra tutte le parti coinvolte",
     "body": "<p>Un approccio allo sviluppo software che si ispira al modo in cui gli organismi viventi crescono e si sviluppano in Natura seguendo una crescita equilibrata e interdipendente tra tutte le parti coinvolte</p><h3>Introduzione</h3><h4>Concetto di sviluppo \"organico\" (o \"evoluzionistico\")</h4><p>Lo sviluppo software è spesso percepito come un processo tecnico e lineare; cosa accadrebbe se lo considerassimo, invece, come qualcosa di più naturale e fluido? Da questa idea nasce il concetto di Sviluppo Organico, un approccio che <em>si ispira al modo in cui gli organismi viventi crescono e si sviluppano in Natura</em> seguendo <em>uno sviluppo equilibrato e interdipendente tra tutte le parti che li compongono</em>.</p><p>Proprio come un organismo non può crescere concentrandosi su una sola parte alla volta (un braccio, una gamba o un suo organo specifico) anche un software dovrebbe...</p>"
@@ -223,6 +246,7 @@
     "slug": "attributo-loading-lazy-load",
     "date": "2026-10-29",
     "topic": "html",
+    "sub": "performance",
     "title": "Attributo \"loading\" in HTML5 - Migliora performance e UX con il lazy load nativo!",
     "desc": "Migliorare l'efficienza del caricamento delle pagine web ritardando il caricamento delle immagini e degli iframe non ancora visibili a schermo",
     "body": "<p>Migliorare l'efficienza del caricamento delle pagine web ritardando il caricamento delle immagini e degli iframe non ancora visibili a schermo</p><h3>Introduzione</h3><h4>Breve descrizione dell'attributo \"loading\"</h4><p>L'attributo <span>loading</span> in HTML5 è stato introdotto <em>per migliorare l'efficienza del caricamento delle pagine web</em>. Questo attributo, applicabile alle immagini (&lt;img&gt;) e agli iframe (&lt;iframe&gt;), consente agli sviluppatori di specificare come e quando questi elementi devono essere caricati rispetto alla visualizzazione del contenuto da parte dell'utente (per esempio: se l'immagine non è ancora visibile perchè ancora below-the-fold). La sua funzione principale è ottimizzare l'utilizzo delle risorse, ritardando il caricamento degli elementi non essenziali fino a quando non diventano visibili nel viewport a seguito dell'attività di scrolling dell'utente. In questo modo, si riducono i tempi di caricamento iniziali della pagina, migliorando sia l'esperienza utente (UX) sia il posizionamento nei motori di ricerca, che premiano le pagine con prestazioni elevate...</p>"
@@ -232,6 +256,7 @@
     "slug": "custom-properties-variabili-sintassi-esempi",
     "date": "2026-10-25",
     "topic": "css",
+    "sub": "fundamentals",
     "title": "Variabili in CSS: scopri le Custom Properties e migliora il codice dei tuoi fogli di stile",
     "desc": "Attraverso le Custom Properties è ora possibile definire e riutilizzare delle variabili all'interno dei nostri fogli di stile.",
     "body": "<p>Attraverso le Custom Properties è ora possibile definire e riutilizzare delle variabili all'interno dei nostri fogli di stile.</p><h3>Introduzione alle variabili in CSS</h3><p>Negli ultimi anni, le variabili in CSS (note anche come \"<em>CSS Custom Properties</em>\") hanno trasformato il modo in cui progettiamo e gestiamo lo stile dei siti web. Con l'introduzione di questa funzionalità, è diventato possibile definire dei valori riutilizzabili all'interno di un foglio di stile, portando un notevole miglioramento in termini di manutenibilità e scalabilità del codice.</p><p>Le variabili <em>sono valori che possiamo definire una volta e riutilizzare</em> in più punti del nostro codice e <em>permettono di centralizzare e organizzare le proprietà</em> che vengono usate più volte, come colori, spaziature e dimensioni dei caratteri...</p>"
@@ -241,6 +266,7 @@
     "slug": "funzioni-generator-generatori-definizione-esempi",
     "date": "2026-10-20",
     "topic": "javascript",
+    "sub": "functions",
     "title": "Cosa sono i Generator in JavaScript? Scopri tutte le potenzialità dei Generatori!",
     "desc": "Le funzioni generatrici (generators), introdotte con ECMAScript 6, permettono di eseguire, interrompere e riprendele l'esecuzione del loro codice... Come utilizzarle nel nostro progetto.",
     "widget": "generator-functions-visualizer",
@@ -251,6 +277,7 @@
     "slug": "security-by-design-principi-paradigmi",
     "date": "2026-10-15",
     "topic": "security",
+    "sub": "fundamentals",
     "title": "La Security by Design - scopri quali sono i 10 paradigmi della Sicurezza Web",
     "desc": "Un approccio orientato alla Sicurezza: 10 paradigmi da tenere a mente e implementare fin dalle prime fasi dello sviluppo",
     "body": "<p>Come e perchè integrare i principali paradigmi di sicurezza nell'implementazione del nostro sistema software fin dalle primissime fasi di progettazione. Che cosa significa il concetto di \"Security by Design\" e quali sono i vantaggi che offre?</p><h3>Il concetto di Security by Design </h3><p>La <em>Security by Design</em> è un approccio fondamentale nello sviluppo software che mira ad integrare l'<em>implementazione della sicurezza fin dalle prime fasi del ciclo di vita del software</em>. In un tale approccio, gli strumenti e le tecniche di sicurezza fanno parte integrante dello sviluppo e non sono una sua appendice da integrare una volta che il lavoro di sviluppo principale è concluso. Il costo derivante dalla applicazione di questi principi è affrontato fin dalle prime fasi di sviluppo diventando <em>un investimento piuttosto che un debito tecnico</em> da affrontare in un momento successivo...</p>"
@@ -260,6 +287,7 @@
     "slug": "selettore-has-sintassi-esempi",
     "date": "2026-10-13",
     "topic": "css",
+    "sub": "selectors",
     "title": "Scopri come utilizzare il nuovo selettore :has() in CSS",
     "desc": "Il selettore has() in CSS - descrizione ed esempi pratici",
     "body": "<p>Il selettore has() in CSS - descrizione ed esempi pratici</p><h3>Il selettore :has() in CSS4</h3><p>Il selettore :has() è una delle 4 <em>pseudo-classi funzionali</em> (insieme a: :is(); :where() e :not()) e consente agli sviluppatori di selezionare elementi del DOM che contengono al loro interno elementi che rispondono al selettore passato come parametro nella funzione :has(). E' essenzialmente <em>un selettore che permette di ottenere il \"parent\"</em> degli elementi definiti attraverso il parametro.</p><p>Provo a fare un semplice esempio chiarificatore... </p><div class=\"coding\"><span>Esempio 1 - selettore CSS :has()</span><div class=\"code\"> <pre>a:has(img)</pre></div></div><p>L'istruzione CSS qui sopra seleziona tutti gli elementi &lt;a&gt; che hanno al loro interno un elemento &lt;img&gt;...</p>"
@@ -269,6 +297,7 @@
     "slug": "nodejs-express-setup-progetto",
     "date": "2026-10-10",
     "topic": "nodejs",
+    "sub": "express",
     "title": "Setup di un progetto NodeJS / Express - Strumenti e metodologie per iniziare un nuovo progetto",
     "desc": "Iniziare a scrivere in NodeJS/Express con il piede giusto: strumenti e metodologie professionali per l'init di un nuovo progetto",
     "body": "<p>Esistono tante guide per fare il setup di un progetto NodeJS/Express, in questa vorrei però aggiungere la descrizione di qualche strumento e metodologia spesso utilizzati in ambito professionale.</p><h3>Introduzione </h3><h4>Cosa faremo</h4><p>Procederemo al <em>setup di un piccolo progetto Web</em>: alla fine dell'articolo avremo un server in ascolto su una specifica rotta e un semplice messaggio testuale come risposta. La funzionalità è decisamente minima, ma sufficiente per illustrare alcuni degli strumenti e mettere in pratica certe metodologie di sviluppo (come, per esempio, il versionamento del codice) che spesso troviamo applicate in ambienti di lavoro professionali. Non ci focalizzeremo, quindi, sulla sola <em>implementazione tecnica</em>, ma agiremo a più ampio spetto introducendo <em>concetti e pratiche utili quando si scrive codice all'interno di un team</em>...</p>"
@@ -278,6 +307,7 @@
     "slug": "architettura-del-sw-definizione-obiettivi",
     "date": "2026-10-07",
     "topic": "engineering",
+    "sub": "architecture",
     "title": "Perchè implementare un corretta Architettura del Software? Concetti, esempi e vantaggi di una buona scelta architetturale",
     "desc": "Perchè si implementa una Architettura coerente ed efficente? Quali sono le ripercussioni sul Progetto e su tutto il Team? Qui metto in luce alcuni concetti e idee che stanno alla base di una buona Architetture del Software.",
     "body": "<p>Tutti abbiamo almeno una idea vaga di cosa si intende per \"Architettura del Software\", ma penso che solo alcuni abbiano in mente i concetti, le pratiche e vantaggi che derivano da una buona Architettura</p><h3>Architettura del Software: una definizione </h3><p>Con Architettura del Software ci riferiamo alla <em>struttura di un sistema software</em> e alla <em>progettazione delle interfacce dei suoi componenti</em>; comprende le decisioni di progettazione che determinano quali parti compongono l'applicazione e come  queste interagiscono e lavorano assieme per raggiungere gli obiettivi richiesti. Queste decisioni includono la struttura del file system (i file e le cartelle), la scelta dei framework da adottare, la definizione delle interfacce tra le diverse componenti che costituiscono l'applicazione, la gestione dei dati, la distribuzione delle responsabilità tra i moduli e altro ancora. <br> Un'architettura ben progettata facilita la manutenzione, l'aggiornamento e l'aggiunta di funzionalità del software nel tempo ponendo la giusta attenzione ad aspetti quali: la scalabilità, la sicurezza, la manutenibilità e la flessibilità per garantire che il software possa crescere e adattarsi alle esigenze in evoluzione...</p>"
@@ -287,6 +317,7 @@
     "slug": "closure-definizione-esempi-uso",
     "date": "2026-10-04",
     "topic": "javascript",
+    "sub": "fundamentals",
     "title": "JavaScript Closure - Tutti i segreti e gli utilizzi delle Closure in JavaScript",
     "widget": "closure-visualizer",
     "desc": "Tutte le volte che ho dovuto affrontare il discorso CLOSURE in JS finivo per avere una impressione riassumibile nella frase: \"Tutto molto bello, ma... QUINDI?\"",
@@ -297,6 +328,7 @@
     "slug": "attributo-ping-definizione-esempi",
     "date": "2026-10-01",
     "topic": "html",
+    "sub": "",
     "title": "L'attributo 'ping': del tag <a> in HTML5: a cosa serve e come utilizzarlo",
     "desc": "Fin dalla sua pubblicazione HTML5 ha introdotto alcuni attributi che, seppur interessanti, non sono mai stati usati o compresi fino in fondo, l'attributo 'ping' è secondo me uno di questi.",
     "body": "<p>Fin dalla sua pubblicazione HTML5 ha introdotto alcuni attributi che, seppur interessanti, non sono mai stati usati o compresi fino in fondo, l'attributo 'ping' è secondo me uno di questi.</p><h3><em>Definizione</em>: cos'è l'attributo \"ping\"?</h3><p>L'attributo \"ping\", introdotto in HTML5, è un attributo poco utilizzato del tag &lt;a&gt;. Molto semplicemente,<em> serve a specificare una serie di URL che verranno richiamati automaticamente quando un link viene seguito dall'utente</em> (al \"click\", per intenderci). Questo attributo può essere utile in diverse situazioni, in particolare per scopi di monitoraggio e analisi.</p><h3><em>Utilizzo</em>: come utilizzare l'attributo \"ping\"</h3><p>Spesso è utile sapere se un utente ha cliccato un dato link (tipicamente un link che punta ad una risorsa esterna al nostro sito, sulla quale non abbiamo  controllo). In questi casi, il comportamento dell'utente viene tracciato...</p>"
@@ -306,6 +338,7 @@
     "slug": "jwt-autenticazione-stateless",
     "date": "2026-09-25",
     "topic": "javascript",
+    "sub": "",
     "title": "Scopri i JSON Web Token (JWT) - autenticazione stateless per le tue applicazioni web",
     "desc": "Come gestire i JSON Web Token (JWT) per implemetare applicazioni web stateless",
     "body": "<p>I JWT e l'autenticazione token-based: cosa sono e come funzionano i JSON Web Token. Esempi pratici, vantaggi e svantaggi, best practice dell'autenticazione senza stato</p><h3>Introduzione</h3><h4>Cos’è e a cosa serve un JWT </h4><p>Nel mondo dello sviluppo web, <em>la sicurezza e la gestione dell’autenticazione</em> sono aspetti fondamentali: uno degli strumenti più utilizzati per garantire un accesso sicuro e scalabile nelle applicazioni moderne è rappresentato dal <em>JWT (JSON Web Token)</em>.</p><p>Un JWT è un token che permette di scambiare informazioni in modo sicuro tra due parti (tipicamente un client ed un server). Grazie alla sua <em>struttura basata su JSON</em> e alla possibilità di essere firmato digitalmente, i JWT vengono spesso utilizzati per autenticazione e autorizzazione in applicazioni web e API....</p>"

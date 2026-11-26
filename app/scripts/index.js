@@ -37,7 +37,7 @@ header.init()
 
 // Import views specific scripts
 const modules = {
-  home: () => import('../views/home/home.js')
+  // home: () => import('../views/home/home.js')
 }
 
 // Execute view specific script

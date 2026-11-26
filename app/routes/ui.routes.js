@@ -28,6 +28,7 @@ import path from 'path'
 import { readFile } from 'node:fs/promises'
 import { postViewController } from '../controllers/ui.controller.js'
 import { fileURLToPath } from 'url'
+import { buildEditorialIndex } from '../assets/posts/buildEditorialIndex.js'
 
 const router = express.Router()
 const TOPIC = 'html|css|javascript|nodejs|engineering|security'
@@ -236,14 +237,15 @@ router.get('/', async(req, res) => {
 router.get('/posts', (req, res) => {
   const posts = postsIdx
   const lastPosts = getLastPosts()
+  const data = buildEditorialIndex(posts)
   const id = 'posts'
   const breadcrumbs = [
     {
-      name: 'Gli ultimi post'
+      name: 'Tutti gli articoli'
     }
   ]
   const canonical = `${BASEURL}${req.path}`
-  res.render('posts/posts', { id, breadcrumbs, canonical, posts, lastPosts })
+  res.render('posts/posts', { id, breadcrumbs, canonical, data, lastPosts })
 })
 // html
 router.get('/html', (req, res) => {

@@ -1,5 +1,20 @@
 extends ../layout.pug
 
+mixin postList(posts)
+  ol.editorial-posts
+    each post in posts
+      li
+        a(href="/" + post.topic + "/" + post.slug)= post.title
+        if post.widget
+          span.editorial-tool(title="Contiene uno strumento interattivo")
+            | Widget
+
+mixin topicContent(topic)
+  if topic.description
+    p.editorial-topic-description= topic.description
+  +postList(topic.posts)
+
+
 block append meta
   meta(property="og:title" content=__('views.posts') + ' | ' + __('proj_name'))
   meta(property="og:description" content=__('posts.meta.description'))
@@ -12,11 +27,51 @@ block append meta
   meta(name="keywords" content=__('posts.meta.keywords'))
 
   link(rel="canonical", href=canonical)
+  
 
 block main
-  section
+  div.editorial-index
     h1= __('posts.title')
-
-    include ../components/post_preview/post_preview.pug
-
-  include ../components/side/side.pug
+    div.editorial-layout
+      nav.editorial-navigation(aria-label="Categorie degli articoli")
+        h2 Categorie
+        ul
+          li
+            a(
+              href="/posts"
+            )
+              span Tutti gli articoli
+              span.editorial-count= totalPosts
+          each category in data.categories
+            li(class=category.slug)
+              a(
+                href='#'+ category.slug
+              )
+                span= category.name
+                span.editorial-count= category.count
+      div.editorial-content
+        if toolCount > 0
+          p.editorial-legend
+            span.editorial-tool Tool
+            |  Articolo contenente uno strumento interattivo.
+        if !data.groups.length
+          p Non sono ancora presenti articoli in questa categoria.
+        each category in data.groups
+          if activeCategory
+            each topic in category.topics
+              section.editorial-topic
+                h2= topic.name
+                +topicContent(topic)
+          else
+            section.editorial-category(id=category.slug)
+              div.editorial-category-header
+                h2= category.name
+                a(href=category.url)
+                  | Tutti gli articoli
+                  span.visually-hidden= " di " + category.name
+              if category.description
+                p.editorial-category-description= category.description
+              each topic in category.topics
+                section.editorial-topic
+                  h3= topic.name
+                  +topicContent(topic)

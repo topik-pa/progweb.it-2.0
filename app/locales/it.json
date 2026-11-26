@@ -36,11 +36,11 @@
 
   "posts": {
     "meta": {
-      "keywords": "post, ultimi, lista",
-      "title": "Gli ultimi post",
-      "description": "Lista di tutti i post pubblicati"
+      "keywords": "post, ultimi, lista, articoli",
+      "title": "Tutti gli articoli",
+      "description": "Lista organizzata di tutti gli articoli pubblicati"
     },
-    "title": "Tutti i post"
+    "title": "Tutti gli articoli"
   },
 
   "css": {

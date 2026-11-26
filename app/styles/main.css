@@ -38,3 +38,6 @@
 @import "../views/components/side/side.css";
 @import "../views/components/post_preview/post_preview.css";
 @import "../views/components/cookie_layer/cookie_layer.css";
+
+@import "../views/home/home.css";
+@import "../views/posts/posts.css";

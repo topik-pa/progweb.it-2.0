@@ -119,6 +119,7 @@
     "topic": "javascript",
     "title": "JavaScript Optional Chaining (?.): come funziona e quando utilizzarlo",
     "desc": "Quante volte ti è capitato di dover verificare che ogni proprietà di un oggetto esista prima di poterla utilizzare? Con l'Optional Chaining JavaScript mette a disposizione una sintassi semplice ed efficace per gestire questi casi, rendendo il codice più leggibile e riducendo i controlli condizionali.",
+    "widget": "optional-chaining-playground",
     "body": "<p>Quante volte ti è capitato di dover verificare che ogni proprietà di un oggetto esista prima di poterla utilizzare? Con l'Optional Chaining JavaScript mette a disposizione una sintassi semplice ed efficace per gestire questi casi, rendendo il codice più leggibile e riducendo i controlli condizionali.</p><h3>Cos'è l'Optional Chaining in JavaScript</h3><p>L'<em>Optional Chaining</em> è un operatore JavaScript che consente di accedere alle proprietà di un oggetto senza generare un errore quando uno dei riferimenti intermedi è <code>null</code> oppure <code>undefined</code></p><p>Prima della sua introduzione, per accedere a proprietà annidate era spesso necessario utilizzare una serie di verifiche...</p>"
   },
   {
@@ -183,6 +184,7 @@
     "topic": "javascript",
     "title": "JavaScript Promise: impara a gestire efficacemente gli eventi asincroni!",
     "desc": "Gestire le operazioni asincrone in JavaScript attraverso le Promise: una introduzione passo dopo passo alla programmazione asincrona.",
+    "widget": "promise-playground",
     "body": "<p>Gestire le operazioni asincrone in JavaScript attraverso le Promise: una introduzione passo dopo passo alla programmazione asincrona.</p><h3>Introduzione alle operazioni asincrone</h3><h4>Cos'è una operazione asincrona?</h4><p>Iniziamo prima definendo che cos'è la <em>programmazione sincrona</em>: in tale contesto il programma esegue tutte le istruzioni che lo compongono in maniera lineare una dopo l'altra. In altri termini, l'esecuzione attende di aver portato a termine una istruzione prima di passare a quella immediatamente successiva. Un esempio banale è il seguente, dove ogni log viene stampato a console esattamente come ce lo aspettiamo: \"1\", \"2\", \"3\"...</p>"
   },
   {
@@ -200,6 +202,7 @@
     "date": "2026-11-04",
     "topic": "javascript",
     "title": "Throttle e debounce in JavaScript: definizione, esempi e casi d'uso",
+    "widget": "debounce-throttle-playground",
     "desc": "Gestire eventi che accadono o si susseguono ad intervalli di tempo molto frequenti in maniera efficente e senza appesantire la nostra app",
     "body": "<p>Gestire eventi che accadono o si susseguono ad intervalli di tempo molto frequenti in maniera efficente e senza appesantire la nostra app</p><h3>Introduzione</h3><p>Nella programmazione JavaScript, capita spesso di dover <em>gestire eventi che accadono o si susseguono ad intervalli di tempo molto frequenti</em>; per esempio lo scroll del mouse, il resize della finestra o la digitazione di alcuni caratteri all'interno di un campo di testo. Nel primo caso in  elenco, lo scroll della rotellina del mouse per visualizzare il contenuto below-the-fold può generare decine se non centinaia (dipende dalla velocità di scroll) di eventi. Se il nostro compito, come programmatori, è quello di mettersi all'ascolto di questi eventi e lanciare l'esecuzione di un metodo ad ognuno di essi, potremmo incorrere in seri problemi di performance con rallentamenti visibili nelle applicazioni e conseguente degradazione della user experience.</p><p>Qui entrano in gioco due tecniche fondamentali: throttle e debounce. Entrambe <em>servono a limitare il numero di volte in cui una funzione viene eseguita</em>, ma lo fanno in modi diversi e con scopi differenti. In questo articolo vedremo ciascuna di queste tecniche, quando usarle e come implementarle.</p>"
   },
@@ -281,6 +284,7 @@
     "date": "2026-10-04",
     "topic": "javascript",
     "title": "JavaScript Closure - Tutti i segreti e gli utilizzi delle Closure in JavaScript",
+    "widget": "closure-visualizer",
     "desc": "Tutte le volte che ho dovuto affrontare il discorso CLOSURE in JS finivo per avere una impressione riassumibile nella frase: \"Tutto molto bello, ma... QUINDI?\"",
     "body": "<p>Tutti i segreti e gli utilizzi delle closure in JavaScript: cosa sono e come le utilizzo nel mio codice.</p><h3><em>Definizione</em>: cosa sono le closure in JavaScript?</h3><p>Una closure è la capacità di una funzione, definita all'interno di un'altra funzione contenitrice, di accedere allo scope della funzione esterna, anche dopo che questa ha cessato la sua esecuzione.<br>Attraverso le closure (ed ad un apposito handler), insomma, <em>posso accedere allo scope (metodi e attributi) di una funzione</em> (quella contenitrice) <em>da un qualsiasi ambito esterno</em>.</p><p>Ecco un esempio di closure...</p>"
   },

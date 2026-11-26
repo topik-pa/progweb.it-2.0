@@ -92,6 +92,7 @@
     "topic": "nodejs",
     "title": "Node.js: come gestire gli errori HTTP 500 e le eccezioni nel nostro codice",
     "desc": "Come gestire gli errori HTTP 500 in Node.js? Scopri come intercettare le eccezioni, creare un error handler in Express, proteggere le API e gestire gli errori inattesi in produzione.",
+    "widget": "node-error-handling-visualizer",
     "body": "<p>Come gestire gli errori HTTP 500 in Node.js? Scopri come intercettare le eccezioni, creare un error handler in Express, proteggere le API e gestire gli errori inattesi in produzione.</p><h3>Che cosa significa HTTP 500 Internal Server Error?</h3><p>  Il codice di stato HTTP 500, identificato come  <em>Internal Server Error</em>, indica che il server ha incontrato  una condizione inattesa che gli ha impedito di completare la richiesta.  Si tratta di una risposta generica appartenente alla categoria degli  errori server-side, ovvero ai codici HTTP compresi tra 500 e 599.</p><p>A differenza di un errore 400, che generalmente indica una richiesta...</p>"
   },
   {
@@ -128,6 +129,7 @@
     "date": "2026-11-18",
     "topic": "security",
     "title": "Content-Security-Policy (CSP): guida alla sicurezza web e protezione dagli attacchi XSS",
+    "widget": "csp-generator",
     "desc": "Proteggere un'applicazione web significa anche controllare quali risorse possono essere caricate ed eseguite dal browser. La Content-Security-Policy (CSP) è uno strumento fondamentale per limitare queste possibilità e ridurre il rischio di attacchi XSS: vediamo come funziona, come configurarla e quali direttive utilizzare per implementare una policy efficace.",
     "body": "<p>Proteggere un'applicazione web significa anche controllare quali risorse possono essere caricate ed eseguite dal browser. La Content-Security-Policy (CSP) è uno strumento fondamentale per limitare queste possibilità e ridurre il rischio di attacchi XSS: vediamo come funziona, come configurarla e quali direttive utilizzare per implementare una policy efficace.</p><h3>Cos'è la Content-Security-Policy (CSP)</h3><p>La <strong>Content-Security-Policy (CSP)</strong> è una policy di sicurezza implementata dal browser che consente di controllare quali risorse possono essere caricate ed eseguite all'interno di una pagina web. Attraverso una serie di direttive, è possibile limitare le origini da cui provengono script, fogli di stile, immagini, font, connessioni e altri contenuti...</p>"
   },
@@ -138,6 +140,7 @@
     "topic": "nodejs",
     "title": "Middleware in Node.js: cosa sono e come crearli con Express",
     "desc": "I middleware sono una componente essenziale delle applicazioni Node.js basate su Express. Scopri cosa sono, come funzionano e come crearne di personalizzati per comprimere le risposte HTTP, forzare HTTPS e gestire il redirect dal dominio www alla versione senza www.",
+    "widget": "express-middleware-visualizer",
     "body": "<p>I middleware sono una componente essenziale delle applicazioni Node.js basate su Express. Scopri cosa sono, come funzionano e come crearne di personalizzati per comprimere le risposte HTTP, forzare HTTPS e gestire il redirect dal dominio www alla versione senza www.</p><h3>Che cos'è un middleware in Node.js</h3><p>Un <strong>middleware</strong> è una funzione che viene eseguita durante il ciclo di elaborazione di una richiesta HTTP. In un'applicazione Express, ogni richiesta attraversa una sequenza di middleware che possono modificarne il contenuto, eseguire controlli, elaborare informazioni oppure interrompere il flusso restituendo direttamente una risposta.</p><p>Un middleware Express standard riceve tre parametri...</p>"
   },
   {
@@ -240,6 +243,7 @@
     "topic": "javascript",
     "title": "Cosa sono i Generator in JavaScript? Scopri tutte le potenzialità dei Generatori!",
     "desc": "Le funzioni generatrici (generators), introdotte con ECMAScript 6, permettono di eseguire, interrompere e riprendele l'esecuzione del loro codice... Come utilizzarle nel nostro progetto.",
+    "widget": "generator-functions-visualizer",
     "body": "<p>Le funzioni generatrici (generators), introdotte con ECMAScript 6, permettono di eseguire, interrompere e riprendele l'esecuzione del loro codice... Come utilizzarle nel nostro progetto.</p><h3>Introduzione</h3><h4>Introduzione alle funzioni generatrici in JavaScript</h4><p>Le funzioni generatrici (generators) sono state introdotte con ECMAScript 6 (ES6), la loro particolarità principale è riferita al fatto che <em>l'esecuzione del loro codice può essere interrotta e ripresa più volte</em> generando e restituendo valori \"intermedi\" al metodo chiamante. Grazie alla loro capacità di sospendere e riprendere l'esecuzione, sono una scelta ottimale nel caso di iterazioni complesse, flussi di dati, implementazioni asincrone o quando si lavora con sequenze di valori o calcoli \"on demand\".</p><h3>Differenza tra una funzione ordinaria e una funzione generatrice</h3><p>A differenza di una normale funzione, che restituisce un solo valore al termine della sua esecuzione, <em>i generatori JavaScript restituiscono molteplici valori</em> mano a mano che il loro codice viene eseguito...</p>"
   },
   {
